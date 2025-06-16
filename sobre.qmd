@@ -1,0 +1,3 @@
+# Sobre
+
+Meu nome é Celso Marcellini, e este blog nasceu do desejo de explorar matemática, LaTeX e computação de forma acessível e visual.

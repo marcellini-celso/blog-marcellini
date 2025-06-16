@@ -1,0 +1,36 @@
+---
+title: "Sobre o Blog"
+format: html
+---
+
+# Como este blog foi feito
+
+Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
+
+### Tecnologias utilizadas
+
+- **Quarto**: para renderização de arquivos `.qmd` em HTML
+- **RevealJS**: para apresentações interativas
+- **MathJax**: para fórmulas matemáticas
+- **AWS S3**: para hospedagem do site como conteúdo estático
+- **Imagem com TikZ**: convertidas para `.png` e incluídas como figuras
+- **Tema Bootstrap (`flatly`)**: para aparência moderna
+- **Estilo customizado**: com `styles.scss`
+
+### Estrutura
+
+O conteúdo é organizado em:
+
+- `index.qmd`: página inicial
+- `sobre.qmd`: sobre o autor
+- `posts/*.qmd`: cada post do blog
+- `images/`: imagens usadas nos posts
+- `_quarto.yml`: configurações globais do site
+
+### Objetivo
+
+Compartilhar ideias e explicações matemáticas com visual limpo e acessível, combinando o poder do LaTeX com a flexibilidade do Quarto.
+
+---
+
+*Criado por Celso Marcellini com ❤️ e código.*

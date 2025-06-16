@@ -1,0 +1,31 @@
+
+project:
+  type: website
+
+website:
+  title: "Blog do Marcellini"
+  favicon: images/logo.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: sobre.qmd
+        text: Sobre
+      - text: Posts
+        menu:
+          - href: posts/exemplo.qmd
+            text: Estilo Visual
+          - href: posts/fatorial-zero.qmd
+            text: Por que 0! = 1?
+          - href: posts/sobre-o-blog.qmd
+            text: Sobre o Blog
+  page-footer:
+    left: "© 2025 - Blog do Marcellini"
+    right: "[GitHub](https://github.com)"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    highlight-style: github

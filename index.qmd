@@ -1,0 +1,32 @@
+
+![](images/banner.png){width=100% style="margin-bottom: 2rem;"}
+
+::: {.columns}
+::: {.column width="65%"}
+
+## 🧮 Sobre o blog
+
+Neste espaço compartilho reflexões, visualizações matemáticas, explicações acessíveis e conteúdos em LaTeX e Quarto.  
+É uma forma de explorar a beleza da matemática, com clareza e propósito.
+
+- ✨ Dicas de LaTeX e Quarto
+- 🧠 Conceitos matemáticos ilustrados
+- 📘 Experimentos com ensino visual
+
+:::
+
+::: {.column width="35%"}
+
+> **"A beleza é o primeiro teste: não há lugar permanente no mundo para matemática feia"**  
+> – G. H. Hardy
+
+:::
+:::
+
+---
+
+## 📌 Últimos posts
+
+- [Fatorial de Zero](posts/fatorial-zero.qmd)
+- [Sobre o Blog](posts/sobre-o-blog.qmd)
+- [Estilo Visual Personalizado](posts/exemplo.qmd)
