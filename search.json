@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Sobre\nMeu nome é Celso Marcellini, e este blog nasceu do desejo de explorar matemática, LaTeX e computação de forma acessível e visual."
+  },
+  {
+    "objectID": "posts/fatorial-zero.html",
+    "href": "posts/fatorial-zero.html",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "Nesta publicação exploramos 10 justificativas distintas para o valor de ( 0! ). Cada seção abaixo foi adaptada de uma apresentação original em LaTeX Beamer e mantém o espírito didático com fórmulas matemáticas e exemplos.\n\n\n\nO fatorial ( n! ) representa o número de maneiras de organizar ( n ) elementos distintos.\n\nPara ( n = 3 ): ( 3! = 6 )\nPara ( n = 2 ): ( 2! = 2 )\nPara ( n = 1 ): ( 1! = 1 )\nPara ( n = 0 ): Quantas permutações do conjunto vazio?\n\n[ ]\n\n\n\n\n\n\n\n\nUsamos a definição:\n\\[\nn! = n \\cdot (n - 1)!\n\\]\nPara manter essa relação para ( n = 1 ), precisamos que:\n\\[\n1! = 1 \\cdot 0! \\Rightarrow 0! = 1\n\\]\n\n\n\n\nNo binômio de Newton temos:\n\\[\n\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\n\\]\nAo substituir ( n = 0 ), ( k = 0 ):\n\\[\n\\binom{0}{0} = \\frac{0!}{0! \\cdot 0!} = 1 \\Rightarrow 0! = 1\n\\]\n\n\n\n\nA função fatorial se estende com a Função Gama:\n\\[\nn! = \\Gamma(n + 1)\n\\]\nComo ( (1) = 1 ), então:\n\\[\n0! = 1\n\\]\n\n\n\n\nTambém podemos justificar via limite:\n\\[\n\\Gamma(x) = \\int_0^\\infty t^{x-1} e^{-t} dt\n\\]\nE como:\n\\[\n\\lim_{x \\to 1} \\Gamma(x) = 1 \\Rightarrow 0! = 1\n\\]\n\n\n\n\nPor definição, o produto de nenhum número (produto vazio) é 1:\n\\[\n\\prod_{k=1}^0 k = 1\n\\]\n\n\n\n\nA permutação de ( n ) elementos tomados ( n ) a ( n ):\n\\[\nP(n, n) = \\frac{n!}{(n - n)!} = \\frac{n!}{0!}\n\\]\nPara que a fórmula funcione com ( n = 0 ), precisamos de ( 0! = 1 ).\n\n\n\n\nA expansão de Taylor:\n\\[\ne^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}\n\\]\nPara ( n = 0 ), o termo é ( = ). Como sabemos que o termo inicial é 1:\n\\[\n0! = 1\n\\]\n\n\n\n\nUsando a identidade:\n\\[\n\\ln(n!) = \\sum_{k=1}^n \\ln(k)\n\\]\nPara ( n = 0 ), temos soma vazia:\n\\[\n\\ln(0!) = 0 \\Rightarrow 0! = e^0 = 1\n\\]\n\n\n\n\nMuitos algoritmos de programação definem:\ndef fatorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * fatorial(n - 1)\nPara que a recursão funcione corretamente, define-se ( 0! = 1 ) como base.\n\n\n\n\nAs dez abordagens acima justificam logicamente e matematicamente que:\n\\[\n\\boxed{0! = 1}\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#interpretação-combinatória",
+    "href": "posts/fatorial-zero.html#interpretação-combinatória",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "O fatorial ( n! ) representa o número de maneiras de organizar ( n ) elementos distintos.\n\nPara ( n = 3 ): ( 3! = 6 )\nPara ( n = 2 ): ( 2! = 2 )\nPara ( n = 1 ): ( 1! = 1 )\nPara ( n = 0 ): Quantas permutações do conjunto vazio?\n\n[ ]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#definição-recursiva",
+    "href": "posts/fatorial-zero.html#definição-recursiva",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "Usamos a definição:\n\\[\nn! = n \\cdot (n - 1)!\n\\]\nPara manter essa relação para ( n = 1 ), precisamos que:\n\\[\n1! = 1 \\cdot 0! \\Rightarrow 0! = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#coeficiente-binomial",
+    "href": "posts/fatorial-zero.html#coeficiente-binomial",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "No binômio de Newton temos:\n\\[\n\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\n\\]\nAo substituir ( n = 0 ), ( k = 0 ):\n\\[\n\\binom{0}{0} = \\frac{0!}{0! \\cdot 0!} = 1 \\Rightarrow 0! = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#função-gama",
+    "href": "posts/fatorial-zero.html#função-gama",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "A função fatorial se estende com a Função Gama:\n\\[\nn! = \\Gamma(n + 1)\n\\]\nComo ( (1) = 1 ), então:\n\\[\n0! = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#limite-da-função-gama",
+    "href": "posts/fatorial-zero.html#limite-da-função-gama",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "Também podemos justificar via limite:\n\\[\n\\Gamma(x) = \\int_0^\\infty t^{x-1} e^{-t} dt\n\\]\nE como:\n\\[\n\\lim_{x \\to 1} \\Gamma(x) = 1 \\Rightarrow 0! = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#produto-vazio",
+    "href": "posts/fatorial-zero.html#produto-vazio",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "Por definição, o produto de nenhum número (produto vazio) é 1:\n\\[\n\\prod_{k=1}^0 k = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#permutação-pnn",
+    "href": "posts/fatorial-zero.html#permutação-pnn",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "A permutação de ( n ) elementos tomados ( n ) a ( n ):\n\\[\nP(n, n) = \\frac{n!}{(n - n)!} = \\frac{n!}{0!}\n\\]\nPara que a fórmula funcione com ( n = 0 ), precisamos de ( 0! = 1 )."
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#série-de-taylor-de-ex",
+    "href": "posts/fatorial-zero.html#série-de-taylor-de-ex",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "A expansão de Taylor:\n\\[\ne^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}\n\\]\nPara ( n = 0 ), o termo é ( = ). Como sabemos que o termo inicial é 1:\n\\[\n0! = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#logaritmo-do-fatorial",
+    "href": "posts/fatorial-zero.html#logaritmo-do-fatorial",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "Usando a identidade:\n\\[\n\\ln(n!) = \\sum_{k=1}^n \\ln(k)\n\\]\nPara ( n = 0 ), temos soma vazia:\n\\[\n\\ln(0!) = 0 \\Rightarrow 0! = e^0 = 1\n\\]"
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#definições-computacionais",
+    "href": "posts/fatorial-zero.html#definições-computacionais",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "Muitos algoritmos de programação definem:\ndef fatorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * fatorial(n - 1)\nPara que a recursão funcione corretamente, define-se ( 0! = 1 ) como base."
+  },
+  {
+    "objectID": "posts/fatorial-zero.html#conclusão",
+    "href": "posts/fatorial-zero.html#conclusão",
+    "title": "Por que ( 0! = 1 )?",
+    "section": "",
+    "text": "As dez abordagens acima justificam logicamente e matematicamente que:\n\\[\n\\boxed{0! = 1}\n\\]"
+  },
+  {
+    "objectID": "index.html#sobre-o-blog",
+    "href": "index.html#sobre-o-blog",
+    "title": "Blog do Marcellini",
+    "section": "🧮 Sobre o blog",
+    "text": "🧮 Sobre o blog\nNeste espaço compartilho reflexões, visualizações matemáticas, explicações acessíveis e conteúdos em LaTeX e Quarto.\nÉ uma forma de explorar a beleza da matemática, com clareza e propósito.\n\n✨ Dicas de LaTeX e Quarto\n🧠 Conceitos matemáticos ilustrados\n📘 Experimentos com ensino visual"
+  },
+  {
+    "objectID": "index.html#últimos-posts",
+    "href": "index.html#últimos-posts",
+    "title": "Blog do Marcellini",
+    "section": "📌 Últimos posts",
+    "text": "📌 Últimos posts\n\nFatorial de Zero\nSobre o Blog\nEstilo Visual Personalizado"
+  },
+  {
+    "objectID": "posts/sobre-o-blog.html",
+    "href": "posts/sobre-o-blog.html",
+    "title": "Sobre o Blog",
+    "section": "",
+    "text": "Como este blog foi feito\nEste blog foi construído com o Quarto, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.\n\nTecnologias utilizadas\n\nQuarto: para renderização de arquivos .qmd em HTML\nRevealJS: para apresentações interativas\nMathJax: para fórmulas matemáticas\nAWS S3: para hospedagem do site como conteúdo estático\nImagem com TikZ: convertidas para .png e incluídas como figuras\nTema Bootstrap (flatly): para aparência moderna\nEstilo customizado: com styles.scss\n\n\n\nEstrutura\nO conteúdo é organizado em:\n\nindex.qmd: página inicial\nsobre.qmd: sobre o autor\nposts/*.qmd: cada post do blog\nimages/: imagens usadas nos posts\n_quarto.yml: configurações globais do site\n\n\n\nObjetivo\nCompartilhar ideias e explicações matemáticas com visual limpo e acessível, combinando o poder do LaTeX com a flexibilidade do Quarto.\n\nCriado por Celso Marcellini com ❤️ e código."
+  },
+  {
+    "objectID": "posts/exemplo.html",
+    "href": "posts/exemplo.html",
+    "title": "Estilo Visual Personalizado",
+    "section": "",
+    "text": "Este post mostra como um blog Quarto pode ter aparência totalmente customizada.\n\n\n\\[\nE = mc^2\n\\]\n\n\n\ndef fatorial(n):\n    return 1 if n == 0 else n * fatorial(n - 1)"
+  },
+  {
+    "objectID": "posts/exemplo.html#post-com-novo-tema-visual",
+    "href": "posts/exemplo.html#post-com-novo-tema-visual",
+    "title": "Estilo Visual Personalizado",
+    "section": "",
+    "text": "Este post mostra como um blog Quarto pode ter aparência totalmente customizada.\n\n\n\\[\nE = mc^2\n\\]\n\n\n\ndef fatorial(n):\n    return 1 if n == 0 else n * fatorial(n - 1)"
+  }
+]
