@@ -29,3 +29,6 @@ format:
     css: styles.css
     toc: true
     highlight-style: github
+
+publish:
+  provider: gh-pages
