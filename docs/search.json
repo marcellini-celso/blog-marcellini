@@ -168,13 +168,6 @@
     "text": "📌 Últimos posts\n\nFatorial de Zero\nSobre o Blog\nEstilo Visual Personalizado"
   },
   {
-    "objectID": "posts/sobre-o-blog.html",
-    "href": "posts/sobre-o-blog.html",
-    "title": "Sobre o Blog",
-    "section": "",
-    "text": "Como este blog foi feito\nEste blog foi construído com o Quarto, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.\n\nTecnologias utilizadas\n\nQuarto: para renderização de arquivos .qmd em HTML\nRevealJS: para apresentações interativas\nMathJax: para fórmulas matemáticas\nAWS S3: para hospedagem do site como conteúdo estático\nImagem com TikZ: convertidas para .png e incluídas como figuras\nTema Bootstrap (flatly): para aparência moderna\nEstilo customizado: com styles.scss\n\n\n\nEstrutura\nO conteúdo é organizado em:\n\nindex.qmd: página inicial\nsobre.qmd: sobre o autor\nposts/*.qmd: cada post do blog\nimages/: imagens usadas nos posts\n_quarto.yml: configurações globais do site\n\n\n\nObjetivo\nCompartilhar ideias e explicações matemáticas com visual limpo e acessível, combinando o poder do LaTeX com a flexibilidade do Quarto.\n\nCriado por Celso Marcellini com ❤️ e código."
-  },
-  {
     "objectID": "posts/exemplo.html",
     "href": "posts/exemplo.html",
     "title": "Estilo Visual Personalizado",
@@ -187,5 +180,12 @@
     "title": "Estilo Visual Personalizado",
     "section": "",
     "text": "Este post mostra como um blog Quarto pode ter aparência totalmente customizada.\n\n\n\\[\nE = mc^2\n\\]\n\n\n\ndef fatorial(n):\n    return 1 if n == 0 else n * fatorial(n - 1)"
+  },
+  {
+    "objectID": "posts/sobre-o-blog.html",
+    "href": "posts/sobre-o-blog.html",
+    "title": "Sobre o Blog",
+    "section": "",
+    "text": "Como este blog foi feito\nEste blog foi construído com o Quarto, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.\n\nTecnologias utilizadas\n\nQuarto: para renderização de arquivos .qmd em HTML\nRevealJS: para apresentações interativas\nMathJax: para fórmulas matemáticas\nAWS S3: para hospedagem do site como conteúdo estático\nImagem com TikZ: convertidas para .png e incluídas como figuras\nTema Bootstrap (flatly): para aparência moderna\nEstilo customizado: com styles.scss\n\n\n\nEstrutura\nO conteúdo é organizado em:\n\nindex.qmd: página inicial\nsobre.qmd: sobre o autor\nposts/*.qmd: cada post do blog\nimages/: imagens usadas nos posts\n_quarto.yml: configurações globais do site\n\n\n\nObjetivo\nCompartilhar ideias e explicações matemáticas com visual limpo e acessível, combinando o poder do LaTeX com a flexibilidade do Quarto.\n\nCriado por Celso Marcellini com ❤️ e código."
   }
 ]
