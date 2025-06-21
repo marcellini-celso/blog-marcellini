@@ -27,6 +27,7 @@ Neste espaço compartilho reflexões, visualizações matemáticas, explicaçõe
 
 ## 📌 Últimos posts
 
+- [Relatividade Especial](posts/relatividade-especial.qmd)
 - [Fatorial de Zero](posts/fatorial-zero.qmd)
 - [Sobre o Blog](posts/sobre-o-blog.qmd)
 - [Estilo Visual Personalizado](posts/exemplo.qmd)

@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Blog do Marcellini"
-  favicon: images/logo.png
+  favicon: images/banner.png
   navbar:
     left:
       - href: index.qmd
@@ -18,6 +18,8 @@ website:
             text: Estilo Visual
           - href: posts/fatorial-zero.qmd
             text: Por que 0! = 1?
+          - href: posts/relatividade-especial.qmd
+            text: Relatividade Especial
           - href: posts/sobre-o-blog.qmd
             text: Sobre o Blog
   page-footer:
