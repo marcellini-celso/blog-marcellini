@@ -30,5 +30,9 @@ git commit -m "Atualiza conteúdo do blog com nova renderização"
 echo "🚀  Etapa 4: Publicando com Quarto..."
 quarto publish gh-pages
 
-# 7. Fim
+# 7. Envia atualizações para a branch main
+echo "⬆️  Etapa 5: git push origin main"
+git push origin main
+
+# 8. Fim
 echo "✅ Blog publicado com sucesso!"
