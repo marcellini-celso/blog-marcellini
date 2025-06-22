@@ -17,3 +17,8 @@ Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.o
 ## 🌐 Acesse o blog
 
 ➡️ [https://marcellini-celso.github.io/blog-marcellini/](https://marcellini-celso.github.io/blog-marcellini/)
+
+## 📬 Contato
+
+Para dúvidas, sugestões ou colaborações, entre em contato por e-mail:  
+✉️ **[prof.marcellini@gmail.com](mailto:prof.marcellini@gmail.com)**
