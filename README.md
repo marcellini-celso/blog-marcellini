@@ -4,8 +4,8 @@ Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.o
 
 ## 📚 Publicações em destaque
 
-- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](https://marcellini-celso.github.io/blog-marcellini/posts/relatividade-especial.html)
-- [Por que \( 0! = 1 \)?](https://marcellini-celso.github.io/blog-marcellini/posts/fatorial-zero.html)
+- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](https://marcellini-celso.github.io/blog-marcellini/posts/fisica/relatividade-especial.html)
+- [Por que \( 0! = 1 \)?](https://marcellini-celso.github.io/blog-marcellini/posts/matematica/fatorial-zero.html)
 
 ## ⚙️ Como este blog foi feito
 
