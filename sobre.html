@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -99,28 +128,49 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-posts" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Posts</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-matemática" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🧮 Matemática</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-posts">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-matemática">    
         <li>
-    <a class="dropdown-item" href="./posts/exemplo.html">
- <span class="dropdown-text">Estilo Visual</span></a>
+    <a class="dropdown-item" href="./posts/matematica/fatorial-zero.html">
+ <span class="dropdown-text">Por que <span class="math inline">\(0! = 1\)</span>?</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-física" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🔭 Física</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-física">    
+        <li>
+    <a class="dropdown-item" href="./posts/fisica/relatividade-especial.html">
+ <span class="dropdown-text">Relatividade Especial – Einstein, o Tempo e a Velocidade da Luz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts/fatorial-zero.html">
- <span class="dropdown-text">Por que 0! = 1?</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts/relatividade-especial.html">
- <span class="dropdown-text">Relatividade Especial</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./posts/relatividade-especial-academico.html">
+    <a class="dropdown-item" href="./posts/fisica/relatividade-especial-academico.html">
  <span class="dropdown-text">A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programação" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">💻 Programação</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-programação">    
         <li>
-    <a class="dropdown-item" href="./posts/sobre-o-blog.html">
+    <a class="dropdown-item" href="./posts/exemplo.qmd">
+ <span class="dropdown-text">Estilo Visual</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog-pessoal" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📝 Blog Pessoal</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog-pessoal">    
+        <li>
+    <a class="dropdown-item" href="./posts/sobre-o-blog.qmd">
  <span class="dropdown-text">Sobre o Blog</span></a>
   </li>  
     </ul>
@@ -568,7 +618,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p><a href="https://github.com">GitHub</a></p>
+<p>📬 <a href="mailto:prof.marcellini@gmail.com">Contato por E-mail</a> 💻 <a href="https://github.com/marcellini-celso">GitHub do Projeto</a></p>
 </div>
   </div>
 </footer>
