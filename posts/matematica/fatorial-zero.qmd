@@ -2,6 +2,8 @@
 title: 'Por que 0! = 1?'
 author: 'Celso Marcellini -- Apresentação adaptada de slides em LaTeX Beamer'
 format: html
+categories: [matemática, fatorial, função gama]
+date: 2025-06-17
 ---
 
 # Por que 0! = 1?
@@ -441,3 +443,15 @@ Essa igualdade é coerente com:
 - e a implementação computacional.
 
 > **Uma definição bem escolhida é uma ponte entre ideias.**
+
+---
+
+## 📬 Entre em Contato
+
+Se você tiver dúvidas, sugestões ou quiser conversar sobre o tema, entre em contato por e-mail:
+
+👉 [**prof.marcellini@gmail.com**](mailto:prof.marcellini@gmail.com)
+
+Você também pode visitar meu repositório principal no GitHub:
+
+💻 [**github.com/marcellini-celso**](https://github.com/marcellini-celso)

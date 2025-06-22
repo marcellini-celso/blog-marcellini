@@ -153,3 +153,16 @@ Einstein começou com dois postulados — e nos levou a uma revolução do pensa
 ---
 
 [^einstein1905]: Einstein, A. (1905). "Zur Elektrodynamik bewegter Körper." *Annalen der Physik*, 17(10), 891–921.
+
+---
+
+## 📬 Entre em Contato
+
+Se você tiver dúvidas, sugestões ou quiser conversar sobre o tema, entre em contato por e-mail:
+
+👉 [**prof.marcellini@gmail.com**](mailto:prof.marcellini@gmail.com)
+
+Você também pode visitar meu repositório principal no GitHub:
+
+💻 [**github.com/marcellini-celso**](https://github.com/marcellini-celso)
+

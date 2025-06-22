@@ -1,0 +1,35 @@
+---
+title: "Estilo Visual Personalizado"
+format: html
+categories: [programação, quarto, latex, python]
+date: 2025-06-17
+---
+
+## Post com novo tema visual
+
+Este post mostra como um blog Quarto pode ter aparência totalmente customizada.
+
+### Fórmula matemática
+
+$$
+E = mc^2
+$$
+
+### Código com estilo
+
+```python
+def fatorial(n):
+    return 1 if n == 0 else n * fatorial(n - 1)
+```
+
+---
+
+## 📬 Entre em Contato
+
+Se você tiver dúvidas, sugestões ou quiser conversar sobre o tema, entre em contato por e-mail:
+
+👉 [**prof.marcellini@gmail.com**](mailto:prof.marcellini@gmail.com)
+
+Você também pode visitar meu repositório principal no GitHub:
+
+💻 [**github.com/marcellini-celso**](https://github.com/marcellini-celso)

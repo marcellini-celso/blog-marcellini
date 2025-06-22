@@ -19,5 +19,20 @@
   },
   "posts/relatividade-especial-academico.qmd": {
     "relatividade-especial-academico.html": "0408ef23"
+  },
+  "posts/matematica/fatorial-zero.qmd": {
+    "fatorial-zero.html": "ad5b825a"
+  },
+  "posts/pessoal/sobre-o-blog.qmd": {
+    "sobre-o-blog.html": "061309fe"
+  },
+  "posts/fisica/relatividade-especial-academico.qmd": {
+    "relatividade-especial-academico.html": "f8e69465"
+  },
+  "posts/fisica/relatividade-especial.qmd": {
+    "relatividade-especial.html": "a40beeca"
+  },
+  "posts/programacao/exemplo.qmd": {
+    "exemplo.html": "57517d32"
   }
 }

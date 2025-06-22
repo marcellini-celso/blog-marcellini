@@ -224,3 +224,15 @@ A Relatividade Especial transformou nossa visão do universo. Tempo e espaço s�
 Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
 
 > ⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos.
+
+---
+
+## 📬 Entre em Contato
+
+Se você tiver dúvidas, sugestões ou quiser conversar sobre o tema, entre em contato por e-mail:
+
+👉 [**prof.marcellini@gmail.com**](mailto:prof.marcellini@gmail.com)
+
+Você também pode visitar meu repositório principal no GitHub:
+
+💻 [**github.com/marcellini-celso**](https://github.com/marcellini-celso)

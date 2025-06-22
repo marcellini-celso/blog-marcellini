@@ -6,27 +6,38 @@ project:
 website:
   title: "Blog do Marcellini"
   favicon: images/banner.png
+
   navbar:
     left:
       - href: index.qmd
         text: Início
       - href: sobre.qmd
         text: Sobre
-      - text: Posts
+      - text: "🧮 Matemática"
+        menu:
+          - href: posts/matematica/fatorial-zero.qmd
+            text: Por que $0! = 1$?
+      - text: "🔭 Física"
+        menu:
+          - href: posts/fisica/relatividade-especial.qmd
+            text: Relatividade Especial -- Einstein, o Tempo e a Velocidade da Luz
+          - href: posts/fisica/relatividade-especial-academico.qmd
+            text: A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica
+      - text: "💻 Programação"
         menu:
           - href: posts/exemplo.qmd
             text: Estilo Visual
-          - href: posts/fatorial-zero.qmd
-            text: Por que 0! = 1?
-          - href: posts/relatividade-especial.qmd
-            text: Relatividade Especial
-          - href: posts/relatividade-especial-academico.qmd
-            text: A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica
+#      - text: "📊 Estatística"
+#        menu:
+      - text: "📝 Blog Pessoal"
+        menu:
           - href: posts/sobre-o-blog.qmd
             text: Sobre o Blog
   page-footer:
     left: "© 2025 - Blog do Marcellini"
-    right: "[GitHub](https://github.com)"
+    right: >
+      📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+      💻 [GitHub do Projeto](https://github.com/marcellini-celso)
 
 format:
   html:

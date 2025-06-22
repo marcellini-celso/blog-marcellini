@@ -34,3 +34,15 @@ Compartilhar ideias e explicações matemáticas com visual limpo e acessível, 
 ---
 
 *Criado por Celso Marcellini com ❤️ e código.*
+
+---
+
+## 📬 Entre em Contato
+
+Se você tiver dúvidas, sugestões ou quiser conversar sobre o tema, entre em contato por e-mail:
+
+👉 [**prof.marcellini@gmail.com**](mailto:prof.marcellini@gmail.com)
+
+Você também pode visitar meu repositório principal no GitHub:
+
+💻 [**github.com/marcellini-celso**](https://github.com/marcellini-celso)
