@@ -27,8 +27,8 @@ Neste espaço compartilho reflexões, visualizações matemáticas, explicaçõe
 
 ## 📌 Últimos posts
 
-- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](posts/relatividade-especial-academico.qmd)
-- [Relatividade Especial](posts/relatividade-especial.qmd)
-- [Fatorial de Zero](posts/fatorial-zero.qmd)
-- [Sobre o Blog](posts/sobre-o-blog.qmd)
-- [Estilo Visual Personalizado](posts/exemplo.qmd)
+- [A Teoria da Relatividade Especial: Uma Visão Mais Acadêmica](posts/fisica/relatividade-especial-academico.qmd)
+- [Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](posts/fisica/relatividade-especial.qmd)
+- [Por que 0! = 1?](posts/matematica/fatorial-zero.qmd)
+- [Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
+- [Estilo Visual Personalizado](posts/programacao/exemplo.qmd)

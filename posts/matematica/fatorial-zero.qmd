@@ -47,7 +47,7 @@ $$
 :::
 
 ::: {.column width="40%"}
-![](../images/figura1.png){width=50% fig-align="center"}
+![](../../images/figura1.png){width=50% fig-align="center"}
 
 *Representação visual das permutações*
 :::
@@ -83,7 +83,7 @@ Essa definição é essencial para que a função fatorial seja válida a partir
 
 ## 🌳 Ilustração: Definição Recursiva
 
-![](../images/figura2.png){width=50% fig-align="center"}
+![](../../images/figura2.png){width=50% fig-align="center"}
 
 ---
 
@@ -121,7 +121,7 @@ Isso garante que as fórmulas da análise combinatória continuem válidas para 
 ## 🧩 Ilustração: Coeficiente Binomial
 
 
-![](../images/figura3.png){width=30% fig-align="center"}
+![](../../images/figura3.png){width=30% fig-align="center"}
 
 *Há exatamente uma maneira de escolher 0 elementos do conjunto vazio.*
 
@@ -292,7 +292,7 @@ $$
 
 ## 📊 Visualização dos Limites com Gráficos
 
-![](../images/figura4.png){width=100% fig-align="center"}
+![](../../images/figura4.png){width=100% fig-align="center"}
 
 *Comportamento da função $t^x e^{-t}$ para $t \to 0^+$ e $t \to \infty$.*
 
@@ -300,7 +300,7 @@ $$
 
 ## 📈 Gráfico da Função Gama
 
-![](../images/figura5.png){width=80% fig-align="center"}
+![](../../images/figura5.png){width=80% fig-align="center"}
 
 *O gráfico mostra que $\Gamma(x)$ é contínua e satisfaz $\Gamma(1) = 1$, logo $0! = 1$.*
 
@@ -308,7 +308,7 @@ $$
 
 ## 🧮 Função Gama — Ilustração Gráfica
 
-![](../images/figura6.png){width=80% fig-align="center"}
+![](../../images/figura6.png){width=80% fig-align="center"}
 
 *O gráfico destaca que $\Gamma(1) = 1$, o que justifica que $0! = 1$.*
 

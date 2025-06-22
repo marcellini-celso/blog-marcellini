@@ -182,7 +182,7 @@ O **cone de luz** define os limites da causalidade. Eventos dentro do cone podem
 
 A figura abaixo mostra o **cone de luz** em um diagrama espaço-tempo:
 
-![Cone de Luz no Espaço-Tempo](../images/cone_de_luz.png)
+![Cone de Luz no Espaço-Tempo](../../images/cone_de_luz.png)
 
 > ✅ O cone de luz delimita a fronteira da **causalidade** no espaço-tempo de Minkowski.
 

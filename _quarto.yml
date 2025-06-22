@@ -25,13 +25,13 @@ website:
             text: A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica
       - text: "💻 Programação"
         menu:
-          - href: posts/exemplo.qmd
+          - href: posts/programacao/exemplo.qmd
             text: Estilo Visual
 #      - text: "📊 Estatística"
 #        menu:
       - text: "📝 Blog Pessoal"
         menu:
-          - href: posts/sobre-o-blog.qmd
+          - href: posts/pessoal/sobre-o-blog.qmd
             text: Sobre o Blog
   page-footer:
     left: "© 2025 - Blog do Marcellini"
