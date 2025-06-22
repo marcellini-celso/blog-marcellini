@@ -33,6 +33,9 @@ git commit -m "Atualiza conteúdo do blog com nova renderização"
 echo "🚀  Etapa 4: Publicando com Quarto..."
 quarto publish gh-pages
 
+echo "🔄 Sincronizando com o repositório remoto (rebase)..."
+git pull --rebase origin main
+
 # 7. Envia atualizações para a branch main
 echo "⬆️  Etapa 5: git push origin main"
 git push origin main
