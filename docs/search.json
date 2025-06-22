@@ -249,7 +249,98 @@
     "href": "index.html#últimos-posts",
     "title": "Blog do Marcellini",
     "section": "📌 Últimos posts",
-    "text": "📌 Últimos posts\n\nRelatividade Especial\nFatorial de Zero\nSobre o Blog\nEstilo Visual Personalizado"
+    "text": "📌 Últimos posts\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica\nRelatividade Especial\nFatorial de Zero\nSobre o Blog\nEstilo Visual Personalizado"
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html",
+    "href": "posts/relatividade-especial-academico.html",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "",
+    "text": "Em 1905, Albert Einstein publicou o artigo “Sobre a eletrodinâmica dos corpos em movimento”, desafiando as noções clássicas de espaço e tempo. Essa nova abordagem — chamada Relatividade Especial — baseia-se em dois postulados simples, mas revolucionários, com consequências surpreendentes para o entendimento do universo."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#introdução-histórica",
+    "href": "posts/relatividade-especial-academico.html#introdução-histórica",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "",
+    "text": "Em 1905, Albert Einstein publicou o artigo “Sobre a eletrodinâmica dos corpos em movimento”, desafiando as noções clássicas de espaço e tempo. Essa nova abordagem — chamada Relatividade Especial — baseia-se em dois postulados simples, mas revolucionários, com consequências surpreendentes para o entendimento do universo."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#postulados-da-relatividade-especial",
+    "href": "posts/relatividade-especial-academico.html#postulados-da-relatividade-especial",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "2. Postulados da Relatividade Especial",
+    "text": "2. Postulados da Relatividade Especial\n\nPrincípio da Relatividade\n&gt; ℹ️ As leis da física são as mesmas para todos os observadores inerciais (sem aceleração).\nConstância da Velocidade da Luz\n&gt; ⚠️ A luz se propaga no vácuo com velocidade constante \\(c \\approx 3{,}00   \\times 10^8 \\,  \\text{m/s}\\), independentemente do movimento da fonte ou do observador."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#transformações-de-lorentz",
+    "href": "posts/relatividade-especial-academico.html#transformações-de-lorentz",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "3. Transformações de Lorentz",
+    "text": "3. Transformações de Lorentz\nA transformação de Galileu (usada na mecânica clássica) não preserva a velocidade da luz. Einstein introduziu as Transformações de Lorentz, que descrevem como espaço e tempo se transformam entre observadores em movimento relativo:\n\\[\n\\boxed{\n\\begin{aligned}\nx' &= \\gamma (x - vt) \\\\\nt' &= \\gamma \\left( t - \\frac{vx}{c^2} \\right)\n\\end{aligned}\n\\quad \\text{onde } \\gamma = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n}\n\\]\n\n✅ Essas transformações garantem que a velocidade da luz permanece \\(c\\) em todos os referenciais."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
+    "href": "posts/relatividade-especial-academico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "4. Dilatação do Tempo: O Que É e Como Funciona",
+    "text": "4. Dilatação do Tempo: O Que É e Como Funciona\nSe um relógio está em movimento em relação a um observador, ele parece andar mais devagar.\n\\[\n\\boxed{\n\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n}\n\\]\n\n\\(\\Delta t_0\\): tempo próprio (medido no referencial em repouso com o evento).\n\\(\\Delta t\\): tempo medido por um observador externo.\n\n\nℹ️ Em velocidades muito pequenas comparadas a \\(c\\), o efeito é desprezível — mas se torna marcante à medida que \\(v\\) se aproxima da velocidade da luz."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#gráfico-interativo-dilatação-do-tempo",
+    "href": "posts/relatividade-especial-academico.html#gráfico-interativo-dilatação-do-tempo",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "5. Gráfico Interativo: Dilatação do Tempo",
+    "text": "5. Gráfico Interativo: Dilatação do Tempo\nVamos visualizar como o tempo se dilata com a velocidade relativa. Suponha \\(\\Delta t_0 = 1\\) segundo.\n\nlibrary(plotly)\n\nvelocidade &lt;- seq(0, 0.99, by = 0.01)\ntempo_dilatado &lt;- 1 / sqrt(1 - velocidade^2)\n\nplot_ly(x = ~velocidade, y = ~tempo_dilatado,\n        type = \"scatter\", mode = \"lines\",\n        line = list(width = 3)) %&gt;%\n  layout(title = \"Dilatação do Tempo vs Velocidade Relativa\",\n         xaxis = list(title = \"v/c\"),\n         yaxis = list(title = \"Δt / Δt₀\"))"
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#gráfico-contração-do-comprimento",
+    "href": "posts/relatividade-especial-academico.html#gráfico-contração-do-comprimento",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "6. Gráfico: Contração do Comprimento",
+    "text": "6. Gráfico: Contração do Comprimento\nDe acordo com a Relatividade Especial, um objeto em movimento em relação a um observador parecerá mais curto ao longo da direção do movimento. Essa é a contração do comprimento.\nA fórmula é:\n\\[\n\\boxed{\nL = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}\n}\n\\]\n\n\\(L_0\\): comprimento próprio (medido no referencial do objeto).\n\\(L\\): comprimento medido por um observador externo.\n\nVamos visualizar esse efeito graficamente com \\(L_0 = 1\\) unidade:\n\nlibrary(plotly)\n\nv &lt;- seq(0, 0.99, by = 0.01)\nL0 &lt;- 1\nL &lt;- L0 * sqrt(1 - v^2)\n\nplot_ly(x = ~v, y = ~L, type = \"scatter\", mode = \"lines\",\n        line = list(width = 3, color = \"blue\")) %&gt;%\n  layout(title = \"Contração do Comprimento vs Velocidade Relativa\",\n         xaxis = list(title = \"v/c\"),\n         yaxis = list(title = \"L / L₀\"))\n\n\n\n\n\n\n⚠️ A contração do comprimento só ocorre na direção do movimento e não pode ser percebida por quem está no mesmo referencial do objeto."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#o-paradoxo-dos-gêmeos",
+    "href": "posts/relatividade-especial-academico.html#o-paradoxo-dos-gêmeos",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "7. O Paradoxo dos Gêmeos",
+    "text": "7. O Paradoxo dos Gêmeos\nDois irmãos gêmeos: um fica na Terra, o outro viaja a uma velocidade próxima de \\(c\\) e retorna.\nResultado: o gêmeo viajante envelhece menos — o tempo passou mais devagar para ele.\n\n❗ Não é uma contradição. O gêmeo viajante muda de referencial (aceleração/desaceleração), o que quebra a simetria do sistema.\n\nEsse efeito foi confirmado experimentalmente com relógios atômicos em aviões e satélites."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#comparação-com-a-mecânica-clássica",
+    "href": "posts/relatividade-especial-academico.html#comparação-com-a-mecânica-clássica",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "8. Comparação com a Mecânica Clássica",
+    "text": "8. Comparação com a Mecânica Clássica\n\n\n\n\n\n\n\n\nConceito\nMecânica Clássica (Newton)\nRelatividade Especial (Einstein)\n\n\n\n\nTempo\nAbsoluto\nRelativo ao referencial\n\n\nSimultaneidade\nAbsoluta\nRelativa\n\n\nTransformações\nGalileanas\nLorentz\n\n\nVelocidade da luz\nVariável\nConstante para todos os observadores\n\n\nSoma de velocidades\nAditiva\nNão aditiva\n\n\nMassa\nConstante\nAumenta com a velocidade (relativística)\n\n\nEnergia cinética\n\\(\\frac{1}{2}mv^2\\)\n\\(E = \\gamma mc^2 - mc^2\\)\n\n\nEquivalência massa-energia\nInexistente\n\\(E = mc^2\\)"
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#intervalo-invariante-e-espaço-tempo",
+    "href": "posts/relatividade-especial-academico.html#intervalo-invariante-e-espaço-tempo",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "9. Intervalo Invariante e Espaço-Tempo",
+    "text": "9. Intervalo Invariante e Espaço-Tempo\nUm dos conceitos centrais da Relatividade Especial é o intervalo espaço-temporal entre dois eventos. Assim como a distância euclidiana entre dois pontos é invariante na geometria clássica, o intervalo entre dois eventos é invariante em todos os referenciais inerciais.\nA fórmula do intervalo (em 1D) é:\n\\[\n\\boxed{\ns^2 = c^2 \\Delta t^2 - \\Delta x^2\n}\n\\]\n\n\n9.1 Interpretação do Intervalo\n\n\n\n\n\n\n\n\nValor de \\(s^2\\)\nTipo de intervalo\nSignificado físico\n\n\n\n\n\\(s^2 &gt; 0\\)\nTemporal\nOs eventos podem estar causalmente conectados.\n\n\n\\(s^2 &lt; 0\\)\nEspacial\nOs eventos estão muito distantes no espaço para influência causal.\n\n\n\\(s^2 = 0\\)\nLuz (nulo)\nOs eventos são conectados por um sinal luminoso.\n\n\n\n\n✅ O intervalo é invariante: permanece o mesmo em todos os sistemas inerciais, mesmo que \\(\\Delta t\\) e \\(\\Delta x\\) variem.\n\n\n\n\n9.2 O Espaço-Tempo de Minkowski\nA Relatividade Especial funde espaço e tempo em uma única entidade: o espaço-tempo de Minkowski. Nele, cada evento é descrito por coordenadas \\((ct, x, y, z)\\).\n\nA geometria do espaço-tempo é pseudo-euclidiana, com assinatura diferente da geometria euclidiana.\nIsso implica que o “quadrado da distância” entre eventos pode ser positivo, negativo ou nulo.\n\n\n\n\n9.3 Cone de Luz e Causalidade\nO cone de luz define os limites da causalidade. Eventos dentro do cone podem influenciar ou ser influenciados pelo evento na origem. Eventos fora dele estão separados por intervalos espaciais.\n\n\n\n9.4 Consequências Importantes\n\nA separação causal entre eventos depende do intervalo invariante.\nA noção de tempo absoluto não é mais válida.\nPreservar a causalidade exige que nenhuma informação viaje fora do cone de luz.\n\n\n\n\n9.5 Representação Gráfica: Cone de Luz\nA figura abaixo mostra o cone de luz em um diagrama espaço-tempo:\n\n\n\nCone de Luz no Espaço-Tempo\n\n\n\n✅ O cone de luz delimita a fronteira da causalidade no espaço-tempo de Minkowski."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#equivalência-massa-energia-e-aplicações-práticas",
+    "href": "posts/relatividade-especial-academico.html#equivalência-massa-energia-e-aplicações-práticas",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "10. Equivalência Massa-Energia e Aplicações Práticas",
+    "text": "10. Equivalência Massa-Energia e Aplicações Práticas\n\nA Fórmula Famosa\n\\[\n\\boxed{E = mc^2}\n\\]\nEssa equação mostra que massa é energia condensada.\n\n\nAplicações:\n\n⚛️ Energia nuclear (reatores e bombas);\n🌞 Fusão no Sol;\n🛰️ Correções de tempo em satélites GPS;\n🧠 PET scans na medicina;\n💥 Estudo de partículas e colisores.\n\n\nℹ️ Curiosidade: 1 grama de matéria convertida integralmente em energia equivale a 90 trilhões de joules!"
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#conclusão-e-reflexões-finais",
+    "href": "posts/relatividade-especial-academico.html#conclusão-e-reflexões-finais",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "11. Conclusão e Reflexões Finais",
+    "text": "11. Conclusão e Reflexões Finais\nA Relatividade Especial transformou nossa visão do universo. Tempo e espaço são interligados, dependem do observador e da velocidade. Sua precisão foi verificada experimentalmente em dezenas de situações.\n\n✅ Ela continua sendo essencial na ciência moderna e base para teorias mais amplas como a Relatividade Geral e a Física de Partículas."
+  },
+  {
+    "objectID": "posts/relatividade-especial-academico.html#mitos-comuns-sobre-a-relatividade",
+    "href": "posts/relatividade-especial-academico.html#mitos-comuns-sobre-a-relatividade",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "❌ Mitos Comuns sobre a Relatividade",
+    "text": "❌ Mitos Comuns sobre a Relatividade\n\n\n\n\n\n\n\nMito\nRealidade\n\n\n\n\n“Nada pode ir mais rápido que a luz”\nVerdade — no vácuo. Mas há efeitos aparentes ou em meios materiais.\n\n\n“O tempo para completamente na velocidade da luz”\nCorreto para objetos com massa (que não atingem \\(c\\)).\n\n\n“Relatividade é só teoria”\nErrado — é uma teoria comprovada por muitos experimentos.\n\n\n\n📚 Referência principal:\nResnick, R. (1968). Introduction to Special Relativity. Wiley.\n\n⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos."
   },
   {
     "objectID": "posts/sobre-o-blog.html",

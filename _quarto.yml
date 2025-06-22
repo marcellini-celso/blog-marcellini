@@ -20,6 +20,8 @@ website:
             text: Por que 0! = 1?
           - href: posts/relatividade-especial.qmd
             text: Relatividade Especial
+          - href: posts/relatividade-especial-academico.qmd
+            text: A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica
           - href: posts/sobre-o-blog.qmd
             text: Sobre o Blog
   page-footer:
