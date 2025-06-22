@@ -2,8 +2,9 @@
 title: "Sobre o Blog"
 format: html
 ---
+# Sobre o Blog
 
-# Como este blog foi feito
+## Como este blog foi feito
 
 Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
 

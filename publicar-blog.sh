@@ -1,44 +1,52 @@
 #!/bin/bash
 
-# Script para publicar o Blog do Marcellini no GitHub Pages usando Quarto
+set -e  # Interrompe o script se ocorrer erro
 
-echo "🔄 Atualizando lista de últimos posts..."
+# 📅 Data/hora para logs e backups
+NOW=$(date +"%Y-%m-%d_%H-%M-%S")
+
+# 📁 Pasta de backups opcionais (cria se não existir)
+BACKUP_DIR="backups"
+mkdir -p "$BACKUP_DIR"
+
+echo "🕒 [$NOW] Iniciando publicação do Blog do Marcellini..."
+
+# 🔄 Etapa 1: Backup do index.qmd antes de modificar
+cp index.qmd "$BACKUP_DIR/index.qmd.backup.$NOW"
+echo "📦 Backup de index.qmd salvo em $BACKUP_DIR/index.qmd.backup.$NOW"
+
+# 🔄 Etapa 2: Atualizando lista de últimos posts
 ./atualizar-ultimos-posts.sh
 
-# 1. Exibe a etapa atual
-echo "🛠️  Etapa 1: Renderizando o site com Quarto..."
+# 🛠️ Etapa 3: Renderização do site
+echo "🛠️ Renderizando com Quarto..."
 quarto render
 
-# 2. Confere se a renderização foi bem-sucedida
-if [ $? -ne 0 ]; then
-  echo "❌ Erro ao renderizar com Quarto. Abortando."
-  exit 1
-fi
-
-# 3. Confirma se o diretório .git existe
-if [ ! -d .git ]; then
-  echo "❌ Este diretório não é um repositório Git. Execute 'git init' e configure o Git antes."
-  exit 1
-fi
-
-# 4. Adiciona todos os arquivos (inclusive docs/)
-echo "📦  Etapa 2: Adicionando arquivos ao Git..."
+# 📂 Etapa 4: Git add
+echo "📦 Adicionando arquivos ao Git..."
 git add .
 
-# 5. Cria um commit automático
-echo "📝  Etapa 3: Criando commit..."
-git commit -m "Atualiza conteúdo do blog com nova renderização"
+# 📝 Etapa 5: Git commit (com fallback)
+echo "📝 Realizando commit..."
+git commit -m "Atualiza conteúdo do blog em $NOW" || echo "ℹ️ Nenhuma alteração nova para commit."
 
-# 6. Publica no GitHub Pages
-echo "🚀  Etapa 4: Publicando com Quarto..."
-quarto publish gh-pages
-
-echo "🔄 Sincronizando com o repositório remoto (rebase)..."
+# 🔄 Etapa 6: Git pull com rebase
+echo "🔄 Fazendo rebase com origin/main..."
 git pull --rebase origin main
 
-# 7. Envia atualizações para a branch main
-echo "⬆️  Etapa 5: git push origin main"
+# ⬆️ Etapa 7: Push para main
+echo "⬆️ Enviando para GitHub (main)..."
 git push origin main
 
-# 8. Fim
+# 🚀 Etapa 8: Publicação via GitHub Pages
+echo "🚀 Publicando com quarto publish gh-pages..."
+quarto publish gh-pages
+
+# 📝 Etapa 9: Registro de log
+echo "🕒 [$NOW] Blog publicado com sucesso!" >> "$BACKUP_DIR/publicacao.log"
+
+# ✅ Finalização
 echo "✅ Blog publicado com sucesso!"
+echo "📄 Log registrado em $BACKUP_DIR/publicacao.log"
+echo "🌐 Disponível em: https://marcellini-celso.github.io/blog-marcellini/"
+

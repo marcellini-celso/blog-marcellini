@@ -227,12 +227,15 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#post-com-novo-tema-visual" id="toc-post-com-novo-tema-visual" class="nav-link active" data-scroll-target="#post-com-novo-tema-visual">Post com novo tema visual</a>
+  <li><a href="#estilo-visual-personalizado" id="toc-estilo-visual-personalizado" class="nav-link active" data-scroll-target="#estilo-visual-personalizado">Estilo Visual Personalizado</a>
+  <ul class="collapse">
+  <li><a href="#post-com-novo-tema-visual" id="toc-post-com-novo-tema-visual" class="nav-link" data-scroll-target="#post-com-novo-tema-visual">Post com novo tema visual</a>
   <ul class="collapse">
   <li><a href="#fórmula-matemática" id="toc-fórmula-matemática" class="nav-link" data-scroll-target="#fórmula-matemática">Fórmula matemática</a></li>
   <li><a href="#código-com-estilo" id="toc-código-com-estilo" class="nav-link" data-scroll-target="#código-com-estilo">Código com estilo</a></li>
   </ul></li>
   <li><a href="#entre-em-contato" id="toc-entre-em-contato" class="nav-link" data-scroll-target="#entre-em-contato">📬 Entre em Contato</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -270,6 +273,8 @@ window.Quarto = {
 </header>
 
 
+<section id="estilo-visual-personalizado" class="level1">
+<h1>Estilo Visual Personalizado</h1>
 <section id="post-com-novo-tema-visual" class="level2">
 <h2 class="anchored" data-anchor-id="post-com-novo-tema-visual">Post com novo tema visual</h2>
 <p>Este post mostra como um blog Quarto pode ter aparência totalmente customizada.</p>
@@ -294,6 +299,7 @@ E = mc^2
 <p>💻 <a href="https://github.com/marcellini-celso"><strong>github.com/marcellini-celso</strong></a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -369,7 +375,7 @@ E = mc^2
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/marcellini-celso\.github\.io\/blog-marcellini\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -5,7 +5,7 @@ NUM_POSTS=5
 
 # Gera a lista de links com título e caminho relativo
 LISTA=$(find posts -name '*.qmd' -type f -printf '%T@ %p\n' | sort -nr | head -n "$NUM_POSTS" | cut -d' ' -f2- | while read -r FILE; do
-    TITLE=$(grep -m 1 '^#' "$FILE" | sed 's/^#\s*//')
+	TITLE=$(grep -m 1 '^# ' "$FILE" | sed 's/^# //')
     LINK=${FILE%.qmd}.html
     echo "- [$TITLE]($LINK)"
 done)

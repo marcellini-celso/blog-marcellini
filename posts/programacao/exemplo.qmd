@@ -4,6 +4,7 @@ format: html
 categories: [programação, quarto, latex, python]
 date: 2025-06-17
 ---
+# Estilo Visual Personalizado
 
 ## Post com novo tema visual
 
