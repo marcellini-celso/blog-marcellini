@@ -2,6 +2,9 @@
 
 # Script para publicar o Blog do Marcellini no GitHub Pages usando Quarto
 
+echo "🔄 Atualizando lista de últimos posts..."
+./atualizar-ultimos-posts.sh
+
 # 1. Exibe a etapa atual
 echo "🛠️  Etapa 1: Renderizando o site com Quarto..."
 quarto render

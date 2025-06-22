@@ -25,10 +25,22 @@ Neste espaço compartilho reflexões, visualizações matemáticas, explicaçõe
 
 ---
 
-## 📌 Últimos posts
+## 🆕 Últimos Posts
 
-- [A Teoria da Relatividade Especial: Uma Visão Mais Acadêmica](posts/fisica/relatividade-especial-academico.qmd)
-- [Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](posts/fisica/relatividade-especial.qmd)
-- [Por que 0! = 1?](posts/matematica/fatorial-zero.qmd)
-- [Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
-- [Estilo Visual Personalizado](posts/programacao/exemplo.qmd)
+<!-- inicio-ultimos-posts -->
+- [Por que 0! = 1?](posts/matematica/fatorial-zero.html)
+- [# 1. Introdução Histórica](posts/fisica/relatividade-especial-academico.html)
+- [# Post com novo tema visual](posts/programacao/exemplo.html)
+- [Como este blog foi feito](posts/pessoal/sobre-o-blog.html)
+- [# 🌟 O que foi o ano milagroso de Einstein?](posts/fisica/relatividade-especial.html)
+<!-- fim-ultimos-posts -->
+
+Essa seção é atualizada automaticamente com os posts mais recentes publicados no blog.
+
+---
+
+## 🔗 Links úteis
+
+- [Sobre o Blog](posts/pessoal/sobre-o-blog.html)
+- [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- [Contato por E-mail](mailto:prof.marcellini@gmail.com)
