@@ -1,6 +1,8 @@
 ---
 title: "Sobre o Blog"
 format: html
+categories: [pessoal, programação, quarto, latex, python, R]
+date: 2025-06-17
 ---
 <div class="invisivel">
 # Sobre o Blog
@@ -42,7 +44,6 @@ Compartilhar ideias e explicações matemáticas com visual limpo e acessível, 
 
 ## 🔗 Links Úteis
 
-- 🧮 [Todos os Posts sobre Matemática](../../posts/matematica/)
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
 - 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)

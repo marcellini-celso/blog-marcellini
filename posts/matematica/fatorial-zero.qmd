@@ -450,7 +450,6 @@ Essa igualdade é coerente com:
 
 ## 🔗 Links Úteis
 
-- 🧮 [Todos os Posts sobre Matemática](../../posts/matematica/)
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
 - 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
