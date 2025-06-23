@@ -27,11 +27,24 @@ execute:
 > **“A beleza é o primeiro teste: não há lugar permanente no mundo para matemática feia.”**  
 > — *G. H. Hardy*, em *A Apologia de um Matemático*
 
-## 1. Introdução
+::: {.bio}
+
+![G. H. Hardy](../../images/hardy.jpg){width=120px style="float: left; margin-right: 1em;"}
+
+**Godfrey Harold Hardy** (1877–1947) foi um dos maiores matemáticos britânicos do início do século XX. Graduou-se em Trinity College, Cambridge, tornando-se fellow em 1900 e contribuindo significativamente para a teoria dos números e a análise matemática.
+
+Hardy é conhecido por sua colaboração histórica com John E. Littlewood, e por ter sido mentor de Srinivasa Ramanujan, tornando-se um dos protagonistas da matemática pela sua sensibilidade à beleza matemática. Sua obra mais famosa, *A Mathematician’s Apology* (1940), justifica a matemática pura como um ato criativo — uma defesa apaixonada da “beleza antes da utilidade”.
+
+Ele recebeu importantes distinções, como a Royal Medal (1920), De Morgan Medal (1929) e a Copley Medal (1947), confirmando sua influência atemporal no panorama matemático.
+
+::: 
+
+
+## Introdução
 
 Poucas frases capturam com tanta força o espírito da matemática pura quanto essa citação de G. H. Hardy. Para Hardy, a matemática deveria ser apreciada como se aprecia uma sinfonia, um poema ou uma obra de arte. Ele acreditava que, entre os muitos critérios possíveis para julgar uma teoria, **a beleza era o mais fundamental** — e o primeiro a ser invocado.
 
-## 2. A Estética na Matemática Pura
+## A Estética na Matemática Pura
 
 Na matemática pura, **a busca não é utilitária**, mas sim **conceitual, estrutural, abstrata**. O matemático pergunta: *isso é coerente? profundo? inevitável? belo?* Uma teoria que resolve um problema, mas o faz de maneira feia ou disforme, tende a ser esquecida.
 
@@ -42,9 +55,9 @@ Hardy via a matemática como arte formal baseada em ideias abstratas. A beleza, 
 - **Conexões surpreendentes entre áreas distintas**.
 - **Demonstrações inevitáveis, que “não poderiam ser de outro jeito”.**
 
-## 3. Exemplos Clássicos de Beleza Matemática
+## Exemplos Clássicos de Beleza Matemática
 
-### 3.1 A Prova de Euclides da Infinitude dos Primos
+### A Prova de Euclides da Infinitude dos Primos
 
 A clássica demonstração de Euclides é um ícone de elegância:
 
@@ -66,7 +79,7 @@ suponha um conjunto finito de primos → multiplique → adicione 1 → aparece 
 
 :::
 
-### 3.2 A Identidade de Euler
+### A Identidade de Euler
 
 $$
 \boxed{e^{i\pi} + 1 = 0}
@@ -98,7 +111,7 @@ com $\cos(x)$ como a parte real e $\sin(x)$ como a parte imaginária.
 
 ![Trajetória de $e^{ix}$ no plano complexo](../../images/euler-circulo-eix.png)
 
-### 3.3 A Prova de Wiles do Último Teorema de Fermat
+### A Prova de Wiles do Último Teorema de Fermat
 
 ::: {.callout-important icon="📜" title="O Último Teorema de Fermat"}
 
@@ -153,7 +166,7 @@ O teorema foi finalmente demonstrado usando ferramentas da matemática moderna �
 
 :::
 
-## 4. A Beleza como Filtro
+## A Beleza como Filtro
 
 A frase de Hardy é também uma crítica à matemática feita sem apuro conceitual.  
 Provas feias, fórmulas artificiais ou estruturas remendadas podem até resolver um problema —  
@@ -162,7 +175,7 @@ mas **raramente sobrevivem ao tempo**.
 Com o tempo, apenas o que é **essencial** permanece.  
 E o essencial, quase sempre, é **belo**.
 
-## 5. Palavras de Hardy
+## Palavras de Hardy
 
 ::: {.callout-quote icon="🎨" title="Hardy sobre a Matemática Pura"}
 
@@ -174,7 +187,7 @@ E o essencial, quase sempre, é **belo**.
 
 :::
 
-## 6. ✍️ Comentário Pessoal
+## ✍️ Comentário Pessoal
 
 ::: {.callout-note icon="✍️" title="Reflexão do autor"}
 
@@ -208,10 +221,31 @@ Essa afirmação não é apenas filosófica — é um critério silencioso que n
 :::
 
 
-## 7. Conclusão
+## Conclusão
 
 A matemática que sobrevive é aquela que inspira.  
 Para quem vive a matemática pura, onde o valor de uma teoria não se mede pela aplicação, mas pela profundidade,  
 **a frase de Hardy serve como um farol**.
 
 > Em última instância, **a beleza não é um adorno da matemática — é seu critério de permanência.**
+
+::: {.rodape}
+
+## 📚 Bibliografia e Leitura Adicional
+
+
+- <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/" target="_blank" rel="noopener">Hardy no MacTutor History of Mathematics</a>  
+  Uma biografia detalhada sobre sua trajetória e contribuições.
+
+- <a href="https://pt.wikipedia.org/wiki/Godfrey_Harold_Hardy" target="_blank" rel="noopener">G. H. Hardy — Wikipédia</a>  
+  Informações introdutórias em português sobre sua vida e obra.
+
+:::
+
+## 🔗 Links Úteis
+
+- 🧮 [Todos os Posts sobre Matemática](../../posts/matematica/)
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

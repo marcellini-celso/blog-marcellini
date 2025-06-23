@@ -25,3 +25,21 @@ code {
 .invisivel {
   display: none;
 }
+
+.bio {
+  background-color: #f3f3f3;
+  border-left: 5px solid #003366;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.rodape {
+  font-size: 0.9em;
+  color: #444;
+  background-color: #fdfdfd;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+  margin-top: 2em;
+}

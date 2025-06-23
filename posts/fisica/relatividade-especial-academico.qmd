@@ -231,12 +231,9 @@ Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
 
 ---
 
-## 📬 Entre em Contato
+## 🔗 Links Úteis
 
-Se você tiver dúvidas, sugestões ou quiser conversar sobre o tema, entre em contato por e-mail:
-
-👉 [**prof.marcellini@gmail.com**](mailto:prof.marcellini@gmail.com)
-
-Você também pode visitar meu repositório principal no GitHub:
-
-💻 [**github.com/marcellini-celso**](https://github.com/marcellini-celso)
+- 🧮 [Todos os Posts sobre Matemática](../../posts/matematica/)
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
