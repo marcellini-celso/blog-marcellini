@@ -34,5 +34,18 @@
   },
   "posts/programacao/exemplo.qmd": {
     "exemplo.html": "57517d32"
+  },
+  "ebook.qmd": {
+    "ebook.tex": "e630b37a",
+    "ebook.epub": "27a40da7"
+  },
+  "posts/fisica/relatividade-especial-academico-estatico.qmd": {
+    "relatividade-especial-academico-estatico.html": "8064a845"
+  },
+  "posts/fisica/relatividade-especial-estatico.qmd": {
+    "relatividade-especial-estatico.html": "c2dda21b"
+  },
+  "ebook/index.qmd": {
+    "index.html": "ab80ac60"
   }
 }

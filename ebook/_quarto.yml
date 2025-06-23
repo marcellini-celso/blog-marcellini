@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "Blog do Marcellini — Coletânea"
+  author: "Celso Marcellini"
+  date: today
+  chapters:
+    - index.qmd
+    - "../posts/matematica/fatorial-zero.qmd"
+    - "../posts/fisica/relatividade-especial-estatico.qmd"
+    - "../posts/fisica/relatividade-especial-academico-estatico.qmd"
+    - "../posts/programacao/exemplo.qmd"
+    - "../posts/pessoal/sobre-o-blog.qmd"
+
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=2.5cm
+  epub:
+    toc: true
+    number-sections: true
+
