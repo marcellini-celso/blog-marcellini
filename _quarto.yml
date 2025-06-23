@@ -15,6 +15,8 @@ website:
         text: Sobre
       - text: "🧮 Matemática"
         menu:
+          - href: posts/matematica/beleza-matematica.qmd
+            text: A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte
           - href: posts/matematica/fatorial-zero.qmd
             text: Por que $0! = 1$?
       - text: "🔭 Física"

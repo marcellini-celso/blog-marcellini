@@ -4,7 +4,9 @@ format: html
 categories: [programação, quarto, latex, python]
 date: 2025-06-17
 ---
+<div class="invisivel">
 # Estilo Visual Personalizado
+</div>
 
 ## Post com novo tema visual
 

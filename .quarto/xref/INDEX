@@ -47,5 +47,20 @@
   },
   "ebook/index.qmd": {
     "index.html": "ab80ac60"
+  },
+  "posts/matematica/beleza-matematica.qmd": {
+    "beleza-matematica.html": "55e1d8f3"
+  },
+  "posts/fisica_estatico/relatividade-especial-academico-estatico.qmd": {
+    "relatividade-especial-academico-estatico.html": "78020a46"
+  },
+  "posts/fisica_estatico/relatividade-especial-estatico.qmd": {
+    "relatividade-especial-estatico.html": "acaca067"
+  },
+  "ebook/fisica_estatico/relatividade-especial-academico-estatico.qmd": {
+    "relatividade-especial-academico-estatico.html": "68740211"
+  },
+  "ebook/fisica_estatico/relatividade-especial-estatico.qmd": {
+    "relatividade-especial-estatico.html": "a3abe67b"
   }
 }

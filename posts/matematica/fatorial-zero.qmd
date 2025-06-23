@@ -6,7 +6,9 @@ categories: [matemática, fatorial, função gama]
 date: 2025-06-17
 ---
 
+<div class="invisivel">
 # Por que 0! = 1?
+</div>
 
 Nesta publicação exploramos **10 justificativas distintas** para o valor de $0!$. Cada seção abaixo foi adaptada de uma apresentação original em LaTeX Beamer e mantém o espírito didático com fórmulas matemáticas e exemplos.
 

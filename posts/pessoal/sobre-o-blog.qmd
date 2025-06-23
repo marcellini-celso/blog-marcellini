@@ -2,7 +2,9 @@
 title: "Sobre o Blog"
 format: html
 ---
+<div class="invisivel">
 # Sobre o Blog
+</div>
 
 ## Como este blog foi feito
 
