@@ -1,269 +1,10 @@
 [
   {
-    "objectID": "sobre.html",
-    "href": "sobre.html",
-    "title": "Sobre",
-    "section": "",
-    "text": "Sobre\nMeu nome é Celso Marcellini, sou bacharel em matemática, e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#o-que-foi-o-ano-milagroso-de-einstein",
-    "href": "posts/fisica/relatividade-especial-estatico.html#o-que-foi-o-ano-milagroso-de-einstein",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "🌟 O que foi o ano milagroso de Einstein?",
-    "text": "🌟 O que foi o ano milagroso de Einstein?\nℹ️ Em 1905, Albert Einstein publicou cinco artigos revolucionários. Entre eles, “Sobre a Eletrodinâmica dos Corpos em Movimento” deu origem à teoria da Relatividade Especial1. A teoria reformulou completamente o que entendemos por tempo, espaço e movimento.\n\nComo assim o tempo não é absoluto? E se dois relógios estiverem se movendo em relação um ao outro, qual marca o “verdadeiro” tempo?"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#postulados-da-relatividade-especial",
-    "href": "posts/fisica/relatividade-especial-estatico.html#postulados-da-relatividade-especial",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "📜 Postulados da Relatividade Especial",
-    "text": "📜 Postulados da Relatividade Especial\n✅ A teoria se baseia em dois postulados simples — mas revolucionários:\n\nAs leis da física são as mesmas em todos os referenciais inerciais (sem aceleração).\n\nA velocidade da luz no vácuo é constante para todos os observadores, independentemente da velocidade da fonte ou do observador."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
-    "href": "posts/fisica/relatividade-especial-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "⏱️ Dilatação do Tempo: O Que É e Como Funciona",
-    "text": "⏱️ Dilatação do Tempo: O Que É e Como Funciona\nQuando um objeto se move muito rápido (próximo à velocidade da luz), o tempo passa mais devagar para ele em relação a um observador parado.\n\n\n\nDilatação do Tempo\n\n\n\\[\n\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n\\]"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#contração-do-comprimento-o-espaço-também-encolhe",
-    "href": "posts/fisica/relatividade-especial-estatico.html#contração-do-comprimento-o-espaço-também-encolhe",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "📏 Contração do Comprimento: O Espaço Também Encolhe?",
-    "text": "📏 Contração do Comprimento: O Espaço Também Encolhe?\n⚠️ Surpreendentemente, objetos em movimento também parecem encolher no comprimento, para um observador em repouso:\n\\[\nL = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}\n\\]\n\n\n\nContração do Comprimento"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#transformações-de-lorentz",
-    "href": "posts/fisica/relatividade-especial-estatico.html#transformações-de-lorentz",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "🔁 Transformações de Lorentz",
-    "text": "🔁 Transformações de Lorentz\nEssas transformações descrevem como espaço e tempo se relacionam entre observadores que se movem em velocidades diferentes:\n\\[\n\\begin{aligned}\nx' &= \\gamma (x - vt) \\\\\nt' &= \\gamma \\left(t - \\frac{vx}{c^2} \\right)\n\\end{aligned}\n\\quad \\text{com} \\quad \\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}\n\\]"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#o-paradoxo-dos-gêmeos",
-    "href": "posts/fisica/relatividade-especial-estatico.html#o-paradoxo-dos-gêmeos",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "👯 O Paradoxo dos Gêmeos",
-    "text": "👯 O Paradoxo dos Gêmeos\nImagine dois gêmeos: um fica na Terra e o outro viaja numa nave espacial próxima à velocidade da luz. Quando o viajante retorna, ele está mais jovem do que o irmão que ficou. Isso acontece porque o tempo “passou mais devagar” para quem estava em movimento acelerado."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#relatividade-vs-mecânica-clássica",
-    "href": "posts/fisica/relatividade-especial-estatico.html#relatividade-vs-mecânica-clássica",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "🧪 Relatividade vs Mecânica Clássica",
-    "text": "🧪 Relatividade vs Mecânica Clássica\n\n\n\n\n\n\n\n\nConceito\nMecânica Clássica\nRelatividade Especial\n\n\n\n\nTempo\nAbsoluto\nRelativo\n\n\nSoma de velocidades\nA + B\nUsa fórmula relativística\n\n\nVelocidade da luz\nVaria conforme o observador\nÉ constante para todos\n\n\nTransformações\nGalileanas\nLorentzianas"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#mitos-comuns-sobre-a-relatividade",
-    "href": "posts/fisica/relatividade-especial-estatico.html#mitos-comuns-sobre-a-relatividade",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "🔍 Mitos comuns sobre a Relatividade",
-    "text": "🔍 Mitos comuns sobre a Relatividade\n⚠️ “Einstein disse que tudo é relativo.”\n❌ Não. Ele mostrou que existem invariantes, como a velocidade da luz e as leis da física.\n⚠️ “Relatividade é só sobre coisas que se movem rápido.”\n❌ Errado. Relatividade influencia até mesmo tecnologias do dia a dia, como o GPS!"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#perguntas-para-refletir",
-    "href": "posts/fisica/relatividade-especial-estatico.html#perguntas-para-refletir",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "❓ Perguntas para refletir",
-    "text": "❓ Perguntas para refletir\n\n🔦 Pergunta 1: Acendendo uma lanterna dentro do trem\nVocê está viajando em um trem a altíssima velocidade, próxima à da luz. No meio do vagão, você acende uma lanterna. Para você, a luz:\n\n\nViaja mais rápido para frente, já que o trem também se move para frente\n\n\n\nViaja mais rápido para trás, pois a traseira está se aproximando da luz\n\n\n\nViaja para frente e para trás com a mesma velocidade\n\n\n✅ Resposta correta: C\n📘 Comentário: Para você, que está dentro do trem e considera-se em repouso, a luz se propaga simetricamente. Esse é o princípio da relatividade: as leis da física (incluindo a velocidade da luz) são as mesmas em todos os referenciais inerciais.\nMas para alguém parado na estação, a luz parece alcançar mais rápido a parte traseira do vagão, pois o vagão está “correndo” para frente — o que nos leva à ideia de que a simultaneidade depende do referencial.\n\n\n\n⏳ Pergunta 2: O tempo para astronautas e agricultores\nUm astronauta está viajando a uma fração significativa da velocidade da luz. Um agricultor permanece na Terra. Ao fim da viagem:\n\n\nAmbos estarão com a mesma idade, pois o tempo é universal\n\n\n\nO astronauta estará mais velho, pois se moveu mais\n\n\n\nO astronauta estará biologicamente mais jovem\n\n\n✅ Resposta correta: C\n📘 Comentário: Esse é o famoso paradoxo dos gêmeos. Do ponto de vista do observador na Terra, o tempo para o astronauta passa mais lentamente — o relógio a bordo da nave anda mais devagar.\nEsse efeito já foi observado experimentalmente em partículas como múons e até mesmo em relógios atômicos embarcados em aviões e satélites. No caso do GPS, as correções relativísticas são essenciais para que a navegação seja precisa."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#conclusão",
-    "href": "posts/fisica/relatividade-especial-estatico.html#conclusão",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "📚 Conclusão",
-    "text": "📚 Conclusão\nA Relatividade Especial nos obriga a repensar o tempo, o espaço e a noção de simultaneidade. O que parece simples à primeira vista revela um mundo onde dois eventos simultâneos para um observador podem não ser para outro.\nEinstein começou com dois postulados — e nos levou a uma revolução do pensamento físico."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#links-úteis",
-    "href": "posts/fisica/relatividade-especial-estatico.html#links-úteis",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-estatico.html#footnotes",
-    "href": "posts/fisica/relatividade-especial-estatico.html#footnotes",
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nEinstein, A. (1905). “Zur Elektrodynamik bewegter Körper.” Annalen der Physik, 17(10), 891–921.↩︎"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#introdução-histórica",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#introdução-histórica",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "1. Introdução Histórica",
-    "text": "1. Introdução Histórica\nEm 1905, Albert Einstein publicou o artigo “Sobre a eletrodinâmica dos corpos em movimento”, desafiando as noções clássicas de espaço e tempo. Essa nova abordagem — chamada Relatividade Especial — baseia-se em dois postulados simples, mas revolucionários, com consequências surpreendentes para o entendimento do universo."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#postulados-da-relatividade-especial",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#postulados-da-relatividade-especial",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "2. Postulados da Relatividade Especial",
-    "text": "2. Postulados da Relatividade Especial\n\nPrincípio da Relatividade\n&gt; ℹ️ As leis da física são as mesmas para todos os observadores inerciais (sem aceleração).\nConstância da Velocidade da Luz\n&gt; ⚠️ A luz se propaga no vácuo com velocidade constante \\(c \\approx 3{,}00   \\times 10^8 \\,  \\text{m/s}\\), independentemente do movimento da fonte ou do observador."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#transformações-de-lorentz",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#transformações-de-lorentz",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "3. Transformações de Lorentz",
-    "text": "3. Transformações de Lorentz\nA transformação de Galileu (usada na mecânica clássica) não preserva a velocidade da luz. Einstein introduziu as Transformações de Lorentz, que descrevem como espaço e tempo se transformam entre observadores em movimento relativo:\n\\[\n\\boxed{\n\\begin{aligned}\nx' &= \\gamma (x - vt) \\\\\nt' &= \\gamma \\left( t - \\frac{vx}{c^2} \\right)\n\\end{aligned}\n\\quad \\text{onde } \\gamma = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n}\n\\]\n\n✅ Essas transformações garantem que a velocidade da luz permanece \\(c\\) em todos os referenciais."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "4. Dilatação do Tempo: O Que É e Como Funciona",
-    "text": "4. Dilatação do Tempo: O Que É e Como Funciona\nSe um relógio está em movimento em relação a um observador, ele parece andar mais devagar.\n\\[\n\\boxed{\n\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n}\n\\]\n\n\\(\\Delta t_0\\): tempo próprio (medido no referencial em repouso com o evento).\n\\(\\Delta t\\): tempo medido por um observador externo.\n\n\nℹ️ Em velocidades muito pequenas comparadas a \\(c\\), o efeito é desprezível — mas se torna marcante à medida que \\(v\\) se aproxima da velocidade da luz."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-interativo-dilatação-do-tempo",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-interativo-dilatação-do-tempo",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "5. Gráfico Interativo: Dilatação do Tempo",
-    "text": "5. Gráfico Interativo: Dilatação do Tempo\nVamos visualizar como o tempo se dilata com a velocidade relativa. Suponha \\(\\Delta t_0 = 1\\) segundo.\n\n\n\nDilatação do Tempo"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-contração-do-comprimento",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-contração-do-comprimento",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "6. Gráfico: Contração do Comprimento",
-    "text": "6. Gráfico: Contração do Comprimento\nDe acordo com a Relatividade Especial, um objeto em movimento em relação a um observador parecerá mais curto ao longo da direção do movimento. Essa é a contração do comprimento.\nA fórmula é:\n\\[\n\\boxed{\nL = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}\n}\n\\]\n\n\\(L_0\\): comprimento próprio (medido no referencial do objeto).\n\\(L\\): comprimento medido por um observador externo.\n\nVamos visualizar esse efeito graficamente com \\(L_0 = 1\\) unidade:\n\n\n\nContração do Comprimento\n\n\n\n⚠️ A contração do comprimento só ocorre na direção do movimento e não pode ser percebida por quem está no mesmo referencial do objeto."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#o-paradoxo-dos-gêmeos",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#o-paradoxo-dos-gêmeos",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "7. O Paradoxo dos Gêmeos",
-    "text": "7. O Paradoxo dos Gêmeos\nDois irmãos gêmeos: um fica na Terra, o outro viaja a uma velocidade próxima de \\(c\\) e retorna.\nResultado: o gêmeo viajante envelhece menos — o tempo passou mais devagar para ele.\n\n❗ Não é uma contradição. O gêmeo viajante muda de referencial (aceleração/desaceleração), o que quebra a simetria do sistema.\n\nEsse efeito foi confirmado experimentalmente com relógios atômicos em aviões e satélites."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#comparação-com-a-mecânica-clássica",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#comparação-com-a-mecânica-clássica",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "8. Comparação com a Mecânica Clássica",
-    "text": "8. Comparação com a Mecânica Clássica\n\n\n\n\n\n\n\n\nConceito\nMecânica Clássica (Newton)\nRelatividade Especial (Einstein)\n\n\n\n\nTempo\nAbsoluto\nRelativo ao referencial\n\n\nSimultaneidade\nAbsoluta\nRelativa\n\n\nTransformações\nGalileanas\nLorentz\n\n\nVelocidade da luz\nVariável\nConstante para todos os observadores\n\n\nSoma de velocidades\nAditiva\nNão aditiva\n\n\nMassa\nConstante\nAumenta com a velocidade (relativística)\n\n\nEnergia cinética\n\\(\\frac{1}{2}mv^2\\)\n\\(E = \\gamma mc^2 - mc^2\\)\n\n\nEquivalência massa-energia\nInexistente\n\\(E = mc^2\\)"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#intervalo-invariante-e-espaço-tempo",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#intervalo-invariante-e-espaço-tempo",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "9. Intervalo Invariante e Espaço-Tempo",
-    "text": "9. Intervalo Invariante e Espaço-Tempo\nUm dos conceitos centrais da Relatividade Especial é o intervalo espaço-temporal entre dois eventos. Assim como a distância euclidiana entre dois pontos é invariante na geometria clássica, o intervalo entre dois eventos é invariante em todos os referenciais inerciais.\nA fórmula do intervalo (em 1D) é:\n\\[\n\\boxed{\ns^2 = c^2 \\Delta t^2 - \\Delta x^2\n}\n\\]\n\n\n9.1 Interpretação do Intervalo\n\n\n\n\n\n\n\n\nValor de \\(s^2\\)\nTipo de intervalo\nSignificado físico\n\n\n\n\n\\(s^2 &gt; 0\\)\nTemporal\nOs eventos podem estar causalmente conectados.\n\n\n\\(s^2 &lt; 0\\)\nEspacial\nOs eventos estão muito distantes no espaço para influência causal.\n\n\n\\(s^2 = 0\\)\nLuz (nulo)\nOs eventos são conectados por um sinal luminoso.\n\n\n\n\n✅ O intervalo é invariante: permanece o mesmo em todos os sistemas inerciais, mesmo que \\(\\Delta t\\) e \\(\\Delta x\\) variem.\n\n\n\n\n9.2 O Espaço-Tempo de Minkowski\nA Relatividade Especial funde espaço e tempo em uma única entidade: o espaço-tempo de Minkowski. Nele, cada evento é descrito por coordenadas \\((ct, x, y, z)\\).\n\nA geometria do espaço-tempo é pseudo-euclidiana, com assinatura diferente da geometria euclidiana.\nIsso implica que o “quadrado da distância” entre eventos pode ser positivo, negativo ou nulo.\n\n\n\n\n9.3 Cone de Luz e Causalidade\nO cone de luz define os limites da causalidade. Eventos dentro do cone podem influenciar ou ser influenciados pelo evento na origem. Eventos fora dele estão separados por intervalos espaciais.\n\n\n\n9.4 Consequências Importantes\n\nA separação causal entre eventos depende do intervalo invariante.\nA noção de tempo absoluto não é mais válida.\nPreservar a causalidade exige que nenhuma informação viaje fora do cone de luz.\n\n\n\n\n9.5 Representação Gráfica: Cone de Luz\nA figura abaixo mostra o cone de luz em um diagrama espaço-tempo:\n\n\n\nCone de Luz no Espaço-Tempo\n\n\n\n✅ O cone de luz delimita a fronteira da causalidade no espaço-tempo de Minkowski."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#equivalência-massa-energia-e-aplicações-práticas",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#equivalência-massa-energia-e-aplicações-práticas",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "10. Equivalência Massa-Energia e Aplicações Práticas",
-    "text": "10. Equivalência Massa-Energia e Aplicações Práticas\n\nA Fórmula Famosa\n\\[\n\\boxed{E = mc^2}\n\\]\nEssa equação mostra que massa é energia condensada.\n\n\nAplicações:\n\n⚛️ Energia nuclear (reatores e bombas);\n🌞 Fusão no Sol;\n🛰️ Correções de tempo em satélites GPS;\n🧠 PET scans na medicina;\n💥 Estudo de partículas e colisores.\n\n\nℹ️ Curiosidade: 1 grama de matéria convertida integralmente em energia equivale a 90 trilhões de joules!"
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#conclusão-e-reflexões-finais",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#conclusão-e-reflexões-finais",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "11. Conclusão e Reflexões Finais",
-    "text": "11. Conclusão e Reflexões Finais\nA Relatividade Especial transformou nossa visão do universo. Tempo e espaço são interligados, dependem do observador e da velocidade. Sua precisão foi verificada experimentalmente em dezenas de situações.\n\n✅ Ela continua sendo essencial na ciência moderna e base para teorias mais amplas como a Relatividade Geral e a Física de Partículas."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#mitos-comuns-sobre-a-relatividade",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#mitos-comuns-sobre-a-relatividade",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "❌ Mitos Comuns sobre a Relatividade",
-    "text": "❌ Mitos Comuns sobre a Relatividade\n\n\n\n\n\n\n\nMito\nRealidade\n\n\n\n\n“Nada pode ir mais rápido que a luz”\nVerdade — no vácuo. Mas há efeitos aparentes ou em meios materiais.\n\n\n“O tempo para completamente na velocidade da luz”\nCorreto para objetos com massa (que não atingem \\(c\\)).\n\n\n“Relatividade é só teoria”\nErrado — é uma teoria comprovada por muitos experimentos.\n\n\n\n📚 Referência principal:\nResnick, R. (1968). Introduction to Special Relativity. Wiley.\n\n⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos."
-  },
-  {
-    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#links-úteis",
-    "href": "posts/fisica/relatividade-especial-academico-estatico.html#links-úteis",
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
-  },
-  {
-    "objectID": "posts/pessoal/sobre-o-blog.html#como-este-blog-foi-feito",
-    "href": "posts/pessoal/sobre-o-blog.html#como-este-blog-foi-feito",
-    "title": "Sobre o Blog",
-    "section": "Como este blog foi feito",
-    "text": "Como este blog foi feito\nEste blog foi construído com o Quarto, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.\n\nTecnologias utilizadas\n\nQuarto: para renderização de arquivos .qmd em HTML\nRevealJS: para apresentações interativas\nMathJax: para fórmulas matemáticas\nAWS S3: para hospedagem do site como conteúdo estático\nImagem com TikZ: convertidas para .png e incluídas como figuras\nTema Bootstrap (flatly): para aparência moderna\nEstilo customizado: com styles.scss\n\n\n\nEstrutura\nO conteúdo é organizado em:\n\nindex.qmd: página inicial\nsobre.qmd: sobre o autor\nposts/*.qmd: cada post do blog\nimages/: imagens usadas nos posts\n_quarto.yml: configurações globais do site\n\n\n\nObjetivo\nCompartilhar ideias e explicações matemáticas com visual limpo e acessível, combinando o poder do LaTeX com a flexibilidade do Quarto.\n\nCriado por Celso Marcellini com ❤️ e código."
-  },
-  {
-    "objectID": "posts/pessoal/sobre-o-blog.html#links-úteis",
-    "href": "posts/pessoal/sobre-o-blog.html#links-úteis",
-    "title": "Sobre o Blog",
-    "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#introdução",
-    "href": "posts/matematica/beleza-matematica.html#introdução",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.1 Introdução",
-    "text": "1.1 Introdução\nPoucas frases capturam com tanta força o espírito da matemática pura quanto essa citação de G. H. Hardy. Para Hardy, a matemática deveria ser apreciada como se aprecia uma sinfonia, um poema ou uma obra de arte. Ele acreditava que, entre os muitos critérios possíveis para julgar uma teoria, a beleza era o mais fundamental — e o primeiro a ser invocado."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#a-estética-na-matemática-pura",
-    "href": "posts/matematica/beleza-matematica.html#a-estética-na-matemática-pura",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.2 A Estética na Matemática Pura",
-    "text": "1.2 A Estética na Matemática Pura\nNa matemática pura, a busca não é utilitária, mas sim conceitual, estrutural, abstrata. O matemático pergunta: isso é coerente? profundo? inevitável? belo? Uma teoria que resolve um problema, mas o faz de maneira feia ou disforme, tende a ser esquecida.\nHardy via a matemática como arte formal baseada em ideias abstratas. A beleza, nesse contexto, se manifesta de várias formas:\n\nSimplicidade inesperada.\nGeneralidade elegante.\nConexões surpreendentes entre áreas distintas.\nDemonstrações inevitáveis, que “não poderiam ser de outro jeito”."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#exemplos-clássicos-de-beleza-matemática",
-    "href": "posts/matematica/beleza-matematica.html#exemplos-clássicos-de-beleza-matemática",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.3 Exemplos Clássicos de Beleza Matemática",
-    "text": "1.3 Exemplos Clássicos de Beleza Matemática\n\n1.3.1 A Prova de Euclides da Infinitude dos Primos\nA clássica demonstração de Euclides é um ícone de elegância:\n\\[\n\\text{Suponha que haja apenas } p_1, p_2, \\dots, p_n. \\\\\n\\text{Considere } N = p_1 p_2 \\dots p_n + 1.\n\\]\nEsse número \\(N\\) não é divisível por nenhum dos \\(p_i\\), levando a um novo primo. A conclusão é inevitável, e o raciocínio, direto. Não há gordura. Não há excessos. Apenas beleza.\n\n1.3.1.1 🔷 Diagrama ilustrativo da ideia de Euclides\n\n\n\n\n\n\nVisualização da Prova de Euclides\n\n\n\nA demonstração de Euclides pode ser representada visualmente:\nsuponha um conjunto finito de primos → multiplique → adicione 1 → aparece um novo primo.\n\n\n\nDiagrama da Prova de Euclides\n\n\n\n\n\n\n\n1.3.2 A Identidade de Euler\n\\[\n\\boxed{e^{i\\pi} + 1 = 0}\n\\]\nCinco das constantes mais fundamentais da matemática — \\(e\\), \\(i\\), \\(\\pi\\), \\(1\\), \\(0\\) — reunidas numa única equação. Um encontro improvável e ainda assim perfeitamente natural.\n\n1.3.2.1 🔷 Gráfico da Identidade de Euler\nA ponte entre exponenciais complexas e funções trigonométricas é dada pela fórmula de Euler:\n\\[\ne^{ix} = \\cos(x) + i \\sin(x)\n\\]\nEssa equação mostra que \\(e^{ix}\\) descreve um ponto no círculo unitário do plano complexo, com \\(\\cos(x)\\) como parte real e \\(\\sin(x)\\) como parte imaginária.\nA seguir, representamos graficamente essas duas componentes separadas.\n\n\n\n\n\n\n\n\n\n\n\n1.3.2.2 🔷 Representação geométrica de \\(e^{ix}\\) no plano complexo\nIsso significa que \\(e^{ix}\\) descreve um ponto girando no círculo unitário do plano complexo —\ncom \\(\\cos(x)\\) como a parte real e \\(\\sin(x)\\) como a parte imaginária.\n\n\n\nTrajetória de \\(e^{ix}\\) no plano complexo\n\n\n\n\n\n1.3.3 A Prova de Wiles do Último Teorema de Fermat\n\n\n\n\n\n\nO Último Teorema de Fermat\n\n\n\n\nEnunciado:\nNão existem inteiros positivos \\(x, y, z\\) que satisfaçam a equação\n\\[\nx^n + y^n = z^n\n\\] para qualquer inteiro \\(n &gt; 2\\).\n\nO teorema foi enunciado por Pierre de Fermat em 1637 em uma margem de livro, com a famosa nota:\n&gt; “Descobri uma demonstração verdadeiramente maravilhosa, mas esta margem é estreita demais para contê-la.”\nA afirmação permaneceu sem prova por mais de 350 anos.\n\n\nApesar da complexidade técnica, a demonstração de Andrew Wiles é bela por outra razão:\nela unifica conceitos profundamente distintos, como curvas elípticas e formas modulares.\nA visão abrangente que ela proporciona é, em si, estética.\n\n1.3.3.1 🔷 Diagrama conceitual da prova de Wiles\n\n\n\nDiagrama da demonstração de Wiles\n\n\n\n\n\n\n\n\nComentário sobre o diagrama\n\n\n\nO diagrama resume a genialidade da abordagem de Andrew Wiles ao Último Teorema de Fermat.\n\nO ponto de partida é Fermat, com sua famosa afirmação sem demonstração.\n\nA Conjectura de Taniyama–Shimura entra como ponte inesperada: ela sugere que toda curva elíptica racional é modular.\n\nA demonstração de Wiles mostrou que, se a conjectura fosse válida para um caso específico, o Teorema de Fermat seria automaticamente verdadeiro.\n\nPara isso, Wiles estabeleceu conexões profundas entre curvas elípticas e formas modulares.\n\nA linha de chegada é a demonstração de Wiles, resultado da fusão dessas ideias.\n\nA beleza aqui não está apenas no resultado final, mas na própria arquitetura da prova — interligando áreas antes consideradas distantes.\nComo Hardy sugeriu, essa matemática sobrevive porque é bela.\n\n\n\n\n1.3.3.2 🕰️ Cronologia da demonstração de Wiles\n\n\n\n\n\n\nLinha do tempo\n\n\n\n\n1637: Fermat enuncia o teorema sem prova.\nSéculos XVIII–XIX: Casos especiais provados para expoentes \\(n = 3, 4, 5, 7\\), entre outros.\n1980s: Surgem conexões entre o Teorema de Fermat e a Conjectura de Taniyama–Shimura.\n1993: Andrew Wiles anuncia uma prova completa — baseada na modularidade de certas curvas elípticas.\n1994: Uma falha é encontrada, mas Wiles e Taylor corrigem o argumento.\n1995: A prova é oficialmente aceita e publicada.\n\nO teorema foi finalmente demonstrado usando ferramentas da matemática moderna — não previstas nem remotamente por Fermat."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#a-beleza-como-filtro",
-    "href": "posts/matematica/beleza-matematica.html#a-beleza-como-filtro",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.4 A Beleza como Filtro",
-    "text": "1.4 A Beleza como Filtro\nA frase de Hardy é também uma crítica à matemática feita sem apuro conceitual.\nProvas feias, fórmulas artificiais ou estruturas remendadas podem até resolver um problema —\nmas raramente sobrevivem ao tempo.\nCom o tempo, apenas o que é essencial permanece.\nE o essencial, quase sempre, é belo."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#palavras-de-hardy",
-    "href": "posts/matematica/beleza-matematica.html#palavras-de-hardy",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.5 Palavras de Hardy",
-    "text": "1.5 Palavras de Hardy\n\n\n“A matemática pura é, por sua natureza, uma arte criativa, e não uma arte utilitária.”\n“A matemática, como a poesia, deve ser bela. As ideias, como as palavras, devem se encaixar perfeitamente.”\n“Não há escapatória: o matemático, como o pintor ou o poeta, deve ser um criador de padrões.”"
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#comentário-pessoal",
-    "href": "posts/matematica/beleza-matematica.html#comentário-pessoal",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.6 ✍️ Comentário Pessoal",
-    "text": "1.6 ✍️ Comentário Pessoal\n\n\n\n\n\n\nReflexão do autor\n\n\n\nSou formado em matemática pura, e sempre fui apaixonado pela teoria da relatividade, tanto especial quanto geral.\nA matemática que estrutura essas teorias físicas é, para mim, de uma beleza indescritível.\nUma das ideias mais marcantes que encontrei foi a noção de quadrivetor velocidade no espaço-tempo quadridimensional.\nPerceber que uma grandeza física como a velocidade pode ser expressa como um vetor no espaço de Minkowski — com a soma quadrática de suas componentes igual a \\(c^2\\) — me revelou algo de extrema profundidade.\nQuando compreendi que, para qualquer corpo com massa, a norma do quadrivetor velocidade é sempre \\(c\\), entendi também o seguinte:\nse estamos em repouso, nossa velocidade espacial é zero, e nossa velocidade temporal é \\(c\\);\nà medida que nos movemos, parte dessa “velocidade total” é transferida ao espaço, reduzindo nossa velocidade no tempo.\nMas a soma vetorial — no sentido da métrica pseudo-euclideana — permanece constante.\nIsso implica, de forma direta, a dilatação temporal: envelhecemos menos quando estamos em movimento.\nMais tarde, ao estudar relatividade geral, descobri que o espaço-tempo é uma variedade diferencial pseudo-riemanniana, com uma métrica que se curva em resposta à presença de massa e energia.\nA frase de Wheeler me acompanhou desde então:\n\n“O espaço diz à matéria como ela deve se mover, e a matéria diz ao espaço como ele deve se curvar.”\n\nEssa síntese é, para mim, de uma beleza ímpar.\nTambém me encanta a ideia de que a física ainda busca uma teoria unificada — algo que integre a relatividade geral com a mecânica quântica.\nSe um dia conseguirmos explicar o macro e o micro com uma só estrutura matemática coerente, isso será, sem dúvida, um triunfo supremo do pensamento humano.\nPor fim, como matemático, reconheço a mesma beleza nos alicerces formais da própria matemática.\nA forma axiomática como desenvolvemos teoremas, estruturas e teorias exige elegância, coerência e inevitabilidade.\nNão é por acaso que Hardy disse que a beleza é o primeiro teste.\nEssa afirmação não é apenas filosófica — é um critério silencioso que nos guia enquanto provamos."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#conclusão",
-    "href": "posts/matematica/beleza-matematica.html#conclusão",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.7 Conclusão",
-    "text": "1.7 Conclusão\nA matemática que sobrevive é aquela que inspira.\nPara quem vive a matemática pura, onde o valor de uma teoria não se mede pela aplicação, mas pela profundidade,\na frase de Hardy serve como um farol.\n\nEm última instância, a beleza não é um adorno da matemática — é seu critério de permanência."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#bibliografia-e-leitura-adicional",
-    "href": "posts/matematica/beleza-matematica.html#bibliografia-e-leitura-adicional",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.8 📚 Bibliografia e Leitura Adicional",
-    "text": "1.8 📚 Bibliografia e Leitura Adicional\n\nHardy no MacTutor History of Mathematics\nUma biografia detalhada sobre sua trajetória e contribuições.\nG. H. Hardy — Wikipédia\nInformações introdutórias em português sobre sua vida e obra."
-  },
-  {
-    "objectID": "posts/matematica/beleza-matematica.html#links-úteis",
-    "href": "posts/matematica/beleza-matematica.html#links-úteis",
-    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "section": "1.9 🔗 Links Úteis",
-    "text": "1.9 🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
-  },
-  {
     "objectID": "index.html#últimos-posts",
     "href": "index.html#últimos-posts",
     "title": "🧮 Sobre o Blog",
     "section": "🆕 Últimos Posts",
-    "text": "🆕 Últimos Posts\n\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte\nPor que 0! = 1?\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica\nEstilo Visual Personalizado \n\n\nEsta seção é atualizada automaticamente a cada nova publicação."
+    "text": "🆕 Últimos Posts\n\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte\nPor que 0! = 1?\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica\nSobre o Blog \n\n\nEsta seção é atualizada automaticamente a cada nova publicação."
   },
   {
     "objectID": "index.html#links-úteis",
@@ -271,6 +12,27 @@
     "title": "🧮 Sobre o Blog",
     "section": "🔗 Links Úteis",
     "text": "🔗 Links Úteis\n\n🔗 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "ebook/index.html",
+    "href": "ebook/index.html",
+    "title": "📘 Introdução",
+    "section": "",
+    "text": "📘 Introdução\nEsta coletânea reúne os principais posts do Blog do Marcellini, abordando temas de:\n\n🧮 Matemática\n\n🔭 Física\n\n💻 Programação\n\n📊 Estatística\n\n✍️ Reflexões sobre ciência e tecnologia\n\nO objetivo é tornar conceitos complexos mais acessíveis, com exemplos práticos, visualizações e explicações claras — sempre com um toque pessoal e didático."
+  },
+  {
+    "objectID": "posts/programacao/exemplo.html#post-com-novo-tema-visual",
+    "href": "posts/programacao/exemplo.html#post-com-novo-tema-visual",
+    "title": "Estilo Visual Personalizado",
+    "section": "Post com novo tema visual",
+    "text": "Post com novo tema visual\nEste post mostra como um blog Quarto pode ter aparência totalmente customizada.\n\nFórmula matemática\n\\[\nE = mc^2\n\\]\n\n\nCódigo com estilo\ndef fatorial(n):\n    return 1 if n == 0 else n * fatorial(n - 1)"
+  },
+  {
+    "objectID": "posts/programacao/exemplo.html#links-úteis",
+    "href": "posts/programacao/exemplo.html#links-úteis",
+    "title": "Estilo Visual Personalizado",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
     "objectID": "posts/matematica/fatorial-zero.html",
@@ -424,7 +186,91 @@
     "href": "posts/matematica/fatorial-zero.html#links-úteis",
     "title": "Por que 0! = 1?",
     "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#o-que-foi-o-ano-milagroso-de-einstein",
+    "href": "posts/fisica/relatividade-especial-estatico.html#o-que-foi-o-ano-milagroso-de-einstein",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "🌟 O que foi o ano milagroso de Einstein?",
+    "text": "🌟 O que foi o ano milagroso de Einstein?\nℹ️ Em 1905, Albert Einstein publicou cinco artigos revolucionários. Entre eles, “Sobre a Eletrodinâmica dos Corpos em Movimento” deu origem à teoria da Relatividade Especial1. A teoria reformulou completamente o que entendemos por tempo, espaço e movimento.\n\nComo assim o tempo não é absoluto? E se dois relógios estiverem se movendo em relação um ao outro, qual marca o “verdadeiro” tempo?"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#postulados-da-relatividade-especial",
+    "href": "posts/fisica/relatividade-especial-estatico.html#postulados-da-relatividade-especial",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "📜 Postulados da Relatividade Especial",
+    "text": "📜 Postulados da Relatividade Especial\n✅ A teoria se baseia em dois postulados simples — mas revolucionários:\n\nAs leis da física são as mesmas em todos os referenciais inerciais (sem aceleração).\n\nA velocidade da luz no vácuo é constante para todos os observadores, independentemente da velocidade da fonte ou do observador."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
+    "href": "posts/fisica/relatividade-especial-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "⏱️ Dilatação do Tempo: O Que É e Como Funciona",
+    "text": "⏱️ Dilatação do Tempo: O Que É e Como Funciona\nQuando um objeto se move muito rápido (próximo à velocidade da luz), o tempo passa mais devagar para ele em relação a um observador parado.\n\n\n\nDilatação do Tempo\n\n\n\\[\n\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n\\]"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#contração-do-comprimento-o-espaço-também-encolhe",
+    "href": "posts/fisica/relatividade-especial-estatico.html#contração-do-comprimento-o-espaço-também-encolhe",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "📏 Contração do Comprimento: O Espaço Também Encolhe?",
+    "text": "📏 Contração do Comprimento: O Espaço Também Encolhe?\n⚠️ Surpreendentemente, objetos em movimento também parecem encolher no comprimento, para um observador em repouso:\n\\[\nL = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}\n\\]\n\n\n\nContração do Comprimento"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#transformações-de-lorentz",
+    "href": "posts/fisica/relatividade-especial-estatico.html#transformações-de-lorentz",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "🔁 Transformações de Lorentz",
+    "text": "🔁 Transformações de Lorentz\nEssas transformações descrevem como espaço e tempo se relacionam entre observadores que se movem em velocidades diferentes:\n\\[\n\\begin{aligned}\nx' &= \\gamma (x - vt) \\\\\nt' &= \\gamma \\left(t - \\frac{vx}{c^2} \\right)\n\\end{aligned}\n\\quad \\text{com} \\quad \\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}\n\\]"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#o-paradoxo-dos-gêmeos",
+    "href": "posts/fisica/relatividade-especial-estatico.html#o-paradoxo-dos-gêmeos",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "👯 O Paradoxo dos Gêmeos",
+    "text": "👯 O Paradoxo dos Gêmeos\nImagine dois gêmeos: um fica na Terra e o outro viaja numa nave espacial próxima à velocidade da luz. Quando o viajante retorna, ele está mais jovem do que o irmão que ficou. Isso acontece porque o tempo “passou mais devagar” para quem estava em movimento acelerado."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#relatividade-vs-mecânica-clássica",
+    "href": "posts/fisica/relatividade-especial-estatico.html#relatividade-vs-mecânica-clássica",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "🧪 Relatividade vs Mecânica Clássica",
+    "text": "🧪 Relatividade vs Mecânica Clássica\n\n\n\n\n\n\n\n\nConceito\nMecânica Clássica\nRelatividade Especial\n\n\n\n\nTempo\nAbsoluto\nRelativo\n\n\nSoma de velocidades\nA + B\nUsa fórmula relativística\n\n\nVelocidade da luz\nVaria conforme o observador\nÉ constante para todos\n\n\nTransformações\nGalileanas\nLorentzianas"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#mitos-comuns-sobre-a-relatividade",
+    "href": "posts/fisica/relatividade-especial-estatico.html#mitos-comuns-sobre-a-relatividade",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "🔍 Mitos comuns sobre a Relatividade",
+    "text": "🔍 Mitos comuns sobre a Relatividade\n⚠️ “Einstein disse que tudo é relativo.”\n❌ Não. Ele mostrou que existem invariantes, como a velocidade da luz e as leis da física.\n⚠️ “Relatividade é só sobre coisas que se movem rápido.”\n❌ Errado. Relatividade influencia até mesmo tecnologias do dia a dia, como o GPS!"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#perguntas-para-refletir",
+    "href": "posts/fisica/relatividade-especial-estatico.html#perguntas-para-refletir",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "❓ Perguntas para refletir",
+    "text": "❓ Perguntas para refletir\n\n🔦 Pergunta 1: Acendendo uma lanterna dentro do trem\nVocê está viajando em um trem a altíssima velocidade, próxima à da luz. No meio do vagão, você acende uma lanterna. Para você, a luz:\n\n\nViaja mais rápido para frente, já que o trem também se move para frente\n\n\n\nViaja mais rápido para trás, pois a traseira está se aproximando da luz\n\n\n\nViaja para frente e para trás com a mesma velocidade\n\n\n✅ Resposta correta: C\n📘 Comentário: Para você, que está dentro do trem e considera-se em repouso, a luz se propaga simetricamente. Esse é o princípio da relatividade: as leis da física (incluindo a velocidade da luz) são as mesmas em todos os referenciais inerciais.\nMas para alguém parado na estação, a luz parece alcançar mais rápido a parte traseira do vagão, pois o vagão está “correndo” para frente — o que nos leva à ideia de que a simultaneidade depende do referencial.\n\n\n\n⏳ Pergunta 2: O tempo para astronautas e agricultores\nUm astronauta está viajando a uma fração significativa da velocidade da luz. Um agricultor permanece na Terra. Ao fim da viagem:\n\n\nAmbos estarão com a mesma idade, pois o tempo é universal\n\n\n\nO astronauta estará mais velho, pois se moveu mais\n\n\n\nO astronauta estará biologicamente mais jovem\n\n\n✅ Resposta correta: C\n📘 Comentário: Esse é o famoso paradoxo dos gêmeos. Do ponto de vista do observador na Terra, o tempo para o astronauta passa mais lentamente — o relógio a bordo da nave anda mais devagar.\nEsse efeito já foi observado experimentalmente em partículas como múons e até mesmo em relógios atômicos embarcados em aviões e satélites. No caso do GPS, as correções relativísticas são essenciais para que a navegação seja precisa."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#conclusão",
+    "href": "posts/fisica/relatividade-especial-estatico.html#conclusão",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "📚 Conclusão",
+    "text": "📚 Conclusão\nA Relatividade Especial nos obriga a repensar o tempo, o espaço e a noção de simultaneidade. O que parece simples à primeira vista revela um mundo onde dois eventos simultâneos para um observador podem não ser para outro.\nEinstein começou com dois postulados — e nos levou a uma revolução do pensamento físico."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#links-úteis",
+    "href": "posts/fisica/relatividade-especial-estatico.html#links-úteis",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-estatico.html#footnotes",
+    "href": "posts/fisica/relatividade-especial-estatico.html#footnotes",
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEinstein, A. (1905). “Zur Elektrodynamik bewegter Körper.” Annalen der Physik, 17(10), 891–921.↩︎"
   },
   {
     "objectID": "posts/fisica/relatividade-especial-academico.html#introdução-histórica",
@@ -515,7 +361,7 @@
     "href": "posts/fisica/relatividade-especial-academico.html#links-úteis",
     "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
     "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
     "objectID": "posts/fisica/relatividade-especial.html#o-que-foi-o-ano-milagroso-de-einstein",
@@ -592,7 +438,7 @@
     "href": "posts/fisica/relatividade-especial.html#links-úteis",
     "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
     "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
     "objectID": "posts/fisica/relatividade-especial.html#footnotes",
@@ -602,24 +448,178 @@
     "text": "Footnotes\n\n\nEinstein, A. (1905). “Zur Elektrodynamik bewegter Körper.” Annalen der Physik, 17(10), 891–921.↩︎"
   },
   {
-    "objectID": "posts/programacao/exemplo.html#post-com-novo-tema-visual",
-    "href": "posts/programacao/exemplo.html#post-com-novo-tema-visual",
-    "title": "Estilo Visual Personalizado",
-    "section": "Post com novo tema visual",
-    "text": "Post com novo tema visual\nEste post mostra como um blog Quarto pode ter aparência totalmente customizada.\n\nFórmula matemática\n\\[\nE = mc^2\n\\]\n\n\nCódigo com estilo\ndef fatorial(n):\n    return 1 if n == 0 else n * fatorial(n - 1)"
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#introdução-histórica",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#introdução-histórica",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "1. Introdução Histórica",
+    "text": "1. Introdução Histórica\nEm 1905, Albert Einstein publicou o artigo “Sobre a eletrodinâmica dos corpos em movimento”, desafiando as noções clássicas de espaço e tempo. Essa nova abordagem — chamada Relatividade Especial — baseia-se em dois postulados simples, mas revolucionários, com consequências surpreendentes para o entendimento do universo."
   },
   {
-    "objectID": "posts/programacao/exemplo.html#links-úteis",
-    "href": "posts/programacao/exemplo.html#links-úteis",
-    "title": "Estilo Visual Personalizado",
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#postulados-da-relatividade-especial",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#postulados-da-relatividade-especial",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "2. Postulados da Relatividade Especial",
+    "text": "2. Postulados da Relatividade Especial\n\nPrincípio da Relatividade\n&gt; ℹ️ As leis da física são as mesmas para todos os observadores inerciais (sem aceleração).\nConstância da Velocidade da Luz\n&gt; ⚠️ A luz se propaga no vácuo com velocidade constante \\(c \\approx 3{,}00   \\times 10^8 \\,  \\text{m/s}\\), independentemente do movimento da fonte ou do observador."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#transformações-de-lorentz",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#transformações-de-lorentz",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "3. Transformações de Lorentz",
+    "text": "3. Transformações de Lorentz\nA transformação de Galileu (usada na mecânica clássica) não preserva a velocidade da luz. Einstein introduziu as Transformações de Lorentz, que descrevem como espaço e tempo se transformam entre observadores em movimento relativo:\n\\[\n\\boxed{\n\\begin{aligned}\nx' &= \\gamma (x - vt) \\\\\nt' &= \\gamma \\left( t - \\frac{vx}{c^2} \\right)\n\\end{aligned}\n\\quad \\text{onde } \\gamma = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n}\n\\]\n\n✅ Essas transformações garantem que a velocidade da luz permanece \\(c\\) em todos os referenciais."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#dilatação-do-tempo-o-que-é-e-como-funciona",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "4. Dilatação do Tempo: O Que É e Como Funciona",
+    "text": "4. Dilatação do Tempo: O Que É e Como Funciona\nSe um relógio está em movimento em relação a um observador, ele parece andar mais devagar.\n\\[\n\\boxed{\n\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\n}\n\\]\n\n\\(\\Delta t_0\\): tempo próprio (medido no referencial em repouso com o evento).\n\\(\\Delta t\\): tempo medido por um observador externo.\n\n\nℹ️ Em velocidades muito pequenas comparadas a \\(c\\), o efeito é desprezível — mas se torna marcante à medida que \\(v\\) se aproxima da velocidade da luz."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-interativo-dilatação-do-tempo",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-interativo-dilatação-do-tempo",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "5. Gráfico Interativo: Dilatação do Tempo",
+    "text": "5. Gráfico Interativo: Dilatação do Tempo\nVamos visualizar como o tempo se dilata com a velocidade relativa. Suponha \\(\\Delta t_0 = 1\\) segundo.\n\n\n\nDilatação do Tempo"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-contração-do-comprimento",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#gráfico-contração-do-comprimento",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "6. Gráfico: Contração do Comprimento",
+    "text": "6. Gráfico: Contração do Comprimento\nDe acordo com a Relatividade Especial, um objeto em movimento em relação a um observador parecerá mais curto ao longo da direção do movimento. Essa é a contração do comprimento.\nA fórmula é:\n\\[\n\\boxed{\nL = L_0 \\sqrt{1 - \\frac{v^2}{c^2}}\n}\n\\]\n\n\\(L_0\\): comprimento próprio (medido no referencial do objeto).\n\\(L\\): comprimento medido por um observador externo.\n\nVamos visualizar esse efeito graficamente com \\(L_0 = 1\\) unidade:\n\n\n\nContração do Comprimento\n\n\n\n⚠️ A contração do comprimento só ocorre na direção do movimento e não pode ser percebida por quem está no mesmo referencial do objeto."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#o-paradoxo-dos-gêmeos",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#o-paradoxo-dos-gêmeos",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "7. O Paradoxo dos Gêmeos",
+    "text": "7. O Paradoxo dos Gêmeos\nDois irmãos gêmeos: um fica na Terra, o outro viaja a uma velocidade próxima de \\(c\\) e retorna.\nResultado: o gêmeo viajante envelhece menos — o tempo passou mais devagar para ele.\n\n❗ Não é uma contradição. O gêmeo viajante muda de referencial (aceleração/desaceleração), o que quebra a simetria do sistema.\n\nEsse efeito foi confirmado experimentalmente com relógios atômicos em aviões e satélites."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#comparação-com-a-mecânica-clássica",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#comparação-com-a-mecânica-clássica",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "8. Comparação com a Mecânica Clássica",
+    "text": "8. Comparação com a Mecânica Clássica\n\n\n\n\n\n\n\n\nConceito\nMecânica Clássica (Newton)\nRelatividade Especial (Einstein)\n\n\n\n\nTempo\nAbsoluto\nRelativo ao referencial\n\n\nSimultaneidade\nAbsoluta\nRelativa\n\n\nTransformações\nGalileanas\nLorentz\n\n\nVelocidade da luz\nVariável\nConstante para todos os observadores\n\n\nSoma de velocidades\nAditiva\nNão aditiva\n\n\nMassa\nConstante\nAumenta com a velocidade (relativística)\n\n\nEnergia cinética\n\\(\\frac{1}{2}mv^2\\)\n\\(E = \\gamma mc^2 - mc^2\\)\n\n\nEquivalência massa-energia\nInexistente\n\\(E = mc^2\\)"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#intervalo-invariante-e-espaço-tempo",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#intervalo-invariante-e-espaço-tempo",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "9. Intervalo Invariante e Espaço-Tempo",
+    "text": "9. Intervalo Invariante e Espaço-Tempo\nUm dos conceitos centrais da Relatividade Especial é o intervalo espaço-temporal entre dois eventos. Assim como a distância euclidiana entre dois pontos é invariante na geometria clássica, o intervalo entre dois eventos é invariante em todos os referenciais inerciais.\nA fórmula do intervalo (em 1D) é:\n\\[\n\\boxed{\ns^2 = c^2 \\Delta t^2 - \\Delta x^2\n}\n\\]\n\n\n9.1 Interpretação do Intervalo\n\n\n\n\n\n\n\n\nValor de \\(s^2\\)\nTipo de intervalo\nSignificado físico\n\n\n\n\n\\(s^2 &gt; 0\\)\nTemporal\nOs eventos podem estar causalmente conectados.\n\n\n\\(s^2 &lt; 0\\)\nEspacial\nOs eventos estão muito distantes no espaço para influência causal.\n\n\n\\(s^2 = 0\\)\nLuz (nulo)\nOs eventos são conectados por um sinal luminoso.\n\n\n\n\n✅ O intervalo é invariante: permanece o mesmo em todos os sistemas inerciais, mesmo que \\(\\Delta t\\) e \\(\\Delta x\\) variem.\n\n\n\n\n9.2 O Espaço-Tempo de Minkowski\nA Relatividade Especial funde espaço e tempo em uma única entidade: o espaço-tempo de Minkowski. Nele, cada evento é descrito por coordenadas \\((ct, x, y, z)\\).\n\nA geometria do espaço-tempo é pseudo-euclidiana, com assinatura diferente da geometria euclidiana.\nIsso implica que o “quadrado da distância” entre eventos pode ser positivo, negativo ou nulo.\n\n\n\n\n9.3 Cone de Luz e Causalidade\nO cone de luz define os limites da causalidade. Eventos dentro do cone podem influenciar ou ser influenciados pelo evento na origem. Eventos fora dele estão separados por intervalos espaciais.\n\n\n\n9.4 Consequências Importantes\n\nA separação causal entre eventos depende do intervalo invariante.\nA noção de tempo absoluto não é mais válida.\nPreservar a causalidade exige que nenhuma informação viaje fora do cone de luz.\n\n\n\n\n9.5 Representação Gráfica: Cone de Luz\nA figura abaixo mostra o cone de luz em um diagrama espaço-tempo:\n\n\n\nCone de Luz no Espaço-Tempo\n\n\n\n✅ O cone de luz delimita a fronteira da causalidade no espaço-tempo de Minkowski."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#equivalência-massa-energia-e-aplicações-práticas",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#equivalência-massa-energia-e-aplicações-práticas",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "10. Equivalência Massa-Energia e Aplicações Práticas",
+    "text": "10. Equivalência Massa-Energia e Aplicações Práticas\n\nA Fórmula Famosa\n\\[\n\\boxed{E = mc^2}\n\\]\nEssa equação mostra que massa é energia condensada.\n\n\nAplicações:\n\n⚛️ Energia nuclear (reatores e bombas);\n🌞 Fusão no Sol;\n🛰️ Correções de tempo em satélites GPS;\n🧠 PET scans na medicina;\n💥 Estudo de partículas e colisores.\n\n\nℹ️ Curiosidade: 1 grama de matéria convertida integralmente em energia equivale a 90 trilhões de joules!"
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#conclusão-e-reflexões-finais",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#conclusão-e-reflexões-finais",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "11. Conclusão e Reflexões Finais",
+    "text": "11. Conclusão e Reflexões Finais\nA Relatividade Especial transformou nossa visão do universo. Tempo e espaço são interligados, dependem do observador e da velocidade. Sua precisão foi verificada experimentalmente em dezenas de situações.\n\n✅ Ela continua sendo essencial na ciência moderna e base para teorias mais amplas como a Relatividade Geral e a Física de Partículas."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#mitos-comuns-sobre-a-relatividade",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#mitos-comuns-sobre-a-relatividade",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "section": "❌ Mitos Comuns sobre a Relatividade",
+    "text": "❌ Mitos Comuns sobre a Relatividade\n\n\n\n\n\n\n\nMito\nRealidade\n\n\n\n\n“Nada pode ir mais rápido que a luz”\nVerdade — no vácuo. Mas há efeitos aparentes ou em meios materiais.\n\n\n“O tempo para completamente na velocidade da luz”\nCorreto para objetos com massa (que não atingem \\(c\\)).\n\n\n“Relatividade é só teoria”\nErrado — é uma teoria comprovada por muitos experimentos.\n\n\n\n📚 Referência principal:\nResnick, R. (1968). Introduction to Special Relativity. Wiley.\n\n⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos."
+  },
+  {
+    "objectID": "posts/fisica/relatividade-especial-academico-estatico.html#links-úteis",
+    "href": "posts/fisica/relatividade-especial-academico-estatico.html#links-úteis",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
     "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🧮 Todos os Posts sobre Matemática\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
-    "objectID": "ebook/index.html",
-    "href": "ebook/index.html",
-    "title": "📘 Introdução",
+    "objectID": "posts/matematica/beleza-matematica.html#introdução",
+    "href": "posts/matematica/beleza-matematica.html#introdução",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.1 Introdução",
+    "text": "1.1 Introdução\nPoucas frases capturam com tanta força o espírito da matemática pura quanto essa citação de G. H. Hardy. Para Hardy, a matemática deveria ser apreciada como se aprecia uma sinfonia, um poema ou uma obra de arte. Ele acreditava que, entre os muitos critérios possíveis para julgar uma teoria, a beleza era o mais fundamental — e o primeiro a ser invocado."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#a-estética-na-matemática-pura",
+    "href": "posts/matematica/beleza-matematica.html#a-estética-na-matemática-pura",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.2 A Estética na Matemática Pura",
+    "text": "1.2 A Estética na Matemática Pura\nNa matemática pura, a busca não é utilitária, mas sim conceitual, estrutural, abstrata. O matemático pergunta: isso é coerente? profundo? inevitável? belo? Uma teoria que resolve um problema, mas o faz de maneira feia ou disforme, tende a ser esquecida.\nHardy via a matemática como arte formal baseada em ideias abstratas. A beleza, nesse contexto, se manifesta de várias formas:\n\nSimplicidade inesperada.\nGeneralidade elegante.\nConexões surpreendentes entre áreas distintas.\nDemonstrações inevitáveis, que “não poderiam ser de outro jeito”."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#exemplos-clássicos-de-beleza-matemática",
+    "href": "posts/matematica/beleza-matematica.html#exemplos-clássicos-de-beleza-matemática",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.3 Exemplos Clássicos de Beleza Matemática",
+    "text": "1.3 Exemplos Clássicos de Beleza Matemática\n\n1.3.1 A Prova de Euclides da Infinitude dos Primos\nA clássica demonstração de Euclides é um ícone de elegância:\n\\[\n\\text{Suponha que haja apenas } p_1, p_2, \\dots, p_n. \\\\\n\\text{Considere } N = p_1 p_2 \\dots p_n + 1.\n\\]\nEsse número \\(N\\) não é divisível por nenhum dos \\(p_i\\), levando a um novo primo. A conclusão é inevitável, e o raciocínio, direto. Não há gordura. Não há excessos. Apenas beleza.\n\n1.3.1.1 🔷 Diagrama ilustrativo da ideia de Euclides\n\n\n\n\n\n\nVisualização da Prova de Euclides\n\n\n\nA demonstração de Euclides pode ser representada visualmente:\nsuponha um conjunto finito de primos → multiplique → adicione 1 → aparece um novo primo.\n\n\n\nDiagrama da Prova de Euclides\n\n\n\n\n\n\n\n1.3.2 A Identidade de Euler\n\\[\n\\boxed{e^{i\\pi} + 1 = 0}\n\\]\nCinco das constantes mais fundamentais da matemática — \\(e\\), \\(i\\), \\(\\pi\\), \\(1\\), \\(0\\) — reunidas numa única equação. Um encontro improvável e ainda assim perfeitamente natural.\n\n1.3.2.1 🔷 Gráfico da Identidade de Euler\nA ponte entre exponenciais complexas e funções trigonométricas é dada pela fórmula de Euler:\n\\[\ne^{ix} = \\cos(x) + i \\sin(x)\n\\]\nEssa equação mostra que \\(e^{ix}\\) descreve um ponto no círculo unitário do plano complexo, com \\(\\cos(x)\\) como parte real e \\(\\sin(x)\\) como parte imaginária.\nA seguir, representamos graficamente essas duas componentes separadas.\n\n\n\n\n\n\n\n\n\n\n\n1.3.2.2 🔷 Representação geométrica de \\(e^{ix}\\) no plano complexo\nIsso significa que \\(e^{ix}\\) descreve um ponto girando no círculo unitário do plano complexo —\ncom \\(\\cos(x)\\) como a parte real e \\(\\sin(x)\\) como a parte imaginária.\n\n\n\nTrajetória de \\(e^{ix}\\) no plano complexo\n\n\n\n\n\n1.3.3 A Prova de Wiles do Último Teorema de Fermat\n\n\n\n\n\n\nO Último Teorema de Fermat\n\n\n\n\nEnunciado:\nNão existem inteiros positivos \\(x, y, z\\) que satisfaçam a equação\n\\[\nx^n + y^n = z^n\n\\] para qualquer inteiro \\(n &gt; 2\\).\n\nO teorema foi enunciado por Pierre de Fermat em 1637 em uma margem de livro, com a famosa nota:\n&gt; “Descobri uma demonstração verdadeiramente maravilhosa, mas esta margem é estreita demais para contê-la.”\nA afirmação permaneceu sem prova por mais de 350 anos.\n\n\nApesar da complexidade técnica, a demonstração de Andrew Wiles é bela por outra razão:\nela unifica conceitos profundamente distintos, como curvas elípticas e formas modulares.\nA visão abrangente que ela proporciona é, em si, estética.\n\n1.3.3.1 🔷 Diagrama conceitual da prova de Wiles\n\n\n\nDiagrama da demonstração de Wiles\n\n\n\n\n\n\n\n\nComentário sobre o diagrama\n\n\n\nO diagrama resume a genialidade da abordagem de Andrew Wiles ao Último Teorema de Fermat.\n\nO ponto de partida é Fermat, com sua famosa afirmação sem demonstração.\n\nA Conjectura de Taniyama–Shimura entra como ponte inesperada: ela sugere que toda curva elíptica racional é modular.\n\nA demonstração de Wiles mostrou que, se a conjectura fosse válida para um caso específico, o Teorema de Fermat seria automaticamente verdadeiro.\n\nPara isso, Wiles estabeleceu conexões profundas entre curvas elípticas e formas modulares.\n\nA linha de chegada é a demonstração de Wiles, resultado da fusão dessas ideias.\n\nA beleza aqui não está apenas no resultado final, mas na própria arquitetura da prova — interligando áreas antes consideradas distantes.\nComo Hardy sugeriu, essa matemática sobrevive porque é bela.\n\n\n\n\n1.3.3.2 🕰️ Cronologia da demonstração de Wiles\n\n\n\n\n\n\nLinha do tempo\n\n\n\n\n1637: Fermat enuncia o teorema sem prova.\nSéculos XVIII–XIX: Casos especiais provados para expoentes \\(n = 3, 4, 5, 7\\), entre outros.\n1980s: Surgem conexões entre o Teorema de Fermat e a Conjectura de Taniyama–Shimura.\n1993: Andrew Wiles anuncia uma prova completa — baseada na modularidade de certas curvas elípticas.\n1994: Uma falha é encontrada, mas Wiles e Taylor corrigem o argumento.\n1995: A prova é oficialmente aceita e publicada.\n\nO teorema foi finalmente demonstrado usando ferramentas da matemática moderna — não previstas nem remotamente por Fermat."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#a-beleza-como-filtro",
+    "href": "posts/matematica/beleza-matematica.html#a-beleza-como-filtro",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.4 A Beleza como Filtro",
+    "text": "1.4 A Beleza como Filtro\nA frase de Hardy é também uma crítica à matemática feita sem apuro conceitual.\nProvas feias, fórmulas artificiais ou estruturas remendadas podem até resolver um problema —\nmas raramente sobrevivem ao tempo.\nCom o tempo, apenas o que é essencial permanece.\nE o essencial, quase sempre, é belo."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#palavras-de-hardy",
+    "href": "posts/matematica/beleza-matematica.html#palavras-de-hardy",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.5 Palavras de Hardy",
+    "text": "1.5 Palavras de Hardy\n\n\n“A matemática pura é, por sua natureza, uma arte criativa, e não uma arte utilitária.”\n“A matemática, como a poesia, deve ser bela. As ideias, como as palavras, devem se encaixar perfeitamente.”\n“Não há escapatória: o matemático, como o pintor ou o poeta, deve ser um criador de padrões.”"
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#comentário-pessoal",
+    "href": "posts/matematica/beleza-matematica.html#comentário-pessoal",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.6 ✍️ Comentário Pessoal",
+    "text": "1.6 ✍️ Comentário Pessoal\n\n\n\n\n\n\nReflexão do autor\n\n\n\nSou formado em matemática pura, e sempre fui apaixonado pela teoria da relatividade, tanto especial quanto geral.\nA matemática que estrutura essas teorias físicas é, para mim, de uma beleza indescritível.\nUma das ideias mais marcantes que encontrei foi a noção de quadrivetor velocidade no espaço-tempo quadridimensional.\nPerceber que uma grandeza física como a velocidade pode ser expressa como um vetor no espaço de Minkowski — com a soma quadrática de suas componentes igual a \\(c^2\\) — me revelou algo de extrema profundidade.\nQuando compreendi que, para qualquer corpo com massa, a norma do quadrivetor velocidade é sempre \\(c\\), entendi também o seguinte:\nse estamos em repouso, nossa velocidade espacial é zero, e nossa velocidade temporal é \\(c\\);\nà medida que nos movemos, parte dessa “velocidade total” é transferida ao espaço, reduzindo nossa velocidade no tempo.\nMas a soma vetorial — no sentido da métrica pseudo-euclideana — permanece constante.\nIsso implica, de forma direta, a dilatação temporal: envelhecemos menos quando estamos em movimento.\nMais tarde, ao estudar relatividade geral, descobri que o espaço-tempo é uma variedade diferencial pseudo-riemanniana, com uma métrica que se curva em resposta à presença de massa e energia.\nA frase de Wheeler me acompanhou desde então:\n\n“O espaço diz à matéria como ela deve se mover, e a matéria diz ao espaço como ele deve se curvar.”\n\nEssa síntese é, para mim, de uma beleza ímpar.\nTambém me encanta a ideia de que a física ainda busca uma teoria unificada — algo que integre a relatividade geral com a mecânica quântica.\nSe um dia conseguirmos explicar o macro e o micro com uma só estrutura matemática coerente, isso será, sem dúvida, um triunfo supremo do pensamento humano.\nPor fim, como matemático, reconheço a mesma beleza nos alicerces formais da própria matemática.\nA forma axiomática como desenvolvemos teoremas, estruturas e teorias exige elegância, coerência e inevitabilidade.\nNão é por acaso que Hardy disse que a beleza é o primeiro teste.\nEssa afirmação não é apenas filosófica — é um critério silencioso que nos guia enquanto provamos."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#conclusão",
+    "href": "posts/matematica/beleza-matematica.html#conclusão",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.7 Conclusão",
+    "text": "1.7 Conclusão\nA matemática que sobrevive é aquela que inspira.\nPara quem vive a matemática pura, onde o valor de uma teoria não se mede pela aplicação, mas pela profundidade,\na frase de Hardy serve como um farol.\n\nEm última instância, a beleza não é um adorno da matemática — é seu critério de permanência."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#bibliografia-e-leitura-adicional",
+    "href": "posts/matematica/beleza-matematica.html#bibliografia-e-leitura-adicional",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.8 📚 Bibliografia e Leitura Adicional",
+    "text": "1.8 📚 Bibliografia e Leitura Adicional\n\nHardy no MacTutor History of Mathematics\nUma biografia detalhada sobre sua trajetória e contribuições.\nG. H. Hardy — Wikipédia\nInformações introdutórias em português sobre sua vida e obra."
+  },
+  {
+    "objectID": "posts/matematica/beleza-matematica.html#links-úteis",
+    "href": "posts/matematica/beleza-matematica.html#links-úteis",
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "section": "1.9 🔗 Links Úteis",
+    "text": "1.9 🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/pessoal/sobre-o-blog.html#como-este-blog-foi-feito",
+    "href": "posts/pessoal/sobre-o-blog.html#como-este-blog-foi-feito",
+    "title": "Sobre o Blog",
+    "section": "Como este blog foi feito",
+    "text": "Como este blog foi feito\nEste blog foi construído com o Quarto, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.\n\nTecnologias utilizadas\n\nQuarto: para renderização de arquivos .qmd em HTML\nRevealJS: para apresentações interativas\nMathJax: para fórmulas matemáticas\nAWS S3: para hospedagem do site como conteúdo estático\nImagem com TikZ: convertidas para .png e incluídas como figuras\nTema Bootstrap (flatly): para aparência moderna\nEstilo customizado: com styles.scss\n\n\n\nEstrutura\nO conteúdo é organizado em:\n\nindex.qmd: página inicial\nsobre.qmd: sobre o autor\nposts/*.qmd: cada post do blog\nimages/: imagens usadas nos posts\n_quarto.yml: configurações globais do site\n\n\n\nObjetivo\nCompartilhar ideias e explicações matemáticas com visual limpo e acessível, combinando o poder do LaTeX com a flexibilidade do Quarto.\n\nCriado por Celso Marcellini com ❤️ e código."
+  },
+  {
+    "objectID": "posts/pessoal/sobre-o-blog.html#links-úteis",
+    "href": "posts/pessoal/sobre-o-blog.html#links-úteis",
+    "title": "Sobre o Blog",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre",
     "section": "",
-    "text": "📘 Introdução\nEsta coletânea reúne os principais posts do Blog do Marcellini, abordando temas de:\n\n🧮 Matemática\n\n🔭 Física\n\n💻 Programação\n\n📊 Estatística\n\n✍️ Reflexões sobre ciência e tecnologia\n\nO objetivo é tornar conceitos complexos mais acessíveis, com exemplos práticos, visualizações e explicações claras — sempre com um toque pessoal e didático."
+    "text": "Sobre\nMeu nome é Celso Marcellini, sou bacharel em matemática, e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual."
   }
 ]
