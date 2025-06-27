@@ -1,0 +1,192 @@
+---
+title: "Modelos de LaTeX para Usar com Quarto"
+description: "O Quarto permite o uso de **fórmulas matemáticas com LaTeX** dentro de arquivos `.qmd`, tanto em linha quanto em blocos."
+author: "Celso Marcellini"
+date: 2025-06-27
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+editor: visual
+categories: [programação, quarto, latex, python, R, markdown]
+tags: [programação, quarto, latex, python, R, markdown]
+---
+
+# Introdução
+
+O Quarto permite o uso de **fórmulas matemáticas com LaTeX** dentro de arquivos `.qmd`, tanto em linha quanto em blocos.  
+Isso torna possível criar documentos científicos, técnicos e educacionais com notação matemática precisa e elegante.
+
+---
+
+# 1. Equações Inline
+
+As equações inline são escritas entre `$` e `$`:
+
+Exemplo:
+
+```markdown
+A identidade de Euler é: $e^{i\pi} + 1 = 0$
+```
+
+Resultado:
+
+A identidade de Euler é: $e^{i\pi} + 1 = 0$
+
+---
+
+# 2. Equações em Bloco
+
+As equações em bloco usam `$$` para delimitar e são centralizadas:
+
+```markdown
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+```
+
+Resultado:
+
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+---
+
+# 3. Sistemas de Equações
+
+Você pode usar `\begin{align}` ou `\begin{cases}`:
+
+```markdown
+$$
+\begin{cases}
+x + y = 2 \\
+2x - y = 3
+\end{cases}
+$$
+```
+
+Resultado:
+
+$$
+\begin{cases}
+x + y = 2 \\
+2x - y = 3
+\end{cases}
+$$
+
+---
+
+# 4. Matrizes
+
+```markdown
+$$
+A = \begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
+```
+
+Resultado:
+
+$$
+A = \begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
+
+---
+
+# 5. Somatórios, Produtos, Integrais
+
+```markdown
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+$$
+\prod_{k=1}^{n} k = n!
+$$
+
+$$
+\int_0^\infty e^{-x} dx = 1
+$$
+```
+
+Resultado:
+
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+$$
+\prod_{k=1}^{n} k = n!
+$$
+
+$$
+\int_0^\infty e^{-x} dx = 1
+$$
+
+---
+
+# 6. Frações, Potências e Raízes
+
+```markdown
+$$
+\frac{a + b}{c}, \quad x^2, \quad \sqrt{x}, \quad \sqrt[3]{x}
+$$
+```
+
+Resultado:
+
+$$
+\frac{a + b}{c}, \quad x^2, \quad \sqrt{x}, \quad \sqrt[3]{x}
+$$
+
+---
+
+# 7. Lógicas e Conjuntos
+
+```markdown
+$$
+A \cap B, \quad A \cup B, \quad A \subseteq B, \quad A \in B
+$$
+
+$$
+\forall x \in \mathbb{R}, \quad \exists y > 0
+$$
+```
+
+Resultado:
+
+$$
+A \cap B, \quad A \cup B, \quad A \subseteq B, \quad A \in B
+$$
+
+$$
+\forall x \in \mathbb{R}, \quad \exists y > 0
+$$
+
+---
+
+# Conclusão
+
+O suporte a LaTeX no Quarto permite escrever expressões matemáticas com o mesmo poder e precisão de um artigo científico.  
+Esses modelos servem como base para produzir conteúdos técnicos e educacionais com alto padrão visual.
+
+---
+
+*Criado por Celso Marcellini com ❤️ e código.*
+
+---
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

@@ -1,0 +1,149 @@
+---
+title: "🌐 Navegue por Tags"
+format: html
+page-layout: full
+---
+
+
+<h4>Legenda de Cores e Ícones</h4>
+<div id="tag-legend" style="display: flex; flex-wrap: wrap; gap: 0.5em; margin-bottom: 1em;"></div>
+
+<div id="tag-cloud"></div>
+<hr>
+<div id="post-list"></div>
+
+<script>
+async function loadPosts() {
+  const response = await fetch('posts.json');
+  const posts = await response.json();
+
+  const tagMap = {};
+  posts.forEach(post => {
+    post.tags.forEach(tag => {
+      if (!tagMap[tag]) tagMap[tag] = [];
+      tagMap[tag].push(post);
+    });
+  });
+
+  const tagCloud = document.getElementById("tag-cloud");
+  Object.keys(tagMap).sort().forEach(tag => {
+    const btn = document.createElement("button");
+    btn.textContent = `${getIcon(tag)} ${tag} (${tagMap[tag].length})`;
+    btn.style.margin = "0.25em";
+    btn.style.padding = "0.5em 0.75em";
+    btn.style.border = "none";
+    btn.style.borderRadius = "5px";
+    btn.style.cursor = "pointer";
+    btn.style.backgroundColor = getColor(tag);
+    btn.style.color = "white";
+    btn.onclick = () => showPosts(tagMap[tag], tag);
+    tagCloud.appendChild(btn);
+  });
+
+  showPosts(posts); // Mostrar todos inicialmente
+  renderLegend();   // Renderizar legenda
+}
+
+function showPosts(posts, tag) {
+  const container = document.getElementById("post-list");
+  container.innerHTML = tag ? `<h3>Posts com a tag: <em>${tag}</em></h3>` : "<h3>Todos os Posts</h3>";
+  posts.forEach(post => {
+    const item = document.createElement("p");
+    item.innerHTML = `<a href='${post.href.replace(".qmd", ".html")}'>${post.title}</a>`;
+    container.appendChild(item);
+  });
+}
+
+function getColor(tag) {
+  const palette = {
+    matemática: { color: "#007BFF", icon: "📘" },
+    física: { color: "#dc3545", icon: "🔬" },
+    programação: { color: "#28a745", icon: "💻" },
+    estatística: { color: "#6f42c1", icon: "📊" },
+    R: { color: "#198754", icon: "📗" },
+    python: { color: "#ff8800", icon: "🐍" },
+    blog: { color: "#17a2b8", icon: "📝" },
+    latex: { color: "#795548", icon: "📄" },
+    relatividade: { color: "#6610f2", icon: "🌌" },
+    "espaço-tempo": { color: "#343a40", icon: "⏳" },
+    Hardy: { color: "#e83e8c", icon: "🎨" }
+  };
+  const entry = palette[tag.toLowerCase()];
+  return entry ? entry.color : "#adb5bd"; // cor cinza padrão
+}
+
+function getIcon(tag) {
+  const palette = {
+    matemática: { color: "#007BFF", icon: "📘" },
+    física: { color: "#dc3545", icon: "🔬" },
+    programação: { color: "#28a745", icon: "💻" },
+    estatística: { color: "#6f42c1", icon: "📊" },
+    R: { color: "#198754", icon: "📗" },
+    python: { color: "#ff8800", icon: "🐍" },
+    blog: { color: "#17a2b8", icon: "📝" },
+    latex: { color: "#795548", icon: "📄" },
+    relatividade: { color: "#6610f2", icon: "🌌" },
+    "espaço-tempo": { color: "#343a40", icon: "⏳" },
+    Hardy: { color: "#e83e8c", icon: "🎨" }
+  };
+  const entry = palette[tag.toLowerCase()];
+  return entry ? entry.icon : "🏷️";
+}
+
+function renderLegend() {
+  const legend = document.getElementById("tag-legend");
+  const keys = [
+    "matemática", "física", "programação", "estatística",
+    "R", "python", "blog", "latex", "relatividade", "espaço-tempo", "Hardy"
+  ];
+  keys.forEach(tag => {
+    const el = document.createElement("span");
+    el.style.backgroundColor = getColor(tag);
+    el.style.color = "white";
+    el.style.padding = "4px 8px";
+    el.style.borderRadius = "5px";
+    el.innerText = `${getIcon(tag)} ${tag}`;
+    legend.appendChild(el);
+  });
+}
+
+loadPosts();
+</script>
+
+## 🗂️ Lista de Tags por Ordem Alfabética
+
+<!-- lista_tags:inicio -->
+- `blog` (1 post)
+- `Einstein` (2 posts)
+- `espaço-tempo` (3 posts)
+- `estética matemática` (1 post)
+- `Euclides` (1 post)
+- `Euler` (1 post)
+- `fatorial` (1 post)
+- `Fermat` (1 post)
+- `física` (2 posts)
+- `função gama` (1 post)
+- `Galileu` (1 post)
+- `Hardy` (1 post)
+- `latex` (2 posts)
+- `Lorentz` (1 post)
+- `markdown` (1 post)
+- `matemática` (2 posts)
+- `Newton` (1 post)
+- `programação` (2 posts)
+- `python` (2 posts)
+- `quadrivetores` (1 post)
+- `quarto` (2 posts)
+- `R` (2 posts)
+- `relatividade` (3 posts)
+- `série de Taylor` (1 post)
+- `Wiles` (1 post)
+<!-- lista_tags:fim -->
+
+# ☁️ Nuvem de Tags
+
+<!-- nuvem_tags:inicio -->
+![](nuvem_tags.png)
+<!-- nuvem_tags:fim -->
+
+

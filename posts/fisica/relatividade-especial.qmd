@@ -1,9 +1,16 @@
 ---
 title: "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
 description: "Um mergulho didático na teoria da Relatividade Especial, com gráficos, exemplos e contexto histórico."
-format: html
-categories: [física, relatividade]
+author: "Celso Marcellini"
 date: 2025-06-21
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+categories: [física, relatividade]
+tags: [Einstein, física, relatividade, espaço-tempo]
 execute:
   engine: knitr
   echo: true

@@ -62,5 +62,23 @@
   },
   "ebook/fisica_estatico/relatividade-especial-estatico.qmd": {
     "relatividade-especial-estatico.html": "a3abe67b"
+  },
+  "posts/programacao/modelos-latex-quarto.qmd": {
+    "modelos-latex-quarto.html": "e2cba798"
+  },
+  "tags.qmd": {
+    "tags.html": "3ebfbfb5"
+  },
+  "~tags.qmd": {
+    "~tags.html": "6117c955"
+  },
+  "lista_tags_gerada.md": {
+    "lista_tags_gerada.html": "db9be8a4"
+  },
+  "posts/fisica/relatividade-especial.sync-conflict-20250624-104014-JOWMUZL.qmd": {
+    "relatividade-especial.sync-conflict-20250624-104014-JOWMUZL.html": "70dbd92b"
+  },
+  "posts/fisica/relatividade-especial-academico.sync-conflict-20250624-104014-JOWMUZL.qmd": {
+    "relatividade-especial-academico.sync-conflict-20250624-104014-JOWMUZL.html": "aa37f495"
   }
 }

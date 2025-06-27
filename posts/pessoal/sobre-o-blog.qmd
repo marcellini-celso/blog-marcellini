@@ -1,9 +1,23 @@
 ---
 title: "Sobre o Blog"
-format: html
-categories: [pessoal, programação, quarto, latex, python, R]
+description: "Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX."
+author: "Celso Marcellini"
 date: 2025-06-17
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+categories: [pessoal, programação, quarto, latex, python, R]
+tags: [programação, blog, quarto, latex, python, R]
+execute:
+  echo: false
+  warning: false
+  message: false
+  eval: false  # ← desativa execução de blocos mesmo se existirem
 ---
+
 <div class="invisivel">
 # Sobre o Blog
 </div>

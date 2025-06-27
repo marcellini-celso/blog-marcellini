@@ -1,15 +1,21 @@
-
 ---
 title: "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
 description: "Entenda passo a passo os fundamentos da teoria de Einstein: postulados, transformações, dilatação do tempo, paradoxo dos gêmeos, equivalência massa-energia e muito mais."
-format: html
-categories: [física, relatividade]
+author: "Celso Marcellini"
 date: 2025-06-21
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+categories: [física, relatividade]
+tags: [Einstein, física, relatividade, espaço-tempo, Lorentz, Galileu, Newton]
 execute:
+  engine: knitr
   echo: true
   warning: false
   message: false
-  engine: knitr
 ---
 
 <div class="invisivel">

@@ -1,7 +1,7 @@
-
 project:
   type: website
   output-dir: docs
+  pre-render: "python3 gerar_posts_json.py"
 
 website:
   title: "Blog do Marcellini"
@@ -13,6 +13,8 @@ website:
         text: Início
       - href: sobre.qmd
         text: Sobre
+      - href: tags.qmd
+        text: 🌐 Navegue por Tags
       - text: "🧮 Matemática"
         menu:
           - href: posts/matematica/beleza-matematica.qmd
@@ -27,14 +29,15 @@ website:
             text: A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica
       - text: "💻 Programação"
         menu:
-          - href: posts/programacao/exemplo.qmd
-            text: Estilo Visual
+          - href: posts/programacao/modelos-latex-quarto.qmd
+            text: Modelos de LaTeX para Usar com Quarto
 #      - text: "📊 Estatística"
 #        menu:
       - text: "📝 Blog Pessoal"
         menu:
           - href: posts/pessoal/sobre-o-blog.qmd
             text: Sobre o Blog
+
   page-footer:
     left: "© 2025 - Blog do Marcellini"
     right: >
@@ -48,5 +51,11 @@ format:
     toc: true
     highlight-style: github
 
+search: true
+
 publish:
   provider: gh-pages
+
+resources:
+  - posts.json
+

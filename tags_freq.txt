@@ -1,0 +1,25 @@
+      1 blog
+      2 Einstein
+      3 espaço-tempo
+      1 estética matemática
+      1 Euclides
+      1 Euler
+      1 fatorial
+      1 Fermat
+      2 física
+      1 função gama
+      1 Galileu
+      1 Hardy
+      2 latex
+      1 Lorentz
+      1 markdown
+      2 matemática
+      1 Newton
+      2 programação
+      2 python
+      1 quadrivetores
+      2 quarto
+      2 R
+      3 relatividade
+      1 série de Taylor
+      1 Wiles

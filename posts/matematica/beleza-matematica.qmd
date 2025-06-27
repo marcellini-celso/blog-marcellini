@@ -3,8 +3,9 @@ title: "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
 description: "Reflexões sobre a famosa frase de G. H. Hardy à luz da matemática pura, com exemplos clássicos de elegância matemática e visualizações gráficas."
 author: "Celso Marcellini"
 date: 2025-06-23
+lang: pt-BR
 categories: [matemática, pessoal]
-tags: [Hardy, estética matemática, relatividade, quadrivetores, espaço-tempo]
+tags: [Hardy, matemática, estética matemática, relatividade, quadrivetores, espaço-tempo, Euclides, Euler, Fermat, Wiles]
 format:
   html:
     toc: true
@@ -16,6 +17,8 @@ execute:
   echo: false
   warning: false
   message: false
+  eval: false  # ← desativa execução de blocos mesmo se existirem
+
 ---
 
 <div class="invisivel">
