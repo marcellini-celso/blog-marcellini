@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-06-17">
+<meta name="author" content="Celso Marcellini">
+<meta name="description" content="Este blog foi construído com o Quarto, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.">
 
 <title>Sobre o Blog – Blog do Marcellini</title>
 <style>
@@ -55,17 +56,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -113,8 +114,8 @@ window.Quarto = {
     <span class="navbar-title">Blog do Marcellini</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -126,6 +127,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="../../sobre.html"> 
 <span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tags.html"> 
+<span class="menu-text">🌐 Navegue por Tags</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-matemática" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -163,8 +168,8 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-programação">    
         <li>
-    <a class="dropdown-item" href="../../posts/programacao/exemplo.html">
- <span class="dropdown-text">Estilo Visual</span></a>
+    <a class="dropdown-item" href="../../posts/programacao/modelos-latex-quarto.html">
+ <span class="dropdown-text">Modelos de LaTeX para Usar com Quarto</span></a>
   </li>  
     </ul>
   </li>
@@ -192,16 +197,11 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
-  <ul>
-  <li><a href="#sobre-o-blog" id="toc-sobre-o-blog" class="nav-link active" data-scroll-target="#sobre-o-blog">Sobre o Blog</a></li>
-  <li><a href="#como-este-blog-foi-feito" id="toc-como-este-blog-foi-feito" class="nav-link" data-scroll-target="#como-este-blog-foi-feito">Como este blog foi feito</a>
   <ul class="collapse">
-  <li><a href="#tecnologias-utilizadas" id="toc-tecnologias-utilizadas" class="nav-link" data-scroll-target="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
-  <li><a href="#estrutura" id="toc-estrutura" class="nav-link" data-scroll-target="#estrutura">Estrutura</a></li>
-  <li><a href="#objetivo" id="toc-objetivo" class="nav-link" data-scroll-target="#objetivo">Objetivo</a></li>
-  </ul></li>
+  <li><a href="#sobre-o-blog" id="toc-sobre-o-blog" class="nav-link active" data-scroll-target="#sobre-o-blog">Sobre o Blog</a></li>
+  <li><a href="#como-este-blog-foi-feito" id="toc-como-este-blog-foi-feito" class="nav-link" data-scroll-target="#como-este-blog-foi-feito">Como este blog foi feito</a></li>
   <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis">🔗 Links Úteis</a></li>
   </ul>
 </nav>
@@ -222,15 +222,26 @@ window.Quarto = {
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Este blog foi construído com o <a href="https://quarto.org">Quarto</a>, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Celso Marcellini </p>
+          </div>
+  </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 17, 2025</p>
+      <p class="date">17 de junho de 2025</p>
     </div>
   </div>
   
@@ -334,12 +345,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
