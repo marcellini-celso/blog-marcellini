@@ -20,7 +20,45 @@ Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.o
 
 ---
 
-## 🧭 Navegação por Tags
+## 🚀 Fluxo de trabalho para atualizar e publicar um post
+
+### 1. Atualizar conteúdo localmente
+Execute o script de atualização completo:
+
+```bash
+./atualizar_tudo.sh
+```
+
+Esse script executa:
+- `atualizar-ultimos-posts.sh`
+- `gerar_posts_json.py`
+- `atualizar_tags.sh`
+
+### 2. Visualizar no navegador local
+
+```bash
+quarto preview
+```
+
+Confirme se o post aparece corretamente, com tags e layout funcionando.
+
+### 3. Publicar no GitHub Pages
+
+```bash
+./publicar_blog_otimizado.sh
+```
+
+Esse script realiza:
+- `quarto render` com saída na pasta `docs/`
+- `git add` dos arquivos relevantes
+- `git commit` com mensagem personalizada
+- `git push` para a branch `main`
+
+Após isso, o GitHub Pages atualizará automaticamente o site publicado.
+
+---
+
+## 🧱 Navegação por Tags
 
 O blog possui um sistema automatizado para geração de páginas de tags, nuvem de palavras e navegação visual.
 
@@ -28,7 +66,7 @@ O blog possui um sistema automatizado para geração de páginas de tags, nuvem 
 
 - `gerar_posts_json.py`: extrai `title`, `tags`, `href` dos posts `.qmd` e salva em `docs/posts.json`
 - `nuvem_tags.py`: gera a imagem `nuvem_tags.png` com base em `tags_freq.txt`
-- `atualizar_tags_completo_com_botao.sh`: script completo que:
+- `atualizar_tags.sh`: script completo que:
   - Gera `tags.qmd` com visual limpo
   - Cria `tags/*.qmd` com os posts de cada tag
   - Adiciona botão de retorno para `tags.qmd` em cada página de tag
@@ -36,10 +74,9 @@ O blog possui um sistema automatizado para geração de páginas de tags, nuvem 
 
 ### Scripts substituídos (podem ser removidos)
 
-- `atualizar_tags.sh`
 - `gerar_paginas_de_tags.py`
 
-### Como usar
+### Como usar (fluxo manual alternativo)
 
 1. Gere `posts.json` com:
 
@@ -50,8 +87,8 @@ python3 gerar_posts_json.py
 2. Execute o script principal:
 
 ```bash
-chmod +x atualizar_tags_completo_com_botao.sh
-./atualizar_tags_completo_com_botao.sh
+chmod +x atualizar_tags.sh
+./atualizar_tags.sh
 ```
 
 3. Renderize o blog normalmente:
@@ -70,7 +107,7 @@ quarto render
 ```yaml
 format:
   html:
-    css: 
+    css:
       - styles.css
       - assets/css/custom.css
 ```
