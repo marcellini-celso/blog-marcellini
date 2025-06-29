@@ -1,149 +1,83 @@
 ---
-title: "🌐 Navegue por Tags"
+title: "Tags"
 format: html
 page-layout: full
 ---
 
+::: {.tag-nuvem}
+![](nuvem_tags.png){width=100%}
+:::
 
-<h4>Legenda de Cores e Ícones</h4>
-<div id="tag-legend" style="display: flex; flex-wrap: wrap; gap: 0.5em; margin-bottom: 1em;"></div>
+## 📚 Todas as Tags
 
-<div id="tag-cloud"></div>
-<hr>
-<div id="post-list"></div>
+::: {.tag-grid}
 
-<script>
-async function loadPosts() {
-  const response = await fetch('posts.json');
-  const posts = await response.json();
-
-  const tagMap = {};
-  posts.forEach(post => {
-    post.tags.forEach(tag => {
-      if (!tagMap[tag]) tagMap[tag] = [];
-      tagMap[tag].push(post);
-    });
-  });
-
-  const tagCloud = document.getElementById("tag-cloud");
-  Object.keys(tagMap).sort().forEach(tag => {
-    const btn = document.createElement("button");
-    btn.textContent = `${getIcon(tag)} ${tag} (${tagMap[tag].length})`;
-    btn.style.margin = "0.25em";
-    btn.style.padding = "0.5em 0.75em";
-    btn.style.border = "none";
-    btn.style.borderRadius = "5px";
-    btn.style.cursor = "pointer";
-    btn.style.backgroundColor = getColor(tag);
-    btn.style.color = "white";
-    btn.onclick = () => showPosts(tagMap[tag], tag);
-    tagCloud.appendChild(btn);
-  });
-
-  showPosts(posts); // Mostrar todos inicialmente
-  renderLegend();   // Renderizar legenda
-}
-
-function showPosts(posts, tag) {
-  const container = document.getElementById("post-list");
-  container.innerHTML = tag ? `<h3>Posts com a tag: <em>${tag}</em></h3>` : "<h3>Todos os Posts</h3>";
-  posts.forEach(post => {
-    const item = document.createElement("p");
-    item.innerHTML = `<a href='${post.href.replace(".qmd", ".html")}'>${post.title}</a>`;
-    container.appendChild(item);
-  });
-}
-
-function getColor(tag) {
-  const palette = {
-    matemática: { color: "#007BFF", icon: "📘" },
-    física: { color: "#dc3545", icon: "🔬" },
-    programação: { color: "#28a745", icon: "💻" },
-    estatística: { color: "#6f42c1", icon: "📊" },
-    R: { color: "#198754", icon: "📗" },
-    python: { color: "#ff8800", icon: "🐍" },
-    blog: { color: "#17a2b8", icon: "📝" },
-    latex: { color: "#795548", icon: "📄" },
-    relatividade: { color: "#6610f2", icon: "🌌" },
-    "espaço-tempo": { color: "#343a40", icon: "⏳" },
-    Hardy: { color: "#e83e8c", icon: "🎨" }
-  };
-  const entry = palette[tag.toLowerCase()];
-  return entry ? entry.color : "#adb5bd"; // cor cinza padrão
-}
-
-function getIcon(tag) {
-  const palette = {
-    matemática: { color: "#007BFF", icon: "📘" },
-    física: { color: "#dc3545", icon: "🔬" },
-    programação: { color: "#28a745", icon: "💻" },
-    estatística: { color: "#6f42c1", icon: "📊" },
-    R: { color: "#198754", icon: "📗" },
-    python: { color: "#ff8800", icon: "🐍" },
-    blog: { color: "#17a2b8", icon: "📝" },
-    latex: { color: "#795548", icon: "📄" },
-    relatividade: { color: "#6610f2", icon: "🌌" },
-    "espaço-tempo": { color: "#343a40", icon: "⏳" },
-    Hardy: { color: "#e83e8c", icon: "🎨" }
-  };
-  const entry = palette[tag.toLowerCase()];
-  return entry ? entry.icon : "🏷️";
-}
-
-function renderLegend() {
-  const legend = document.getElementById("tag-legend");
-  const keys = [
-    "matemática", "física", "programação", "estatística",
-    "R", "python", "blog", "latex", "relatividade", "espaço-tempo", "Hardy"
-  ];
-  keys.forEach(tag => {
-    const el = document.createElement("span");
-    el.style.backgroundColor = getColor(tag);
-    el.style.color = "white";
-    el.style.padding = "4px 8px";
-    el.style.borderRadius = "5px";
-    el.innerText = `${getIcon(tag)} ${tag}`;
-    legend.appendChild(el);
-  });
-}
-
-loadPosts();
-</script>
-
-## 🗂️ Lista de Tags por Ordem Alfabética
-
-<!-- lista_tags:inicio -->
-- `blog` (1 post)
-- `Einstein` (2 posts)
-- `espaço-tempo` (3 posts)
-- `estética matemática` (1 post)
-- `Euclides` (1 post)
-- `Euler` (1 post)
-- `fatorial` (1 post)
-- `Fermat` (1 post)
-- `física` (2 posts)
-- `função gama` (1 post)
-- `Galileu` (1 post)
-- `Hardy` (1 post)
-- `latex` (2 posts)
-- `Lorentz` (1 post)
-- `markdown` (1 post)
-- `matemática` (2 posts)
-- `Newton` (1 post)
-- `programação` (2 posts)
-- `python` (2 posts)
-- `quadrivetores` (1 post)
-- `quarto` (2 posts)
-- `R` (2 posts)
-- `relatividade` (3 posts)
-- `série de Taylor` (1 post)
-- `Wiles` (1 post)
-<!-- lista_tags:fim -->
-
-# ☁️ Nuvem de Tags
-
-<!-- nuvem_tags:inicio -->
-![](nuvem_tags.png)
-<!-- nuvem_tags:fim -->
-
-
+<a href="/tags/albert-einstein.html" class="tag-card">albert einstein (1)</a>
+<a href="/tags/analise-combinatoria.html" class="tag-card">análise combinatória (1)</a>
+<a href="/tags/analise-de-dados.html" class="tag-card">análise de dados (2)</a>
+<a href="/tags/ano-milagroso.html" class="tag-card">ano milagroso (1)</a>
+<a href="/tags/arte-e-matematica.html" class="tag-card">arte e matemática (1)</a>
+<a href="/tags/artigos-de-1905.html" class="tag-card">artigos de 1905 (1)</a>
+<a href="/tags/beleza-matematica.html" class="tag-card">beleza matemática (1)</a>
+<a href="/tags/blocos-de-codigo.html" class="tag-card">blocos de código (2)</a>
+<a href="/tags/cabecalho-yaml.html" class="tag-card">cabeçalho yaml (3)</a>
+<a href="/tags/configuracao-de-post.html" class="tag-card">configuração de post (1)</a>
+<a href="/tags/contracao-do-comprimento.html" class="tag-card">contração do comprimento (1)</a>
+<a href="/tags/definicao-recursiva.html" class="tag-card">definição recursiva (1)</a>
+<a href="/tags/demonstracoes-elegantes.html" class="tag-card">demonstrações elegantes (1)</a>
+<a href="/tags/divulgacao-cientifica.html" class="tag-card">divulgação científica (1)</a>
+<a href="/tags/documentos-cientificos.html" class="tag-card">documentos científicos (2)</a>
+<a href="/tags/ensino.html" class="tag-card">ensino (1)</a>
+<a href="/tags/epub.html" class="tag-card">epub (1)</a>
+<a href="/tags/espaco-tempo.html" class="tag-card">espaço-tempo (2)</a>
+<a href="/tags/estetica-matematica.html" class="tag-card">estética matemática (1)</a>
+<a href="/tags/estrutura-de-documento.html" class="tag-card">estrutura de documento (1)</a>
+<a href="/tags/estrutura-de-documentos.html" class="tag-card">estrutura de documentos (1)</a>
+<a href="/tags/estrutura-de-site.html" class="tag-card">estrutura de site (1)</a>
+<a href="/tags/fatorial-de-zero.html" class="tag-card">fatorial de zero (1)</a>
+<a href="/tags/filosofia-da-matematica.html" class="tag-card">filosofia da matemática (1)</a>
+<a href="/tags/fisica.html" class="tag-card">física (2)</a>
+<a href="/tags/formatacao.html" class="tag-card">formatação (1)</a>
+<a href="/tags/formatacao-de-texto.html" class="tag-card">formatação de texto (1)</a>
+<a href="/tags/formulas-matematicas.html" class="tag-card">fórmulas matemáticas (1)</a>
+<a href="/tags/g.h.-hardy.html" class="tag-card">g.h. hardy (1)</a>
+<a href="/tags/graficos-com-ggplot2.html" class="tag-card">gráficos com ggplot2 (1)</a>
+<a href="/tags/graficos-com-python.html" class="tag-card">gráficos com python (1)</a>
+<a href="/tags/html.html" class="tag-card">html (3)</a>
+<a href="/tags/index.qmd.html" class="tag-card">index.qmd (1)</a>
+<a href="/tags/integracao-r-e-quarto.html" class="tag-card">integração R e Quarto (1)</a>
+<a href="/tags/justificativa-logica.html" class="tag-card">justificativa lógica (1)</a>
+<a href="/tags/latex.html" class="tag-card">latex (2)</a>
+<a href="/tags/luz.html" class="tag-card">luz (1)</a>
+<a href="/tags/markdown.html" class="tag-card">markdown (1)</a>
+<a href="/tags/matematica.html" class="tag-card">matemática (3)</a>
+<a href="/tags/metadados.html" class="tag-card">metadados (1)</a>
+<a href="/tags/modelos-latex.html" class="tag-card">modelos latex (1)</a>
+<a href="/tags/numeros-fatoriais.html" class="tag-card">números fatoriais (1)</a>
+<a href="/tags/organizacao-de-capitulos.html" class="tag-card">organização de capítulos (1)</a>
+<a href="/tags/parametros-yaml.html" class="tag-card">parâmetros yaml (1)</a>
+<a href="/tags/pessoal.html" class="tag-card">pessoal (1)</a>
+<a href="/tags/principio-multiplicativo.html" class="tag-card">princípio multiplicativo (1)</a>
+<a href="/tags/programacao.html" class="tag-card">programação (6)</a>
+<a href="/tags/projetos-cientificos.html" class="tag-card">projetos científicos (1)</a>
+<a href="/tags/proposito-do-blog.html" class="tag-card">propósito do blog (1)</a>
+<a href="/tags/python.html" class="tag-card">python (2)</a>
+<a href="/tags/quarto.html" class="tag-card">quarto (5)</a>
+<a href="/tags/r.html" class="tag-card">R (1)</a>
+<a href="/tags/referencial-inercial.html" class="tag-card">referencial inercial (1)</a>
+<a href="/tags/relatividade-especial.html" class="tag-card">relatividade especial (1)</a>
+<a href="/tags/relatorios-automatizados.html" class="tag-card">relatórios automatizados (1)</a>
+<a href="/tags/relatorios-em-r.html" class="tag-card">relatórios em R (1)</a>
+<a href="/tags/renderizacao-latex.html" class="tag-card">renderização latex (1)</a>
+<a href="/tags/simultaneidade.html" class="tag-card">simultaneidade (1)</a>
+<a href="/tags/slides.html" class="tag-card">slides (1)</a>
+<a href="/tags/sobre-o-blog.html" class="tag-card">sobre o blog (1)</a>
+<a href="/tags/tabulate.html" class="tag-card">tabulate (1)</a>
+<a href="/tags/templates-quarto.html" class="tag-card">templates quarto (1)</a>
+<a href="/tags/tempo-dilatado.html" class="tag-card">tempo dilatado (1)</a>
+<a href="/tags/transformacao-de-lorentz.html" class="tag-card">transformação de lorentz (1)</a>
+<a href="/tags/velocidade.html" class="tag-card">velocidade (1)</a>
+<a href="/tags/velocidade-da-luz.html" class="tag-card">velocidade da luz (1)</a>
+<a href="/tags/visualizacao-de-dados.html" class="tag-card">visualização de dados (1)</a>
+<a href="/tags/yaml-no-quarto.html" class="tag-card">yaml no quarto (1)</a>
+:::

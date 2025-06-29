@@ -12,7 +12,7 @@ website:
       - href: index.qmd
         text: Início
       - href: sobre.qmd
-        text: Sobre
+        text: Sobre Mim
       - href: tags.qmd
         text: 🌐 Navegue por Tags
       - text: "🧮 Matemática"
@@ -31,6 +31,16 @@ website:
         menu:
           - href: posts/programacao/modelos-latex-quarto.qmd
             text: Modelos de LaTeX para Usar com Quarto
+          - href: posts/programacao/modelos-index-quarto.qmd
+            text: Modelos de index.qmd para Projetos Quarto
+          - href: posts/programacao/modelos-markdown.qmd
+            text: Modelo de Markdown com Quarto
+          - href: posts/programacao/modelos-python-quarto.qmd
+            text: Modelos de Código em Python para Usar com Quarto
+          - href: posts/programacao/modelos-r-quarto.qmd
+            text: Modelos de Código em R para Usar com Quarto
+          - href: posts/programacao/yaml-no-quarto.qmd
+            text: YAML no Quarto -- O Coração Invisível dos Seus Documentos
 #      - text: "📊 Estatística"
 #        menu:
       - text: "📝 Blog Pessoal"
@@ -47,7 +57,9 @@ website:
 format:
   html:
     theme: flatly
-    css: styles.css
+    css: 
+      - styles.css
+      - assets/css/custom.css
     toc: true
     highlight-style: github
 

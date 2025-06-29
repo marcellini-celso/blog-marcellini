@@ -1,24 +1,556 @@
 [
   {
-    "objectID": "tags.html",
-    "href": "tags.html",
-    "title": "🌐 Navegue por Tags",
-    "section": "",
-    "text": "Legenda de Cores e Ícones"
+    "objectID": "index.html#últimos-posts",
+    "href": "index.html#últimos-posts",
+    "title": "🧮 Sobre o Blog",
+    "section": "🆕 Últimos Posts",
+    "text": "🆕 Últimos Posts\n\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos\nModelos de index.qmd para Projetos Quarto\nModelos de Código em R para Usar com Quarto\nModelos de Código em Python para Usar com Quarto\nModelo de Markdown com Quarto\nModelos de LaTeX para Usar com Quarto\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte\nPor que 0! = 1?\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica \n\n\nEsta seção é atualizada automaticamente a cada nova publicação."
   },
   {
-    "objectID": "tags.html#lista-de-tags-por-ordem-alfabética",
-    "href": "tags.html#lista-de-tags-por-ordem-alfabética",
-    "title": "🌐 Navegue por Tags",
-    "section": "🗂️ Lista de Tags por Ordem Alfabética",
-    "text": "🗂️ Lista de Tags por Ordem Alfabética\n\n\nblog (1 post)\nEinstein (2 posts)\nespaço-tempo (3 posts)\nestética matemática (1 post)\nEuclides (1 post)\nEuler (1 post)\nfatorial (1 post)\nFermat (1 post)\nfísica (2 posts)\nfunção gama (1 post)\nGalileu (1 post)\nHardy (1 post)\nlatex (2 posts)\nLorentz (1 post)\nmarkdown (1 post)\nmatemática (2 posts)\nNewton (1 post)\nprogramação (2 posts)\npython (2 posts)\nquadrivetores (1 post)\nquarto (2 posts)\nR (2 posts)\nrelatividade (3 posts)\nsérie de Taylor (1 post)\nWiles (1 post)"
+    "objectID": "index.html#links-úteis",
+    "href": "index.html#links-úteis",
+    "title": "🧮 Sobre o Blog",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🔗 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
-    "objectID": "sobre.html",
-    "href": "sobre.html",
-    "title": "Sobre",
+    "objectID": "sobre-o-projeto.html",
+    "href": "sobre-o-projeto.html",
+    "title": "Sobre o Projeto",
     "section": "",
-    "text": "Sobre\nMeu nome é Celso Marcellini, sou bacharel em matemática, e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual."
+    "text": "💡 Sobre este projeto\n\n\n\n\n\nEste blog é desenvolvido com Quarto e publicado no GitHub Pages. Aqui você encontra conteúdos sobre estatística, matemática, física e programação, com um sistema automatizado de navegação por tags e visual moderno."
+  },
+  {
+    "objectID": "sobre-o-projeto.html#estilo",
+    "href": "sobre-o-projeto.html#estilo",
+    "title": "Sobre o Projeto",
+    "section": "🎨 Estilo",
+    "text": "🎨 Estilo\n\nCSS personalizado em: assets/css/custom.css\nAdicionado no _quarto.yml:\n\nformat:\n  html:\n    css: \n      - styles.css\n      - assets/css/custom.css"
+  },
+  {
+    "objectID": "sobre-o-projeto.html#acesse-o-blog",
+    "href": "sobre-o-projeto.html#acesse-o-blog",
+    "title": "Sobre o Projeto",
+    "section": "🌐 Acesse o blog",
+    "text": "🌐 Acesse o blog\n➡️ https://marcellini-celso.github.io/blog-marcellini/"
+  },
+  {
+    "objectID": "sobre-o-projeto.html#contato",
+    "href": "sobre-o-projeto.html#contato",
+    "title": "Sobre o Projeto",
+    "section": "📬 Contato",
+    "text": "📬 Contato\nPara dúvidas, sugestões ou colaborações, entre em contato por e-mail:\n✉️ prof.marcellini@gmail.com\n```"
+  },
+  {
+    "objectID": "tags/visualizacao-de-dados.html",
+    "href": "tags/visualizacao-de-dados.html",
+    "title": "visualização de dados",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/visualizacao-de-dados.html#posts-com-a-tag-visualização-de-dados",
+    "href": "tags/visualizacao-de-dados.html#posts-com-a-tag-visualização-de-dados",
+    "title": "visualização de dados",
+    "section": "Posts com a tag visualização de dados",
+    "text": "Posts com a tag visualização de dados\n\nModelos de Código em Python para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/velocidade.html",
+    "href": "tags/velocidade.html",
+    "title": "velocidade",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/velocidade.html#posts-com-a-tag-velocidade",
+    "href": "tags/velocidade.html#posts-com-a-tag-velocidade",
+    "title": "velocidade",
+    "section": "Posts com a tag velocidade",
+    "text": "Posts com a tag velocidade\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+  },
+  {
+    "objectID": "tags/tempo-dilatado.html",
+    "href": "tags/tempo-dilatado.html",
+    "title": "tempo dilatado",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/tempo-dilatado.html#posts-com-a-tag-tempo-dilatado",
+    "href": "tags/tempo-dilatado.html#posts-com-a-tag-tempo-dilatado",
+    "title": "tempo dilatado",
+    "section": "Posts com a tag tempo dilatado",
+    "text": "Posts com a tag tempo dilatado\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/tabulate.html",
+    "href": "tags/tabulate.html",
+    "title": "tabulate",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/tabulate.html#posts-com-a-tag-tabulate",
+    "href": "tags/tabulate.html#posts-com-a-tag-tabulate",
+    "title": "tabulate",
+    "section": "Posts com a tag tabulate",
+    "text": "Posts com a tag tabulate\n\nModelos de Código em Python para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/slides.html",
+    "href": "tags/slides.html",
+    "title": "slides",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/slides.html#posts-com-a-tag-slides",
+    "href": "tags/slides.html#posts-com-a-tag-slides",
+    "title": "slides",
+    "section": "Posts com a tag slides",
+    "text": "Posts com a tag slides\n\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/renderizacao-latex.html",
+    "href": "tags/renderizacao-latex.html",
+    "title": "renderização latex",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/renderizacao-latex.html#posts-com-a-tag-renderização-latex",
+    "href": "tags/renderizacao-latex.html#posts-com-a-tag-renderização-latex",
+    "title": "renderização latex",
+    "section": "Posts com a tag renderização latex",
+    "text": "Posts com a tag renderização latex\n\nModelos de LaTeX para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/relatorios-automatizados.html",
+    "href": "tags/relatorios-automatizados.html",
+    "title": "relatórios automatizados",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/relatorios-automatizados.html#posts-com-a-tag-relatórios-automatizados",
+    "href": "tags/relatorios-automatizados.html#posts-com-a-tag-relatórios-automatizados",
+    "title": "relatórios automatizados",
+    "section": "Posts com a tag relatórios automatizados",
+    "text": "Posts com a tag relatórios automatizados\n\nModelos de Código em Python para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/referencial-inercial.html",
+    "href": "tags/referencial-inercial.html",
+    "title": "referencial inercial",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/referencial-inercial.html#posts-com-a-tag-referencial-inercial",
+    "href": "tags/referencial-inercial.html#posts-com-a-tag-referencial-inercial",
+    "title": "referencial inercial",
+    "section": "Posts com a tag referencial inercial",
+    "text": "Posts com a tag referencial inercial\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/quarto.html",
+    "href": "tags/quarto.html",
+    "title": "quarto",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/quarto.html#posts-com-a-tag-quarto",
+    "href": "tags/quarto.html#posts-com-a-tag-quarto",
+    "title": "quarto",
+    "section": "Posts com a tag quarto",
+    "text": "Posts com a tag quarto\n\nSobre o Blog\nModelos de index.qmd para Projetos Quarto\nModelos de Código em Python para Usar com Quarto\nModelos de Código em R para Usar com Quarto\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/proposito-do-blog.html",
+    "href": "tags/proposito-do-blog.html",
+    "title": "propósito do blog",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/proposito-do-blog.html#posts-com-a-tag-propósito-do-blog",
+    "href": "tags/proposito-do-blog.html#posts-com-a-tag-propósito-do-blog",
+    "title": "propósito do blog",
+    "section": "Posts com a tag propósito do blog",
+    "text": "Posts com a tag propósito do blog\n\nSobre o Blog"
+  },
+  {
+    "objectID": "tags/programacao.html",
+    "href": "tags/programacao.html",
+    "title": "programação",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/programacao.html#posts-com-a-tag-programação",
+    "href": "tags/programacao.html#posts-com-a-tag-programação",
+    "title": "programação",
+    "section": "Posts com a tag programação",
+    "text": "Posts com a tag programação\n\nModelos de LaTeX para Usar com Quarto\nModelos de index.qmd para Projetos Quarto\nModelos de Código em Python para Usar com Quarto\nModelos de Código em R para Usar com Quarto\nYAML no Quarto: O Coração Invisível dos Seus Documentos\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/pessoal.html",
+    "href": "tags/pessoal.html",
+    "title": "pessoal",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/pessoal.html#posts-com-a-tag-pessoal",
+    "href": "tags/pessoal.html#posts-com-a-tag-pessoal",
+    "title": "pessoal",
+    "section": "Posts com a tag pessoal",
+    "text": "Posts com a tag pessoal\n\nSobre o Blog"
+  },
+  {
+    "objectID": "tags/organizacao-de-capitulos.html",
+    "href": "tags/organizacao-de-capitulos.html",
+    "title": "organização de capítulos",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/organizacao-de-capitulos.html#posts-com-a-tag-organização-de-capítulos",
+    "href": "tags/organizacao-de-capitulos.html#posts-com-a-tag-organização-de-capítulos",
+    "title": "organização de capítulos",
+    "section": "Posts com a tag organização de capítulos",
+    "text": "Posts com a tag organização de capítulos\n\nModelos de index.qmd para Projetos Quarto"
+  },
+  {
+    "objectID": "tags/modelos-latex.html",
+    "href": "tags/modelos-latex.html",
+    "title": "modelos latex",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/modelos-latex.html#posts-com-a-tag-modelos-latex",
+    "href": "tags/modelos-latex.html#posts-com-a-tag-modelos-latex",
+    "title": "modelos latex",
+    "section": "Posts com a tag modelos latex",
+    "text": "Posts com a tag modelos latex\n\nModelos de LaTeX para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/matematica.html",
+    "href": "tags/matematica.html",
+    "title": "matemática",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/matematica.html#posts-com-a-tag-matemática",
+    "href": "tags/matematica.html#posts-com-a-tag-matemática",
+    "title": "matemática",
+    "section": "Posts com a tag matemática",
+    "text": "Posts com a tag matemática\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte\nPor que 0! = 1?\nSobre o Blog"
+  },
+  {
+    "objectID": "tags/luz.html",
+    "href": "tags/luz.html",
+    "title": "luz",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/luz.html#posts-com-a-tag-luz",
+    "href": "tags/luz.html#posts-com-a-tag-luz",
+    "title": "luz",
+    "section": "Posts com a tag luz",
+    "text": "Posts com a tag luz\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+  },
+  {
+    "objectID": "tags/justificativa-logica.html",
+    "href": "tags/justificativa-logica.html",
+    "title": "justificativa lógica",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/justificativa-logica.html#posts-com-a-tag-justificativa-lógica",
+    "href": "tags/justificativa-logica.html#posts-com-a-tag-justificativa-lógica",
+    "title": "justificativa lógica",
+    "section": "Posts com a tag justificativa lógica",
+    "text": "Posts com a tag justificativa lógica\n\nPor que 0! = 1?"
+  },
+  {
+    "objectID": "tags/index.qmd.html",
+    "href": "tags/index.qmd.html",
+    "title": "index.qmd",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/index.qmd.html#posts-com-a-tag-index.qmd",
+    "href": "tags/index.qmd.html#posts-com-a-tag-index.qmd",
+    "title": "index.qmd",
+    "section": "Posts com a tag index.qmd",
+    "text": "Posts com a tag index.qmd\n\nModelos de index.qmd para Projetos Quarto"
+  },
+  {
+    "objectID": "tags/graficos-com-python.html",
+    "href": "tags/graficos-com-python.html",
+    "title": "gráficos com python",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/graficos-com-python.html#posts-com-a-tag-gráficos-com-python",
+    "href": "tags/graficos-com-python.html#posts-com-a-tag-gráficos-com-python",
+    "title": "gráficos com python",
+    "section": "Posts com a tag gráficos com python",
+    "text": "Posts com a tag gráficos com python\n\nModelos de Código em Python para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/g.h.-hardy.html",
+    "href": "tags/g.h.-hardy.html",
+    "title": "g.h. hardy",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/g.h.-hardy.html#posts-com-a-tag-g.h.-hardy",
+    "href": "tags/g.h.-hardy.html#posts-com-a-tag-g.h.-hardy",
+    "title": "g.h. hardy",
+    "section": "Posts com a tag g.h. hardy",
+    "text": "Posts com a tag g.h. hardy\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+  },
+  {
+    "objectID": "tags/formatacao-de-texto.html",
+    "href": "tags/formatacao-de-texto.html",
+    "title": "formatação de texto",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/formatacao-de-texto.html#posts-com-a-tag-formatação-de-texto",
+    "href": "tags/formatacao-de-texto.html#posts-com-a-tag-formatação-de-texto",
+    "title": "formatação de texto",
+    "section": "Posts com a tag formatação de texto",
+    "text": "Posts com a tag formatação de texto\n\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/fisica.html",
+    "href": "tags/fisica.html",
+    "title": "física",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/fisica.html#posts-com-a-tag-física",
+    "href": "tags/fisica.html#posts-com-a-tag-física",
+    "title": "física",
+    "section": "Posts com a tag física",
+    "text": "Posts com a tag física\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/fatorial-de-zero.html",
+    "href": "tags/fatorial-de-zero.html",
+    "title": "fatorial de zero",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/fatorial-de-zero.html#posts-com-a-tag-fatorial-de-zero",
+    "href": "tags/fatorial-de-zero.html#posts-com-a-tag-fatorial-de-zero",
+    "title": "fatorial de zero",
+    "section": "Posts com a tag fatorial de zero",
+    "text": "Posts com a tag fatorial de zero\n\nPor que 0! = 1?"
+  },
+  {
+    "objectID": "tags/estrutura-de-documentos.html",
+    "href": "tags/estrutura-de-documentos.html",
+    "title": "estrutura de documentos",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/estrutura-de-documentos.html#posts-com-a-tag-estrutura-de-documentos",
+    "href": "tags/estrutura-de-documentos.html#posts-com-a-tag-estrutura-de-documentos",
+    "title": "estrutura de documentos",
+    "section": "Posts com a tag estrutura de documentos",
+    "text": "Posts com a tag estrutura de documentos\n\nModelos de LaTeX para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/estetica-matematica.html",
+    "href": "tags/estetica-matematica.html",
+    "title": "estética matemática",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/estetica-matematica.html#posts-com-a-tag-estética-matemática",
+    "href": "tags/estetica-matematica.html#posts-com-a-tag-estética-matemática",
+    "title": "estética matemática",
+    "section": "Posts com a tag estética matemática",
+    "text": "Posts com a tag estética matemática\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+  },
+  {
+    "objectID": "tags/epub.html",
+    "href": "tags/epub.html",
+    "title": "epub",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/epub.html#posts-com-a-tag-epub",
+    "href": "tags/epub.html#posts-com-a-tag-epub",
+    "title": "epub",
+    "section": "Posts com a tag epub",
+    "text": "Posts com a tag epub\n\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/documentos-cientificos.html",
+    "href": "tags/documentos-cientificos.html",
+    "title": "documentos científicos",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/documentos-cientificos.html#posts-com-a-tag-documentos-científicos",
+    "href": "tags/documentos-cientificos.html#posts-com-a-tag-documentos-científicos",
+    "title": "documentos científicos",
+    "section": "Posts com a tag documentos científicos",
+    "text": "Posts com a tag documentos científicos\n\nModelos de LaTeX para Usar com Quarto\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/demonstracoes-elegantes.html",
+    "href": "tags/demonstracoes-elegantes.html",
+    "title": "demonstrações elegantes",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/demonstracoes-elegantes.html#posts-com-a-tag-demonstrações-elegantes",
+    "href": "tags/demonstracoes-elegantes.html#posts-com-a-tag-demonstrações-elegantes",
+    "title": "demonstrações elegantes",
+    "section": "Posts com a tag demonstrações elegantes",
+    "text": "Posts com a tag demonstrações elegantes\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+  },
+  {
+    "objectID": "tags/contracao-do-comprimento.html",
+    "href": "tags/contracao-do-comprimento.html",
+    "title": "contração do comprimento",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/contracao-do-comprimento.html#posts-com-a-tag-contração-do-comprimento",
+    "href": "tags/contracao-do-comprimento.html#posts-com-a-tag-contração-do-comprimento",
+    "title": "contração do comprimento",
+    "section": "Posts com a tag contração do comprimento",
+    "text": "Posts com a tag contração do comprimento\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/cabecalho-yaml.html",
+    "href": "tags/cabecalho-yaml.html",
+    "title": "cabeçalho yaml",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/cabecalho-yaml.html#posts-com-a-tag-cabeçalho-yaml",
+    "href": "tags/cabecalho-yaml.html#posts-com-a-tag-cabeçalho-yaml",
+    "title": "cabeçalho yaml",
+    "section": "Posts com a tag cabeçalho yaml",
+    "text": "Posts com a tag cabeçalho yaml\n\nModelos de LaTeX para Usar com Quarto\nModelos de index.qmd para Projetos Quarto\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "tags/beleza-matematica.html",
+    "href": "tags/beleza-matematica.html",
+    "title": "beleza matemática",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/beleza-matematica.html#posts-com-a-tag-beleza-matemática",
+    "href": "tags/beleza-matematica.html#posts-com-a-tag-beleza-matemática",
+    "title": "beleza matemática",
+    "section": "Posts com a tag beleza matemática",
+    "text": "Posts com a tag beleza matemática\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+  },
+  {
+    "objectID": "tags/arte-e-matematica.html",
+    "href": "tags/arte-e-matematica.html",
+    "title": "arte e matemática",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/arte-e-matematica.html#posts-com-a-tag-arte-e-matemática",
+    "href": "tags/arte-e-matematica.html#posts-com-a-tag-arte-e-matemática",
+    "title": "arte e matemática",
+    "section": "Posts com a tag arte e matemática",
+    "text": "Posts com a tag arte e matemática\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+  },
+  {
+    "objectID": "tags/analise-de-dados.html",
+    "href": "tags/analise-de-dados.html",
+    "title": "análise de dados",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/analise-de-dados.html#posts-com-a-tag-análise-de-dados",
+    "href": "tags/analise-de-dados.html#posts-com-a-tag-análise-de-dados",
+    "title": "análise de dados",
+    "section": "Posts com a tag análise de dados",
+    "text": "Posts com a tag análise de dados\n\nModelos de Código em Python para Usar com Quarto\nModelos de Código em R para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/albert-einstein.html",
+    "href": "tags/albert-einstein.html",
+    "title": "albert einstein",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/albert-einstein.html#posts-com-a-tag-albert-einstein",
+    "href": "tags/albert-einstein.html#posts-com-a-tag-albert-einstein",
+    "title": "albert einstein",
+    "section": "Posts com a tag albert einstein",
+    "text": "Posts com a tag albert einstein\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+  },
+  {
+    "objectID": "lista_tags_gerada.html",
+    "href": "lista_tags_gerada.html",
+    "title": "Blog do Marcellini",
+    "section": "",
+    "text": "albert einstein (1 post)\nanálise combinatória (1 post)\nanálise de dados (2 posts)\nano milagroso (1 post)\narte e matemática (1 post)\nartigos de 1905 (1 post)\nbeleza matemática (1 post)\nblocos de código (2 posts)\ncabeçalho yaml (3 posts)\nconfiguração de post (1 post)\ncontração do comprimento (1 post)\ndefinição recursiva (1 post)\ndemonstrações elegantes (1 post)\ndivulgação científica (1 post)\ndocumentos científicos (2 posts)\nensino (1 post)\nepub (1 post)\nespaço-tempo (2 posts)\nestética matemática (1 post)\nestrutura de documento (1 post)\nestrutura de documentos (1 post)\nestrutura de site (1 post)\nfatorial de zero (1 post)\nfilosofia da matemática (1 post)\nfísica (2 posts)\nformatação (1 post)\nformatação de texto (1 post)\nfórmulas matemáticas (1 post)\ng.h. hardy (1 post)\ngráficos com ggplot2 (1 post)\ngráficos com python (1 post)\nhtml (3 posts)\nindex.qmd (1 post)\nintegração R e Quarto (1 post)\njustificativa lógica (1 post)\nlatex (2 posts)\nluz (1 post)\nmarkdown (1 post)\nmatemática (3 posts)\nmetadados (1 post)\nmodelos latex (1 post)\nnúmeros fatoriais (1 post)\norganização de capítulos (1 post)\nparâmetros yaml (1 post)\npessoal (1 post)\nprincípio multiplicativo (1 post)\nprogramação (6 posts)\nprojetos científicos (1 post)\npropósito do blog (1 post)\npython (2 posts)\nquarto (5 posts)\nR (1 post)\nreferencial inercial (1 post)\nrelatividade especial (1 post)\nrelatórios automatizados (1 post)\nrelatórios em R (1 post)\nrenderização latex (1 post)\nsimultaneidade (1 post)\nslides (1 post)\nsobre o blog (1 post)\ntabulate (1 post)\ntemplates quarto (1 post)\ntempo dilatado (1 post)\ntransformação de lorentz (1 post)\nvelocidade (1 post)\nvelocidade da luz (1 post)\nvisualização de dados (1 post)\nyaml no quarto (1 post)"
+  },
+  {
+    "objectID": "posts/programacao/yaml-no-quarto.html",
+    "href": "posts/programacao/yaml-no-quarto.html",
+    "title": "YAML no Quarto: O Coração Invisível dos Seus Documentos",
+    "section": "",
+    "text": "O YAML é a primeira coisa que aparece em um documento .qmd — mas para muitos, é também a mais misteriosa.\n\nNeste post, vamos entender: - O que é YAML - Como ele funciona nos arquivos .qmd - Principais campos usados em projetos com Quarto - Exemplos práticos de cabeçalhos YAML"
+  },
+  {
+    "objectID": "posts/programacao/yaml-no-quarto.html#links-úteis",
+    "href": "posts/programacao/yaml-no-quarto.html#links-úteis",
+    "title": "YAML no Quarto: O Coração Invisível dos Seus Documentos",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/programacao/modelos-python-quarto.html",
+    "href": "posts/programacao/modelos-python-quarto.html",
+    "title": "Modelos de Código em Python para Usar com Quarto",
+    "section": "",
+    "text": "O Quarto permite a execução direta de blocos de código Python em arquivos .qmd, tornando possível criar relatórios interativos e reprodutíveis com análises, gráficos e visualizações em Python.\nO trecho abaixo é o cabeçalho YAML do documento .qmd, que define título, autor, data, formato de saída e opções de execução do código:\n---\ntitle: \"Modelos de Código em Python para Usar com Quarto\"\nauthor: \"Celso Marcellini\"\ndate: 2025-06-23\nformat: html\neditor: visual\nlang: pt-BR\nexecute:\n  echo: true\n  warning: false\n  message: false\n---"
+  },
+  {
+    "objectID": "posts/programacao/modelos-python-quarto.html#links-úteis",
+    "href": "posts/programacao/modelos-python-quarto.html#links-úteis",
+    "title": "Modelos de Código em Python para Usar com Quarto",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
     "objectID": "posts/programacao/modelos-latex-quarto.html",
@@ -441,24 +973,570 @@
     "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
   },
   {
-    "objectID": "index.html#últimos-posts",
-    "href": "index.html#últimos-posts",
-    "title": "🧮 Sobre o Blog",
-    "section": "🆕 Últimos Posts",
-    "text": "🆕 Últimos Posts\n\n\nModelos de LaTeX para Usar com Quarto\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte\nPor que 0! = 1?\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica \n\n\nEsta seção é atualizada automaticamente a cada nova publicação."
-  },
-  {
-    "objectID": "index.html#links-úteis",
-    "href": "index.html#links-úteis",
-    "title": "🧮 Sobre o Blog",
-    "section": "🔗 Links Úteis",
-    "text": "🔗 Links Úteis\n\n🔗 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
-  },
-  {
-    "objectID": "lista_tags_gerada.html",
-    "href": "lista_tags_gerada.html",
-    "title": "Blog do Marcellini",
+    "objectID": "posts/programacao/modelos-index-quarto.html",
+    "href": "posts/programacao/modelos-index-quarto.html",
+    "title": "Modelos de index.qmd para Projetos Quarto",
     "section": "",
-    "text": "blog (1 post)\nEinstein (2 posts)\nespaço-tempo (3 posts)\nestética matemática (1 post)\nEuclides (1 post)\nEuler (1 post)\nfatorial (1 post)\nFermat (1 post)\nfísica (2 posts)\nfunção gama (1 post)\nGalileu (1 post)\nHardy (1 post)\nlatex (2 posts)\nLorentz (1 post)\nmarkdown (1 post)\nmatemática (2 posts)\nNewton (1 post)\nprogramação (2 posts)\npython (2 posts)\nquadrivetores (1 post)\nquarto (2 posts)\nR (2 posts)\nrelatividade (3 posts)\nsérie de Taylor (1 post)\nWiles (1 post)"
+    "text": "O arquivo index.qmd é geralmente o ponto de entrada principal de um projeto Quarto.\nEle pode ser usado como a página inicial de um site ou livro, e seu cabeçalho YAML define o título global, a formatação e outras configurações do projeto.\nA seguir, veja modelos de uso de index.qmd em diferentes tipos de projetos."
+  },
+  {
+    "objectID": "posts/programacao/modelos-index-quarto.html#links-úteis",
+    "href": "posts/programacao/modelos-index-quarto.html#links-úteis",
+    "title": "Modelos de index.qmd para Projetos Quarto",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/programacao/modelos-r-quarto.html",
+    "href": "posts/programacao/modelos-r-quarto.html",
+    "title": "Modelos de Código em R para Usar com Quarto",
+    "section": "",
+    "text": "O Quarto permite a execução direta de blocos de código R em arquivos .qmd.\nIsso torna possível gerar relatórios dinâmicos, gráficos, análises estatísticas e visualizações interativas, tudo integrado ao texto.\nO trecho abaixo é o cabeçalho YAML do documento .qmd, que define título, autor, data, formato de saída e opções de execução do código R:\n---\ntitle: \"Modelos de Código em R para Usar com Quarto\"\nauthor: \"Celso Marcellini\"\ndate: 2025-06-23\nformat: html\neditor: visual\nlang: pt-BR\nexecute:\n  engine: knitr\n  echo: true\n  warning: false\n  message: false\n---"
+  },
+  {
+    "objectID": "posts/programacao/modelos-r-quarto.html#links-úteis",
+    "href": "posts/programacao/modelos-r-quarto.html#links-úteis",
+    "title": "Modelos de Código em R para Usar com Quarto",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html",
+    "href": "posts/programacao/modelos-markdown.html",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "",
+    "text": "Quarto Markdown é uma extensão poderosa da linguagem Markdown, desenvolvida para criar documentos científicos e técnicos de alta qualidade.\nEle permite misturar texto formatado, código executável (em linguagens como R, Python, Julia), equações matemáticas com LaTeX, gráficos e tabelas, tudo em um só arquivo .qmd.\nCom Quarto você pode gerar automaticamente documentos nos formatos:\n\nHTML interativo\nPDF com qualidade tipográfica\nEPUB para eBooks\nSlides (Reveal.js, Beamer)\nApresentações interativas e muito mais."
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html#nível-2",
+    "href": "posts/programacao/modelos-markdown.html#nível-2",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "Nível 2",
+    "text": "Nível 2\n### Nível 3\n\nVisualização:\n\n\nNível 3\nVocê pode usar **negrito**, *itálico*, ou ambos: ***negrito e itálico***.\n\nVisualização:\n\nVocê pode usar negrito, itálico, ou ambos: negrito e itálico.\nVocê também pode criar citações:\n&gt; A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu\n\nVisualização:\n\n\nA matemática é a linguagem com a qual Deus escreveu o universo. — Galileu"
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html#lista-com-marcadores",
+    "href": "posts/programacao/modelos-markdown.html#lista-com-marcadores",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "Lista com marcadores:",
+    "text": "Lista com marcadores:\n\nItem A\nItem B\n\nSubitem B.1\nSubitem B.2\n\n\n## Lista numerada:\n\n\n1. Primeiro\n2. Segundo\n3. Terceiro\n\nVisualização:"
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html#lista-numerada",
+    "href": "posts/programacao/modelos-markdown.html#lista-numerada",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "Lista numerada:",
+    "text": "Lista numerada:\n\nPrimeiro\nSegundo\nTerceiro"
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html#link",
+    "href": "posts/programacao/modelos-markdown.html#link",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "Link:",
+    "text": "Link:\nSite oficial do Quarto\n## Imagem:\n\n\n![Imagem exemplo](images/exemplo.png)\n\nVisualização:"
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html#imagem",
+    "href": "posts/programacao/modelos-markdown.html#imagem",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "Imagem:",
+    "text": "Imagem:\n\n\n\nImagem exemplo\n\n\n# Tabelas\n\n\n| Nome     | Idade | Cidade      |\n|-|-|-|\n| Alice    | 25    | São Paulo   |\n| Bernardo | 30    | Salvador    |\n| Carla    | 22    | Curitiba    |\n\nVisualização:"
+  },
+  {
+    "objectID": "posts/programacao/modelos-markdown.html#links-úteis",
+    "href": "posts/programacao/modelos-markdown.html#links-úteis",
+    "title": "Modelo de Markdown com Quarto",
+    "section": "🔗 Links Úteis",
+    "text": "🔗 Links Úteis\n\n🧑‍🏫 Sobre o Blog\n💻 Repositório no GitHub\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "tags.html#todas-as-tags",
+    "href": "tags.html#todas-as-tags",
+    "title": "Tags",
+    "section": "📚 Todas as Tags",
+    "text": "📚 Todas as Tags\n\nalbert einstein (1) análise combinatória (1) análise de dados (2) ano milagroso (1) arte e matemática (1) artigos de 1905 (1) beleza matemática (1) blocos de código (2) cabeçalho yaml (3) configuração de post (1) contração do comprimento (1) definição recursiva (1) demonstrações elegantes (1) divulgação científica (1) documentos científicos (2) ensino (1) epub (1) espaço-tempo (2) estética matemática (1) estrutura de documento (1) estrutura de documentos (1) estrutura de site (1) fatorial de zero (1) filosofia da matemática (1) física (2) formatação (1) formatação de texto (1) fórmulas matemáticas (1) g.h. hardy (1) gráficos com ggplot2 (1) gráficos com python (1) html (3) index.qmd (1) integração R e Quarto (1) justificativa lógica (1) latex (2) luz (1) markdown (1) matemática (3) metadados (1) modelos latex (1) números fatoriais (1) organização de capítulos (1) parâmetros yaml (1) pessoal (1) princípio multiplicativo (1) programação (6) projetos científicos (1) propósito do blog (1) python (2) quarto (5) R (1) referencial inercial (1) relatividade especial (1) relatórios automatizados (1) relatórios em R (1) renderização latex (1) simultaneidade (1) slides (1) sobre o blog (1) tabulate (1) templates quarto (1) tempo dilatado (1) transformação de lorentz (1) velocidade (1) velocidade da luz (1) visualização de dados (1) yaml no quarto (1)"
+  },
+  {
+    "objectID": "tags/analise-combinatoria.html",
+    "href": "tags/analise-combinatoria.html",
+    "title": "análise combinatória",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/analise-combinatoria.html#posts-com-a-tag-análise-combinatória",
+    "href": "tags/analise-combinatoria.html#posts-com-a-tag-análise-combinatória",
+    "title": "análise combinatória",
+    "section": "Posts com a tag análise combinatória",
+    "text": "Posts com a tag análise combinatória\n\nPor que 0! = 1?"
+  },
+  {
+    "objectID": "tags/ano-milagroso.html",
+    "href": "tags/ano-milagroso.html",
+    "title": "ano milagroso",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/ano-milagroso.html#posts-com-a-tag-ano-milagroso",
+    "href": "tags/ano-milagroso.html#posts-com-a-tag-ano-milagroso",
+    "title": "ano milagroso",
+    "section": "Posts com a tag ano milagroso",
+    "text": "Posts com a tag ano milagroso\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+  },
+  {
+    "objectID": "tags/artigos-de-1905.html",
+    "href": "tags/artigos-de-1905.html",
+    "title": "artigos de 1905",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/artigos-de-1905.html#posts-com-a-tag-artigos-de-1905",
+    "href": "tags/artigos-de-1905.html#posts-com-a-tag-artigos-de-1905",
+    "title": "artigos de 1905",
+    "section": "Posts com a tag artigos de 1905",
+    "text": "Posts com a tag artigos de 1905\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+  },
+  {
+    "objectID": "tags/blocos-de-codigo.html",
+    "href": "tags/blocos-de-codigo.html",
+    "title": "blocos de código",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/blocos-de-codigo.html#posts-com-a-tag-blocos-de-código",
+    "href": "tags/blocos-de-codigo.html#posts-com-a-tag-blocos-de-código",
+    "title": "blocos de código",
+    "section": "Posts com a tag blocos de código",
+    "text": "Posts com a tag blocos de código\n\nModelos de Código em Python para Usar com Quarto\nModelos de Código em R para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/configuracao-de-post.html",
+    "href": "tags/configuracao-de-post.html",
+    "title": "configuração de post",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/configuracao-de-post.html#posts-com-a-tag-configuração-de-post",
+    "href": "tags/configuracao-de-post.html#posts-com-a-tag-configuração-de-post",
+    "title": "configuração de post",
+    "section": "Posts com a tag configuração de post",
+    "text": "Posts com a tag configuração de post\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "tags/definicao-recursiva.html",
+    "href": "tags/definicao-recursiva.html",
+    "title": "definição recursiva",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/definicao-recursiva.html#posts-com-a-tag-definição-recursiva",
+    "href": "tags/definicao-recursiva.html#posts-com-a-tag-definição-recursiva",
+    "title": "definição recursiva",
+    "section": "Posts com a tag definição recursiva",
+    "text": "Posts com a tag definição recursiva\n\nPor que 0! = 1?"
+  },
+  {
+    "objectID": "tags/divulgacao-cientifica.html",
+    "href": "tags/divulgacao-cientifica.html",
+    "title": "divulgação científica",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/divulgacao-cientifica.html#posts-com-a-tag-divulgação-científica",
+    "href": "tags/divulgacao-cientifica.html#posts-com-a-tag-divulgação-científica",
+    "title": "divulgação científica",
+    "section": "Posts com a tag divulgação científica",
+    "text": "Posts com a tag divulgação científica\n\nSobre o Blog"
+  },
+  {
+    "objectID": "tags/ensino.html",
+    "href": "tags/ensino.html",
+    "title": "ensino",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/ensino.html#posts-com-a-tag-ensino",
+    "href": "tags/ensino.html#posts-com-a-tag-ensino",
+    "title": "ensino",
+    "section": "Posts com a tag ensino",
+    "text": "Posts com a tag ensino\n\nSobre o Blog"
+  },
+  {
+    "objectID": "tags/espaco-tempo.html",
+    "href": "tags/espaco-tempo.html",
+    "title": "espaço-tempo",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/espaco-tempo.html#posts-com-a-tag-espaço-tempo",
+    "href": "tags/espaco-tempo.html#posts-com-a-tag-espaço-tempo",
+    "title": "espaço-tempo",
+    "section": "Posts com a tag espaço-tempo",
+    "text": "Posts com a tag espaço-tempo\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/estrutura-de-documento.html",
+    "href": "tags/estrutura-de-documento.html",
+    "title": "estrutura de documento",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/estrutura-de-documento.html#posts-com-a-tag-estrutura-de-documento",
+    "href": "tags/estrutura-de-documento.html#posts-com-a-tag-estrutura-de-documento",
+    "title": "estrutura de documento",
+    "section": "Posts com a tag estrutura de documento",
+    "text": "Posts com a tag estrutura de documento\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "tags/estrutura-de-site.html",
+    "href": "tags/estrutura-de-site.html",
+    "title": "estrutura de site",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/estrutura-de-site.html#posts-com-a-tag-estrutura-de-site",
+    "href": "tags/estrutura-de-site.html#posts-com-a-tag-estrutura-de-site",
+    "title": "estrutura de site",
+    "section": "Posts com a tag estrutura de site",
+    "text": "Posts com a tag estrutura de site\n\nModelos de index.qmd para Projetos Quarto"
+  },
+  {
+    "objectID": "tags/filosofia-da-matematica.html",
+    "href": "tags/filosofia-da-matematica.html",
+    "title": "filosofia da matemática",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/filosofia-da-matematica.html#posts-com-a-tag-filosofia-da-matemática",
+    "href": "tags/filosofia-da-matematica.html#posts-com-a-tag-filosofia-da-matemática",
+    "title": "filosofia da matemática",
+    "section": "Posts com a tag filosofia da matemática",
+    "text": "Posts com a tag filosofia da matemática\n\nA Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+  },
+  {
+    "objectID": "tags/formatacao.html",
+    "href": "tags/formatacao.html",
+    "title": "formatação",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/formatacao.html#posts-com-a-tag-formatação",
+    "href": "tags/formatacao.html#posts-com-a-tag-formatação",
+    "title": "formatação",
+    "section": "Posts com a tag formatação",
+    "text": "Posts com a tag formatação\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "tags/formulas-matematicas.html",
+    "href": "tags/formulas-matematicas.html",
+    "title": "fórmulas matemáticas",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/formulas-matematicas.html#posts-com-a-tag-fórmulas-matemáticas",
+    "href": "tags/formulas-matematicas.html#posts-com-a-tag-fórmulas-matemáticas",
+    "title": "fórmulas matemáticas",
+    "section": "Posts com a tag fórmulas matemáticas",
+    "text": "Posts com a tag fórmulas matemáticas\n\nModelos de LaTeX para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/graficos-com-ggplot2.html",
+    "href": "tags/graficos-com-ggplot2.html",
+    "title": "gráficos com ggplot2",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/graficos-com-ggplot2.html#posts-com-a-tag-gráficos-com-ggplot2",
+    "href": "tags/graficos-com-ggplot2.html#posts-com-a-tag-gráficos-com-ggplot2",
+    "title": "gráficos com ggplot2",
+    "section": "Posts com a tag gráficos com ggplot2",
+    "text": "Posts com a tag gráficos com ggplot2\n\nModelos de Código em R para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/html.html",
+    "href": "tags/html.html",
+    "title": "html",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/html.html#posts-com-a-tag-html",
+    "href": "tags/html.html#posts-com-a-tag-html",
+    "title": "html",
+    "section": "Posts com a tag html",
+    "text": "Posts com a tag html\n\nModelos de index.qmd para Projetos Quarto\nYAML no Quarto: O Coração Invisível dos Seus Documentos\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/integracao-r-e-quarto.html",
+    "href": "tags/integracao-r-e-quarto.html",
+    "title": "integração R e Quarto",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/integracao-r-e-quarto.html#posts-com-a-tag-integração-r-e-quarto",
+    "href": "tags/integracao-r-e-quarto.html#posts-com-a-tag-integração-r-e-quarto",
+    "title": "integração R e Quarto",
+    "section": "Posts com a tag integração R e Quarto",
+    "text": "Posts com a tag integração R e Quarto\n\nModelos de Código em R para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/latex.html",
+    "href": "tags/latex.html",
+    "title": "latex",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/latex.html#posts-com-a-tag-latex",
+    "href": "tags/latex.html#posts-com-a-tag-latex",
+    "title": "latex",
+    "section": "Posts com a tag latex",
+    "text": "Posts com a tag latex\n\nSobre o Blog\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/markdown.html",
+    "href": "tags/markdown.html",
+    "title": "markdown",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/markdown.html#posts-com-a-tag-markdown",
+    "href": "tags/markdown.html#posts-com-a-tag-markdown",
+    "title": "markdown",
+    "section": "Posts com a tag markdown",
+    "text": "Posts com a tag markdown\n\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/metadados.html",
+    "href": "tags/metadados.html",
+    "title": "metadados",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/metadados.html#posts-com-a-tag-metadados",
+    "href": "tags/metadados.html#posts-com-a-tag-metadados",
+    "title": "metadados",
+    "section": "Posts com a tag metadados",
+    "text": "Posts com a tag metadados\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "tags/numeros-fatoriais.html",
+    "href": "tags/numeros-fatoriais.html",
+    "title": "números fatoriais",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/numeros-fatoriais.html#posts-com-a-tag-números-fatoriais",
+    "href": "tags/numeros-fatoriais.html#posts-com-a-tag-números-fatoriais",
+    "title": "números fatoriais",
+    "section": "Posts com a tag números fatoriais",
+    "text": "Posts com a tag números fatoriais\n\nPor que 0! = 1?"
+  },
+  {
+    "objectID": "tags/parametros-yaml.html",
+    "href": "tags/parametros-yaml.html",
+    "title": "parâmetros yaml",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/parametros-yaml.html#posts-com-a-tag-parâmetros-yaml",
+    "href": "tags/parametros-yaml.html#posts-com-a-tag-parâmetros-yaml",
+    "title": "parâmetros yaml",
+    "section": "Posts com a tag parâmetros yaml",
+    "text": "Posts com a tag parâmetros yaml\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "tags/principio-multiplicativo.html",
+    "href": "tags/principio-multiplicativo.html",
+    "title": "princípio multiplicativo",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/principio-multiplicativo.html#posts-com-a-tag-princípio-multiplicativo",
+    "href": "tags/principio-multiplicativo.html#posts-com-a-tag-princípio-multiplicativo",
+    "title": "princípio multiplicativo",
+    "section": "Posts com a tag princípio multiplicativo",
+    "text": "Posts com a tag princípio multiplicativo\n\nPor que 0! = 1?"
+  },
+  {
+    "objectID": "tags/projetos-cientificos.html",
+    "href": "tags/projetos-cientificos.html",
+    "title": "projetos científicos",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/projetos-cientificos.html#posts-com-a-tag-projetos-científicos",
+    "href": "tags/projetos-cientificos.html#posts-com-a-tag-projetos-científicos",
+    "title": "projetos científicos",
+    "section": "Posts com a tag projetos científicos",
+    "text": "Posts com a tag projetos científicos\n\nModelos de index.qmd para Projetos Quarto"
+  },
+  {
+    "objectID": "tags/python.html",
+    "href": "tags/python.html",
+    "title": "python",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/python.html#posts-com-a-tag-python",
+    "href": "tags/python.html#posts-com-a-tag-python",
+    "title": "python",
+    "section": "Posts com a tag python",
+    "text": "Posts com a tag python\n\nModelos de Código em Python para Usar com Quarto\nModelo de Markdown com Quarto"
+  },
+  {
+    "objectID": "tags/r.html",
+    "href": "tags/r.html",
+    "title": "R",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/r.html#posts-com-a-tag-r",
+    "href": "tags/r.html#posts-com-a-tag-r",
+    "title": "R",
+    "section": "Posts com a tag R",
+    "text": "Posts com a tag R\n\nModelos de Código em R para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/relatividade-especial.html",
+    "href": "tags/relatividade-especial.html",
+    "title": "relatividade especial",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/relatividade-especial.html#posts-com-a-tag-relatividade-especial",
+    "href": "tags/relatividade-especial.html#posts-com-a-tag-relatividade-especial",
+    "title": "relatividade especial",
+    "section": "Posts com a tag relatividade especial",
+    "text": "Posts com a tag relatividade especial\n\nRelatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+  },
+  {
+    "objectID": "tags/relatorios-em-r.html",
+    "href": "tags/relatorios-em-r.html",
+    "title": "relatórios em R",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/relatorios-em-r.html#posts-com-a-tag-relatórios-em-r",
+    "href": "tags/relatorios-em-r.html#posts-com-a-tag-relatórios-em-r",
+    "title": "relatórios em R",
+    "section": "Posts com a tag relatórios em R",
+    "text": "Posts com a tag relatórios em R\n\nModelos de Código em R para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/simultaneidade.html",
+    "href": "tags/simultaneidade.html",
+    "title": "simultaneidade",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/simultaneidade.html#posts-com-a-tag-simultaneidade",
+    "href": "tags/simultaneidade.html#posts-com-a-tag-simultaneidade",
+    "title": "simultaneidade",
+    "section": "Posts com a tag simultaneidade",
+    "text": "Posts com a tag simultaneidade\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/sobre-o-blog.html",
+    "href": "tags/sobre-o-blog.html",
+    "title": "sobre o blog",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/sobre-o-blog.html#posts-com-a-tag-sobre-o-blog",
+    "href": "tags/sobre-o-blog.html#posts-com-a-tag-sobre-o-blog",
+    "title": "sobre o blog",
+    "section": "Posts com a tag sobre o blog",
+    "text": "Posts com a tag sobre o blog\n\nSobre o Blog"
+  },
+  {
+    "objectID": "tags/templates-quarto.html",
+    "href": "tags/templates-quarto.html",
+    "title": "templates quarto",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/templates-quarto.html#posts-com-a-tag-templates-quarto",
+    "href": "tags/templates-quarto.html#posts-com-a-tag-templates-quarto",
+    "title": "templates quarto",
+    "section": "Posts com a tag templates quarto",
+    "text": "Posts com a tag templates quarto\n\nModelos de LaTeX para Usar com Quarto"
+  },
+  {
+    "objectID": "tags/transformacao-de-lorentz.html",
+    "href": "tags/transformacao-de-lorentz.html",
+    "title": "transformação de lorentz",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/transformacao-de-lorentz.html#posts-com-a-tag-transformação-de-lorentz",
+    "href": "tags/transformacao-de-lorentz.html#posts-com-a-tag-transformação-de-lorentz",
+    "title": "transformação de lorentz",
+    "section": "Posts com a tag transformação de lorentz",
+    "text": "Posts com a tag transformação de lorentz\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/velocidade-da-luz.html",
+    "href": "tags/velocidade-da-luz.html",
+    "title": "velocidade da luz",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/velocidade-da-luz.html#posts-com-a-tag-velocidade-da-luz",
+    "href": "tags/velocidade-da-luz.html#posts-com-a-tag-velocidade-da-luz",
+    "title": "velocidade da luz",
+    "section": "Posts com a tag velocidade da luz",
+    "text": "Posts com a tag velocidade da luz\n\nA Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+  },
+  {
+    "objectID": "tags/yaml-no-quarto.html",
+    "href": "tags/yaml-no-quarto.html",
+    "title": "yaml no quarto",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/yaml-no-quarto.html#posts-com-a-tag-yaml-no-quarto",
+    "href": "tags/yaml-no-quarto.html#posts-com-a-tag-yaml-no-quarto",
+    "title": "yaml no quarto",
+    "section": "Posts com a tag yaml no quarto",
+    "text": "Posts com a tag yaml no quarto\n\nYAML no Quarto: O Coração Invisível dos Seus Documentos"
+  },
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Sobre Mim\n\n\n\n\n\n\nTip\n\n\n\n\n\nEste blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.\n\n\n\nMeu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual."
   }
 ]

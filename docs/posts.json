@@ -3,9 +3,13 @@
     "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
     "href": "posts/fisica/relatividade-especial.html",
     "tags": [
-      "Einstein",
       "física",
-      "relatividade",
+      "velocidade",
+      "albert einstein",
+      "artigos de 1905",
+      "ano milagroso",
+      "relatividade especial",
+      "luz",
       "espaço-tempo"
     ]
   },
@@ -13,29 +17,27 @@
     "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
     "href": "posts/fisica/relatividade-especial-academico.html",
     "tags": [
-      "Einstein",
       "física",
-      "relatividade",
-      "espaço-tempo",
-      "Lorentz",
-      "Galileu",
-      "Newton"
+      "transformação de lorentz",
+      "referencial inercial",
+      "velocidade da luz",
+      "contração do comprimento",
+      "simultaneidade",
+      "tempo dilatado",
+      "espaço-tempo"
     ]
   },
   {
     "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
     "href": "posts/matematica/beleza-matematica.html",
     "tags": [
-      "Hardy",
       "matemática",
       "estética matemática",
-      "relatividade",
-      "quadrivetores",
-      "espaço-tempo",
-      "Euclides",
-      "Euler",
-      "Fermat",
-      "Wiles"
+      "beleza matemática",
+      "demonstrações elegantes",
+      "g.h. hardy",
+      "arte e matemática",
+      "filosofia da matemática"
     ]
   },
   {
@@ -43,21 +45,26 @@
     "href": "posts/matematica/fatorial-zero.html",
     "tags": [
       "matemática",
-      "fatorial",
-      "função gama",
-      "série de Taylor"
+      "fatorial de zero",
+      "análise combinatória",
+      "definição recursiva",
+      "justificativa lógica",
+      "números fatoriais",
+      "princípio multiplicativo"
     ]
   },
   {
     "title": "Sobre o Blog",
     "href": "posts/pessoal/sobre-o-blog.html",
     "tags": [
-      "programação",
-      "blog",
+      "pessoal",
+      "sobre o blog",
+      "propósito do blog",
+      "matemática",
       "quarto",
       "latex",
-      "python",
-      "R"
+      "ensino",
+      "divulgação científica"
     ]
   },
   {
@@ -65,11 +72,87 @@
     "href": "posts/programacao/modelos-latex-quarto.html",
     "tags": [
       "programação",
+      "modelos latex",
+      "templates quarto",
+      "cabeçalho yaml",
+      "fórmulas matemáticas",
+      "documentos científicos",
+      "renderização latex",
+      "estrutura de documentos"
+    ]
+  },
+  {
+    "title": "Modelos de index.qmd para Projetos Quarto",
+    "href": "posts/programacao/modelos-index-quarto.html",
+    "tags": [
+      "programação",
+      "index.qmd",
+      "estrutura de site",
+      "cabeçalho yaml",
       "quarto",
-      "latex",
+      "html",
+      "projetos científicos",
+      "organização de capítulos"
+    ]
+  },
+  {
+    "title": "Modelos de Código em Python para Usar com Quarto",
+    "href": "posts/programacao/modelos-python-quarto.html",
+    "tags": [
+      "programação",
       "python",
+      "quarto",
+      "relatórios automatizados",
+      "visualização de dados",
+      "gráficos com python",
+      "tabulate",
+      "blocos de código",
+      "análise de dados"
+    ]
+  },
+  {
+    "title": "Modelos de Código em R para Usar com Quarto",
+    "href": "posts/programacao/modelos-r-quarto.html",
+    "tags": [
+      "programação",
       "R",
-      "markdown"
+      "quarto",
+      "relatórios em R",
+      "blocos de código",
+      "gráficos com ggplot2",
+      "análise de dados",
+      "integração R e Quarto"
+    ]
+  },
+  {
+    "title": "YAML no Quarto: O Coração Invisível dos Seus Documentos",
+    "href": "posts/programacao/yaml-no-quarto.html",
+    "tags": [
+      "programação",
+      "yaml no quarto",
+      "cabeçalho yaml",
+      "html",
+      "metadados",
+      "estrutura de documento",
+      "formatação",
+      "parâmetros yaml",
+      "configuração de post"
+    ]
+  },
+  {
+    "title": "Modelo de Markdown com Quarto",
+    "href": "posts/programacao/modelos-markdown.html",
+    "tags": [
+      "programação",
+      "markdown",
+      "quarto",
+      "python",
+      "latex",
+      "html",
+      "epub",
+      "slides",
+      "documentos científicos",
+      "formatação de texto"
     ]
   }
 ]

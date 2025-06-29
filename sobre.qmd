@@ -1,3 +1,8 @@
-# Sobre
+# Sobre Mim
 
-Meu nome é Celso Marcellini, sou bacharel em matemática, e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual.
+::: {.callout-tip collapse=false icon='🌟'}
+Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.
+:::
+
+
+Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual.

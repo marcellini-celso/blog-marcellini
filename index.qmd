@@ -34,6 +34,11 @@ Neste espaço compartilho reflexões, visualizações matemáticas, explicaçõe
 ## 🆕 Últimos Posts
 
 <!-- inicio-ultimos-posts -->
+- [YAML no Quarto: O Coração Invisível dos Seus Documentos](posts/programacao/yaml-no-quarto.html)
+- [Modelos de index.qmd para Projetos Quarto](posts/programacao/modelos-index-quarto.html)
+- [Modelos de Código em R para Usar com Quarto](posts/programacao/modelos-r-quarto.html)
+- [Modelos de Código em Python para Usar com Quarto](posts/programacao/modelos-python-quarto.html)
+- [Modelo de Markdown com Quarto](posts/programacao/modelos-markdown.html)
 - [Modelos de LaTeX para Usar com Quarto](posts/programacao/modelos-latex-quarto.html)
 - [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](posts/matematica/beleza-matematica.html)
 - [Por que 0! = 1?](posts/matematica/fatorial-zero.html)
