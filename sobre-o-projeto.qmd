@@ -92,15 +92,14 @@ format:
 
 ---
 
-## 🌐 Acesse o blog
+---
 
-➡️ [https://marcellini-celso.github.io/blog-marcellini/](https://marcellini-celso.github.io/blog-marcellini/)
+*Criado por Blog do Marcellini com ❤️ e código.*
 
 ---
 
-## 📬 Contato
+## 🔗 Links Úteis
 
-Para dúvidas, sugestões ou colaborações, entre em contato por e-mail:  
-✉️ **[prof.marcellini@gmail.com](mailto:prof.marcellini@gmail.com)**
-
-```
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)

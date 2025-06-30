@@ -27,6 +27,8 @@ website:
             text: Relatividade Especial -- Einstein, o Tempo e a Velocidade da Luz
           - href: posts/fisica/relatividade-especial-academico.qmd
             text: A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica
+          - href: posts/fisica/100-anos-mecanica-quantica.qmd
+            text: 100 Anos da Mecânica Quântica (1925–2025)
       - text: "💻 Programação"
         menu:
           - href: posts/programacao/modelos-latex-quarto.qmd

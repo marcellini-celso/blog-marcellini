@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Celso Marcellini">
+<meta name="author" content="Blog do Marcellini">
 
 <title>Modelos de Código em Python para Usar com Quarto – Blog do Marcellini</title>
 <style>
@@ -197,6 +197,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../../posts/fisica/relatividade-especial-academico.html">
  <span class="dropdown-text">A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/100-anos-mecanica-quantica.html">
+ <span class="dropdown-text">100 Anos da Mecânica Quântica (1925–2025)</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -293,7 +297,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Autor</div>
     <div class="quarto-title-meta-contents">
-             <p>Celso Marcellini </p>
+             <p>Blog do Marcellini </p>
           </div>
   </div>
     
@@ -336,7 +340,7 @@ window.Quarto = {
 </section>
 <section id="bloco-de-código-simples-em-python" class="level1">
 <h1>1. Bloco de código simples em Python</h1>
-<div id="d0f9f952" class="cell" data-execution_count="1">
+<div id="544323cb" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">11</span>))</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [i<span class="op">**</span><span class="dv">2</span> <span class="cf">for</span> i <span class="kw">in</span> x]</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>y</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -348,7 +352,7 @@ window.Quarto = {
 </section>
 <section id="gráfico-com-matplotlib" class="level1">
 <h1>2. Gráfico com matplotlib</h1>
-<div id="5362a162" class="cell" data-execution_count="2">
+<div id="4a87e2e0" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>, color<span class="op">=</span><span class="st">'blue'</span>)</span>
@@ -369,7 +373,7 @@ window.Quarto = {
 </section>
 <section id="usando-numpy-e-seaborn" class="level1">
 <h1>3. Usando numpy e seaborn</h1>
-<div id="2c180863" class="cell" data-execution_count="3">
+<div id="3666f77e" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -387,7 +391,7 @@ window.Quarto = {
 </section>
 <section id="análise-com-pandas" class="level1">
 <h1>4. Análise com pandas</h1>
-<div id="0b62d144" class="cell" data-execution_count="4">
+<div id="0e4a75cc" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"</span>)</span>
@@ -458,7 +462,7 @@ window.Quarto = {
 </section>
 <section id="estatísticas-descritivas-com-pandas" class="level1">
 <h1>5. Estatísticas descritivas com pandas</h1>
-<div id="71e9f071" class="cell" data-execution_count="5">
+<div id="fd291c90" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="5">
 <div>
@@ -541,7 +545,7 @@ window.Quarto = {
 </section>
 <section id="gráfico-de-dispersão" class="level1">
 <h1>6. Gráfico de dispersão</h1>
-<div id="56d86501" class="cell" data-execution_count="6">
+<div id="27623ef9" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">"sepal_length"</span>, y<span class="op">=</span><span class="st">"petal_length"</span>, hue<span class="op">=</span><span class="st">"species"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
@@ -555,7 +559,7 @@ window.Quarto = {
 </section>
 <section id="regressão-linear-com-scikit-learn" class="level1">
 <h1>7. Regressão linear com scikit-learn</h1>
-<div id="3748d77e" class="cell" data-execution_count="7">
+<div id="caffb26e" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df[[<span class="st">"sepal_length"</span>]]</span>
@@ -575,7 +579,7 @@ Intercepto: -7.10</code></pre>
 </section>
 <section id="gráfico-com-linha-de-regressão" class="level1">
 <h1>8. Gráfico com linha de regressão</h1>
-<div id="c2e2c6ad" class="cell" data-execution_count="8">
+<div id="845ac248" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(X, y, color<span class="op">=</span><span class="st">'gray'</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.plot(X, modelo.predict(X), color<span class="op">=</span><span class="st">'red'</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sepal Length"</span>)</span>
@@ -594,7 +598,7 @@ Intercepto: -7.10</code></pre>
 </section>
 <section id="tabela-formatada-com-tabulate" class="level1">
 <h1>9. Tabela formatada com tabulate</h1>
-<div id="671b3c37" class="cell" data-execution_count="9">
+<div id="dfa5e0eb" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tabulate <span class="im">import</span> tabulate</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>tabela <span class="op">=</span> df.head(<span class="dv">5</span>)</span>
@@ -615,7 +619,7 @@ Intercepto: -7.10</code></pre>
 <h1>Conclusão</h1>
 <p>Com Quarto e Python, é possível gerar relatórios e documentos ricos em conteúdo visual e analítico, integrando texto, código, gráficos e resultados de forma automatizada e elegante.</p>
 <hr>
-<p><em>Criado por Celso Marcellini com ❤️ e código.</em></p>
+<p><em>Criado por Blog do Marcellini com ❤️ e código.</em></p>
 <hr>
 <section id="links-úteis" class="level2">
 <h2 class="anchored" data-anchor-id="links-úteis">🔗 Links Úteis</h2>

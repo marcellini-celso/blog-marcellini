@@ -6,3 +6,15 @@ Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados 
 
 
 Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX e programação de forma acessível e visual.
+
+---
+
+*Criado por Blog do Marcellini com ❤️ e código.*
+
+---
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
