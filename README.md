@@ -8,6 +8,7 @@ Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.o
 
 - [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](https://marcellini-celso.github.io/blog-marcellini/posts/matematica/beleza-matematica.html)
 - [Por que \( 0! = 1 \)?](https://marcellini-celso.github.io/blog-marcellini/posts/matematica/fatorial-zero.html)
+- [100 Anos da Mecânica Quântica (1925-2025)](https://marcellini-celso.github.io/blog-marcellini/posts/fisica/100-anos-mecanica-quantica.html)
 
 ---
 
