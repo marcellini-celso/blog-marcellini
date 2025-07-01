@@ -1,25 +1,131 @@
-      1 blog
-      2 Einstein
-      3 espaço-tempo
-      1 estética matemática
-      1 Euclides
-      1 Euler
-      1 fatorial
-      1 Fermat
-      2 física
-      1 função gama
-      1 Galileu
-      1 Hardy
-      2 latex
-      1 Lorentz
-      1 markdown
-      2 matemática
-      1 Newton
-      2 programação
-      2 python
-      1 quadrivetores
-      2 quarto
-      2 R
-      3 relatividade
-      1 série de Taylor
-      1 Wiles
+6 programação
+5 quarto
+3 cabeçalho yaml
+3 física
+3 html
+3 matemática
+2 Albert Einstein
+2 análise de dados
+2 blocos de código
+2 computação quântica
+2 documentos científicos
+2 espaço-tempo
+2 latex
+2 python
+1 Alain Aspect
+1 Erwin Schrödinger
+1 Euclides
+1 Euler
+1 Fermat
+1 Feynman
+1 Hardy
+1 Hugh Everett III
+1 John Bell
+1 Littlewood
+1 Lord Kelvin
+1 Max Born
+1 Max Planck
+1 Maxwell
+1 Minkowski
+1 Niels Bohr
+1 Pascual Jordan
+1 Paul Dirac
+1 QED
+1 R
+1 Ramanujan
+1 Rayleigh-Jeans
+1 Schwinger
+1 Taniyama–Shimura
+1 Taylor
+1 Tomonaga
+1 Werner Heisenberg
+1 Wiles
+1 ano milagroso
+1 análise combinatória
+1 arte e matemática
+1 artigos de 1905
+1 beleza matemática
+1 catástrofe do ultravioleta
+1 configuração de post
+1 congresso de Solvay
+1 contração do comprimento
+1 corpo negro
+1 criptografia quântica
+1 decoerência quântica
+1 definição recursiva
+1 demonstrações elegantes
+1 desigualdades de Bell
+1 divulgação científica
+1 efeito fotoelétrico
+1 eletrodinâmica quântica
+1 emaranhamento quântico
+1 ensino
+1 epub
+1 espaços de Hilbert
+1 estrutura de documento
+1 estrutura de documentos
+1 estrutura de site
+1 estética matemática
+1 fatorial de zero
+1 filosofia da matemática
+1 formatação
+1 formatação de texto
+1 função de onda
+1 função gama
+1 fórmulas matemáticas
+1 gato de Schrödinger
+1 gravidade quântica em loop
+1 gráficos com ggplot2
+1 gráficos com python
+1 história da física
+1 index.qmd
+1 integração R e Quarto
+1 interpretação de Copenhague
+1 interpretação de muitos mundos
+1 justificativa lógica
+1 luz
+1 markdown
+1 mecânica estatística
+1 mecânica matricial
+1 mecânica quântica
+1 metadados
+1 modelos latex
+1 números fatoriais
+1 organização de capítulos
+1 parâmetros yaml
+1 pessoal
+1 princípio da incerteza
+1 princípio multiplicativo
+1 projetos científicos
+1 propósito do blog
+1 quanta
+1 quantização da radiação
+1 qubits
+1 referencial inercial
+1 relatividade especial
+1 relatividade geral
+1 relatórios automatizados
+1 relatórios em R
+1 renderização latex
+1 segunda revolução quântica
+1 simultaneidade
+1 slides
+1 sobre o blog
+1 série de Taylor
+1 tabulate
+1 teleportação quântica
+1 templates quarto
+1 tempo dilatado
+1 teorema EPR
+1 teorema de Bell
+1 teoria das cordas
+1 teoria de campos quânticos
+1 teoria quântica
+1 teoria quântica da gravidade
+1 transformação de Lorentz
+1 universos paralelos
+1 variáveis ocultas locais
+1 velocidade
+1 velocidade da luz
+1 visualização de dados
+1 yaml no quarto

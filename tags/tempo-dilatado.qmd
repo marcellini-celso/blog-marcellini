@@ -1,0 +1,10 @@
+---
+title: "tempo dilatado"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **tempo dilatado**
+
+- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)

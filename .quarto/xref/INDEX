@@ -80,5 +80,425 @@
   },
   "posts/fisica/relatividade-especial-academico.sync-conflict-20250624-104014-JOWMUZL.qmd": {
     "relatividade-especial-academico.sync-conflict-20250624-104014-JOWMUZL.html": "aa37f495"
+  },
+  "posts/programacao/modelos-python-quarto.qmd": {
+    "modelos-python-quarto.html": "2e7d1731"
+  },
+  "posts/programacao/modelos-markdown.qmd": {
+    "modelos-markdown.html": "0e13dcf7"
+  },
+  "posts/programacao/modelos-index-quarto.qmd": {
+    "modelos-index-quarto.html": "4601adb0"
+  },
+  "posts/programacao/modelos-r-quarto.qmd": {
+    "modelos-r-quarto.html": "81abd9af"
+  },
+  "posts/programacao/yaml-no-quarto.qmd": {
+    "yaml-no-quarto.html": "3b65a05f"
+  },
+  "tags/albert-einstein.qmd": {
+    "albert-einstein.html": "12f0fa5a"
+  },
+  "tags/analise-combinatoria.qmd": {
+    "analise-combinatoria.html": "9238aa85"
+  },
+  "tags/analise-de-dados.qmd": {
+    "analise-de-dados.html": "c914162d"
+  },
+  "tags/ano-milagroso.qmd": {
+    "ano-milagroso.html": "f0f2336a"
+  },
+  "tags/arte-e-matematica.qmd": {
+    "arte-e-matematica.html": "9d46c943"
+  },
+  "tags/artigos-de-1905.qmd": {
+    "artigos-de-1905.html": "171a5fb9"
+  },
+  "tags/beleza-matematica.qmd": {
+    "beleza-matematica.html": "a38e2019"
+  },
+  "tags/blocos-de-codigo.qmd": {
+    "blocos-de-codigo.html": "54872b06"
+  },
+  "tags/cabecalho-yaml.qmd": {
+    "cabecalho-yaml.html": "5eac0bb0"
+  },
+  "tags/configuracao-de-post.qmd": {
+    "configuracao-de-post.html": "8c1e9e68"
+  },
+  "tags/contracao-do-comprimento.qmd": {
+    "contracao-do-comprimento.html": "84a398d2"
+  },
+  "tags/definicao-recursiva.qmd": {
+    "definicao-recursiva.html": "2f5fead6"
+  },
+  "tags/demonstracoes-elegantes.qmd": {
+    "demonstracoes-elegantes.html": "259d6779"
+  },
+  "tags/divulgacao-cientifica.qmd": {
+    "divulgacao-cientifica.html": "1f8a47de"
+  },
+  "tags/documentos-cientificos.qmd": {
+    "documentos-cientificos.html": "7c909862"
+  },
+  "tags/ensino.qmd": {
+    "ensino.html": "17d987fe"
+  },
+  "tags/epub.qmd": {
+    "epub.html": "4742c7e4"
+  },
+  "tags/espaco-tempo.qmd": {
+    "espaco-tempo.html": "71ebc2de"
+  },
+  "tags/estetica-matematica.qmd": {
+    "estetica-matematica.html": "76d43c3c"
+  },
+  "tags/estrutura-de-documento.qmd": {
+    "estrutura-de-documento.html": "25174436"
+  },
+  "tags/estrutura-de-documentos.qmd": {
+    "estrutura-de-documentos.html": "cc6fab7a"
+  },
+  "tags/estrutura-de-site.qmd": {
+    "estrutura-de-site.html": "fc5c7ae0"
+  },
+  "tags/fatorial-de-zero.qmd": {
+    "fatorial-de-zero.html": "02c85d06"
+  },
+  "tags/filosofia-da-matematica.qmd": {
+    "filosofia-da-matematica.html": "97fd80cb"
+  },
+  "tags/fisica.qmd": {
+    "fisica.html": "7041fa22"
+  },
+  "tags/formatacao.qmd": {
+    "formatacao.html": "c29a1f46"
+  },
+  "tags/formatacao-de-texto.qmd": {
+    "formatacao-de-texto.html": "a680a3f9"
+  },
+  "tags/formulas-matematicas.qmd": {
+    "formulas-matematicas.html": "c5bce18d"
+  },
+  "tags/g.h.-hardy.qmd": {
+    "g.h.-hardy.html": "c3c82554"
+  },
+  "tags/graficos-com-ggplot2.qmd": {
+    "graficos-com-ggplot2.html": "78a0981f"
+  },
+  "tags/graficos-com-python.qmd": {
+    "graficos-com-python.html": "39299dc5"
+  },
+  "tags/html.qmd": {
+    "html.html": "6665e274"
+  },
+  "tags/index.qmd.qmd": {
+    "index.qmd.html": "00d2aae1"
+  },
+  "tags/integracao-r-e-quarto.qmd": {
+    "integracao-r-e-quarto.html": "71050895"
+  },
+  "tags/justificativa-logica.qmd": {
+    "justificativa-logica.html": "c0123004"
+  },
+  "tags/latex.qmd": {
+    "latex.html": "91ef3c78"
+  },
+  "tags/luz.qmd": {
+    "luz.html": "904254d5"
+  },
+  "tags/markdown.qmd": {
+    "markdown.html": "abef5a75"
+  },
+  "tags/matematica.qmd": {
+    "matematica.html": "85cbcc20"
+  },
+  "tags/metadados.qmd": {
+    "metadados.html": "1e9c4a25"
+  },
+  "tags/modelos-latex.qmd": {
+    "modelos-latex.html": "4b1a3435"
+  },
+  "tags/numeros-fatoriais.qmd": {
+    "numeros-fatoriais.html": "4bcfcfaf"
+  },
+  "tags/organizacao-de-capitulos.qmd": {
+    "organizacao-de-capitulos.html": "94170bc5"
+  },
+  "tags/parametros-yaml.qmd": {
+    "parametros-yaml.html": "2240a383"
+  },
+  "tags/pessoal.qmd": {
+    "pessoal.html": "fcc09554"
+  },
+  "tags/principio-multiplicativo.qmd": {
+    "principio-multiplicativo.html": "fcd44106"
+  },
+  "tags/programacao.qmd": {
+    "programacao.html": "d27c1e8b"
+  },
+  "tags/projetos-cientificos.qmd": {
+    "projetos-cientificos.html": "a2a109c6"
+  },
+  "tags/proposito-do-blog.qmd": {
+    "proposito-do-blog.html": "2b1479ac"
+  },
+  "tags/python.qmd": {
+    "python.html": "8e46e259"
+  },
+  "tags/quarto.qmd": {
+    "quarto.html": "baa0fb43"
+  },
+  "tags/r.qmd": {
+    "r.html": "d19b06be"
+  },
+  "tags/referencial-inercial.qmd": {
+    "referencial-inercial.html": "6e794383"
+  },
+  "tags/relatividade-especial.qmd": {
+    "relatividade-especial.html": "850c8c44"
+  },
+  "tags/relatorios-automatizados.qmd": {
+    "relatorios-automatizados.html": "9c5d1ca6"
+  },
+  "tags/relatorios-em-r.qmd": {
+    "relatorios-em-r.html": "78581f85"
+  },
+  "tags/renderizacao-latex.qmd": {
+    "renderizacao-latex.html": "ab9d74e5"
+  },
+  "tags/simultaneidade.qmd": {
+    "simultaneidade.html": "3ffb16ea"
+  },
+  "tags/slides.qmd": {
+    "slides.html": "97675590"
+  },
+  "tags/sobre-o-blog.qmd": {
+    "sobre-o-blog.html": "585b913e"
+  },
+  "tags/tabulate.qmd": {
+    "tabulate.html": "0c35a40f"
+  },
+  "tags/templates-quarto.qmd": {
+    "templates-quarto.html": "8f5d4ae0"
+  },
+  "tags/tempo-dilatado.qmd": {
+    "tempo-dilatado.html": "c5404c02"
+  },
+  "tags/transformacao-de-lorentz.qmd": {
+    "transformacao-de-lorentz.html": "625c5032"
+  },
+  "tags/velocidade.qmd": {
+    "velocidade.html": "4353aeeb"
+  },
+  "tags/velocidade-da-luz.qmd": {
+    "velocidade-da-luz.html": "964c86fb"
+  },
+  "tags/visualizacao-de-dados.qmd": {
+    "visualizacao-de-dados.html": "22d41156"
+  },
+  "tags/yaml-no-quarto.qmd": {
+    "yaml-no-quarto.html": "51ce1bb7"
+  },
+  "sobre-o-projeto.qmd": {
+    "sobre-o-projeto.html": "8e4725f9"
+  },
+  "posts/fisica/100-anos-mecanica-quantica.qmd": {
+    "100-anos-mecanica-quantica.html": "7775703e"
+  },
+  "tags/mecanica-quantica.qmd": {
+    "mecanica-quantica.html": "83bfb4c0"
+  },
+  "tags/werner-heisenberg.qmd": {
+    "werner-heisenberg.html": "a95b4f35"
+  },
+  "tags/erwin-schrodinger.qmd": {
+    "erwin-schrodinger.html": "67fe3342"
+  },
+  "tags/teoria-quantica.qmd": {
+    "teoria-quantica.html": "04a03614"
+  },
+  "tags/computacao-quantica.qmd": {
+    "computacao-quantica.html": "ca131c63"
+  },
+  "tags/historia-da-fisica.qmd": {
+    "historia-da-fisica.html": "024d9ae9"
+  },
+  "tags/hardy.qmd": {
+    "hardy.html": "04943126"
+  },
+  "tags/minkowski.qmd": {
+    "minkowski.html": "18c62ab3"
+  },
+  "tags/littlewood.qmd": {
+    "littlewood.html": "913ad9df"
+  },
+  "tags/ramanujan.qmd": {
+    "ramanujan.html": "46833ea2"
+  },
+  "tags/euclides.qmd": {
+    "euclides.html": "115ceae7"
+  },
+  "tags/euler.qmd": {
+    "euler.html": "ff4c8da3"
+  },
+  "tags/fermat.qmd": {
+    "fermat.html": "ab46bc18"
+  },
+  "tags/wiles.qmd": {
+    "wiles.html": "0fc66b29"
+  },
+  "tags/taniyamashimura.qmd": {
+    "taniyamashimura.html": "bbe26c82"
+  },
+  "tags/taylor.qmd": {
+    "taylor.html": "16a639f8"
+  },
+  "tags/catastrofe-do-ultravioleta.qmd": {
+    "catastrofe-do-ultravioleta.html": "96780c77"
+  },
+  "tags/max-planck.qmd": {
+    "max-planck.html": "27289933"
+  },
+  "tags/efeito-fotoeletrico.qmd": {
+    "efeito-fotoeletrico.html": "701c89ff"
+  },
+  "tags/niels-bohr.qmd": {
+    "niels-bohr.html": "8f15b8ed"
+  },
+  "tags/corpo-negro.qmd": {
+    "corpo-negro.html": "96f7f8a7"
+  },
+  "tags/lord-kelvin.qmd": {
+    "lord-kelvin.html": "59a34620"
+  },
+  "tags/maxwell.qmd": {
+    "maxwell.html": "255968f3"
+  },
+  "tags/paul-dirac.qmd": {
+    "paul-dirac.html": "5c5f8beb"
+  },
+  "tags/pascual-jordan.qmd": {
+    "pascual-jordan.html": "bcdf0e1f"
+  },
+  "tags/max-born.qmd": {
+    "max-born.html": "98cdf34c"
+  },
+  "tags/mecanica-matricial.qmd": {
+    "mecanica-matricial.html": "b97a5d90"
+  },
+  "tags/principio-da-incerteza.qmd": {
+    "principio-da-incerteza.html": "fe0b6cb5"
+  },
+  "tags/funcao-de-onda.qmd": {
+    "funcao-de-onda.html": "379c054f"
+  },
+  "tags/interpretacao-de-copenhague.qmd": {
+    "interpretacao-de-copenhague.html": "b50eedec"
+  },
+  "tags/o-gato-de-schrodinger.qmd": {
+    "o-gato-de-schrodinger.html": "5a00b106"
+  },
+  "tags/hugh-everett-iii.qmd": {
+    "hugh-everett-iii.html": "7e9e1145"
+  },
+  "tags/emaranhamento-quantico.qmd": {
+    "emaranhamento-quantico.html": "734810b5"
+  },
+  "tags/interpretacao-de-muitos-mundos.qmd": {
+    "interpretacao-de-muitos-mundos.html": "848291f3"
+  },
+  "tags/john-bell.qmd": {
+    "john-bell.html": "41cc6f04"
+  },
+  "tags/alain-aspect.qmd": {
+    "alain-aspect.html": "a413055a"
+  },
+  "tags/criptografia-quantica.qmd": {
+    "criptografia-quantica.html": "65950174"
+  },
+  "tags/teleportacao-quantica.qmd": {
+    "teleportacao-quantica.html": "40102def"
+  },
+  "tags/eletrodinamica-quantica.qmd": {
+    "eletrodinamica-quantica.html": "8f33c804"
+  },
+  "tags/qed.qmd": {
+    "qed.html": "2a1d5235"
+  },
+  "tags/feynman.qmd": {
+    "feynman.html": "ba09b88b"
+  },
+  "tags/schwinger.qmd": {
+    "schwinger.html": "5036c463"
+  },
+  "tags/tomonaga.qmd": {
+    "tomonaga.html": "a91173a2"
+  },
+  "tags/teorema-epr.qmd": {
+    "teorema-epr.html": "252a47b6"
+  },
+  "tags/teorema-de-bell.qmd": {
+    "teorema-de-bell.html": "725777e0"
+  },
+  "tags/congresso-de-solvay.qmd": {
+    "congresso-de-solvay.html": "384c0e64"
+  },
+  "tags/relatividade-geral.qmd": {
+    "relatividade-geral.html": "1322bb85"
+  },
+  "tags/teoria-quantica-da-gravidade.qmd": {
+    "teoria-quantica-da-gravidade.html": "2ec2e720"
+  },
+  "tags/gravidade-quantica-em-loop.qmd": {
+    "gravidade-quantica-em-loop.html": "5a216439"
+  },
+  "tags/teoria-das-cordas.qmd": {
+    "teoria-das-cordas.html": "991a17f2"
+  },
+  "tags/segunda-revolucao-quantica.qmd": {
+    "segunda-revolucao-quantica.html": "2b8ca631"
+  },
+  "tags/rayleigh-jeans.qmd": {
+    "rayleigh-jeans.html": "9b2b1576"
+  },
+  "tags/quanta.qmd": {
+    "quanta.html": "35a900eb"
+  },
+  "tags/quantizacao-da-radiacao.qmd": {
+    "quantizacao-da-radiacao.html": "acd778e7"
+  },
+  "tags/espacos-de-hilbert.qmd": {
+    "espacos-de-hilbert.html": "b67ff9dd"
+  },
+  "tags/mecanica-estatistica.qmd": {
+    "mecanica-estatistica.html": "5d76b109"
+  },
+  "tags/teoria-de-campos-quanticos.qmd": {
+    "teoria-de-campos-quanticos.html": "9e208801"
+  },
+  "tags/universos-paralelos.qmd": {
+    "universos-paralelos.html": "9450d0e5"
+  },
+  "tags/desigualdades-de-bell.qmd": {
+    "desigualdades-de-bell.html": "8f06eab9"
+  },
+  "tags/variaveis-ocultas-locais.qmd": {
+    "variaveis-ocultas-locais.html": "4c604819"
+  },
+  "tags/qubits.qmd": {
+    "qubits.html": "2596cca8"
+  },
+  "tags/decoerencia-quantica.qmd": {
+    "decoerencia-quantica.html": "8caa5b45"
+  },
+  "tags/gato-de-schrodinger.qmd": {
+    "gato-de-schrodinger.html": "9a044133"
+  },
+  "tags/funcao-gama.qmd": {
+    "funcao-gama.html": "6db7ad40"
+  },
+  "tags/serie-de-taylor.qmd": {
+    "serie-de-taylor.html": "519f4b93"
   }
 }

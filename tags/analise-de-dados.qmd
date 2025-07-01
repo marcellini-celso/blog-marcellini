@@ -1,0 +1,11 @@
+---
+title: "análise de dados"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **análise de dados**
+
+- [Modelos de Código em R para Usar com Quarto](/posts/programacao/modelos-r-quarto.html)
+- [Modelos de Código em Python para Usar com Quarto](/posts/programacao/modelos-python-quarto.html)

@@ -1,0 +1,10 @@
+---
+title: "referencial inercial"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **referencial inercial**
+
+- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)

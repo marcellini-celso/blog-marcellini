@@ -1,7 +1,7 @@
 ---
 title: "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
 description: "Entenda passo a passo os fundamentos da teoria de Einstein: postulados, transformações, dilatação do tempo, paradoxo dos gêmeos, equivalência massa-energia e muito mais."
-author: "Celso Marcellini"
+author: "Blog do Marcellini"
 date: 2025-06-21
 lang: pt-BR
 format:
@@ -9,8 +9,8 @@ format:
     toc: true
     toc-depth: 2
     number-sections: false
-categories: [física, relatividade]
-tags: [Einstein, física, relatividade, espaço-tempo, Lorentz, Galileu, Newton]
+categories: [física]
+tags: [física, transformação de Lorentz, referencial inercial, velocidade da luz, contração do comprimento, simultaneidade, tempo dilatado, espaço-tempo]
 execute:
   engine: knitr
   echo: true
@@ -234,6 +234,10 @@ A Relatividade Especial transformou nossa visão do universo. Tempo e espaço s�
 Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
 
 > ⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos.
+
+---
+
+*Criado por Blog do Marcellini com ❤️ e código.*
 
 ---
 

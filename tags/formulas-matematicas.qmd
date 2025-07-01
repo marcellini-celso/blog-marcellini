@@ -1,0 +1,10 @@
+---
+title: "fórmulas matemáticas"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **fórmulas matemáticas**
+
+- [Modelos de LaTeX para Usar com Quarto](/posts/programacao/modelos-latex-quarto.html)

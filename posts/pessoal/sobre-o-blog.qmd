@@ -1,7 +1,7 @@
 ---
 title: "Sobre o Blog"
 description: "Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX."
-author: "Celso Marcellini"
+author: "Blog do Marcellini"
 date: 2025-06-17
 lang: pt-BR
 format:
@@ -9,8 +9,8 @@ format:
     toc: true
     toc-depth: 2
     number-sections: false
-categories: [pessoal, programação, quarto, latex, python, R]
-tags: [programação, blog, quarto, latex, python, R]
+categories: [pessoal]
+tags: [pessoal, sobre o blog, propósito do blog, matemática, quarto, latex, ensino, divulgação científica]
 execute:
   echo: false
   warning: false
@@ -52,7 +52,7 @@ Compartilhar ideias e explicações matemáticas com visual limpo e acessível, 
 
 ---
 
-*Criado por Celso Marcellini com ❤️ e código.*
+*Criado por Blog do Marcellini com ❤️ e código.*
 
 ---
 

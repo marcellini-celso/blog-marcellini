@@ -1,0 +1,154 @@
+---
+title: "Modelos de Código em R para Usar com Quarto"
+author: "Blog do Marcellini"
+date: 2025-06-29
+format: html
+editor: visual
+lang: pt-BR
+categories: [programação]
+tags: [programação, R, quarto, relatórios em R, blocos de código, gráficos com ggplot2, análise de dados, integração R e Quarto]
+
+execute:
+  engine: knitr
+  echo: true
+  warning: false
+  message: false
+---
+
+# Introdução
+
+O Quarto permite a execução direta de blocos de código R em arquivos `.qmd`.  
+Isso torna possível gerar relatórios dinâmicos, gráficos, análises estatísticas e visualizações interativas, tudo integrado ao texto.
+
+O trecho abaixo é o **cabeçalho YAML** do documento `.qmd`, que define título, autor, data, formato de saída e opções de execução do código R:
+
+```yaml
+---
+title: "Modelos de Código em R para Usar com Quarto"
+author: "Celso Marcellini"
+date: 2025-06-23
+format: html
+editor: visual
+lang: pt-BR
+execute:
+  engine: knitr
+  echo: true
+  warning: false
+  message: false
+---
+```
+
+# Introdução
+
+O Quarto permite a execução direta de blocos de código R em arquivos `.qmd`.  
+Isso torna possível gerar relatórios dinâmicos, gráficos, análises estatísticas e visualizações interativas, tudo integrado ao texto.
+
+---
+
+# 1. Bloco de código simples em R
+
+```{r}
+x <- 1:10
+y <- x^2
+y
+```
+
+---
+
+# 2. Criando um gráfico base
+
+```{r}
+plot(x, y, type = "b", col = "blue", main = "Gráfico de x²", xlab = "x", ylab = "y = x²")
+```
+
+---
+
+# 3. Usando ggplot2
+
+```{r}
+library(ggplot2)
+
+df <- data.frame(x = x, y = y)
+
+ggplot(df, aes(x, y)) +
+  geom_line(color = "red", size = 1.2) +
+  geom_point(color = "blue") +
+  labs(title = "Gráfico com ggplot2", x = "x", y = "x²")
+```
+
+---
+
+# 4. Estatísticas descritivas
+
+```{r}
+summary(mtcars)
+```
+
+---
+
+# 5. Histograma
+
+```{r}
+hist(mtcars$mpg, col = "lightblue", main = "Distribuição de MPG", xlab = "Milhas por galão")
+```
+
+---
+
+# 6. Regressão linear simples
+
+```{r}
+modelo <- lm(mpg ~ hp, data = mtcars)
+summary(modelo)
+```
+
+---
+
+# 7. Gráfico com linha de regressão
+
+```{r}
+plot(mtcars$hp, mtcars$mpg, pch = 19, col = "gray", main = "MPG vs HP")
+abline(modelo, col = "red", lwd = 2)
+```
+
+---
+
+# 8. Tabela formatada com knitr::kable
+
+```{r}
+library(knitr)
+kable(head(mtcars), caption = "Primeiras linhas do dataset mtcars")
+```
+
+---
+
+# 9. Resultados condicionais com `if`
+
+```{r}
+valor <- mean(mtcars$mpg)
+
+if (valor > 20) {
+  print("A média de MPG é alta.")
+} else {
+  print("A média de MPG é baixa.")
+}
+```
+
+---
+
+# Conclusão
+
+Com Quarto e R, é possível integrar texto, código e resultados em um único documento dinâmico e reprodutível.  
+Esses modelos são um ponto de partida para criar relatórios estatísticos e científicos com alto padrão profissional.
+
+---
+
+*Criado por Blog do Marcellini com ❤️ e código.*
+
+---
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

@@ -1,7 +1,7 @@
 ---
 title: "Por que 0! = 1?"
 description: "Exploramos **10 justificativas distintas** para o valor de $0!$."
-author: 'Celso Marcellini -- Apresentação adaptada de slides em LaTeX Beamer'
+author: 'Blog do Marcellini -- Apresentação adaptada de slides em LaTeX Beamer'
 date: 2025-06-22
 lang: pt-BR
 format:
@@ -9,8 +9,8 @@ format:
     toc: true
     toc-depth: 2
     number-sections: false
-categories: [matemática, fatorial, função gama]
-tags: [matemática, fatorial, função gama, série de Taylor]
+categories: [matemática]
+tags: [matemática, fatorial de zero, análise combinatória, definição recursiva, justificativa lógica, números fatoriais, princípio multiplicativo, função gama, série de Taylor]
 execute:
   echo: false
   warning: false
@@ -457,6 +457,11 @@ Essa igualdade é coerente com:
 - e a implementação computacional.
 
 > **Uma definição bem escolhida é uma ponte entre ideias.**
+
+
+---
+
+*Criado por Blog do Marcellini com ❤️ e código.*
 
 ---
 

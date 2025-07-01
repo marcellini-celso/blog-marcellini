@@ -1,7 +1,7 @@
 ---
 title: "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
 description: "Um mergulho didático na teoria da Relatividade Especial, com gráficos, exemplos e contexto histórico."
-author: "Celso Marcellini"
+author: "Blog do Marcellini"
 date: 2025-06-21
 lang: pt-BR
 format:
@@ -9,8 +9,8 @@ format:
     toc: true
     toc-depth: 2
     number-sections: false
-categories: [física, relatividade]
-tags: [Einstein, física, relatividade, espaço-tempo]
+categories: [física]
+tags: [física, velocidade, Albert Einstein, artigos de 1905, ano milagroso, relatividade especial, luz, espaço-tempo]
 execute:
   engine: knitr
   echo: true
@@ -164,6 +164,10 @@ Einstein começou com dois postulados — e nos levou a uma revolução do pensa
 ---
 
 [^einstein1905]: Einstein, A. (1905). "Zur Elektrodynamik bewegter Körper." *Annalen der Physik*, 17(10), 891–921.
+
+---
+
+*Criado por Blog do Marcellini com ❤️ e código.*
 
 ---
 

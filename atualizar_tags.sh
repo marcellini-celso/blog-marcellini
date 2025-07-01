@@ -1,70 +1,84 @@
 #!/bin/bash
 
 # Caminhos
-POSTS_DIR="posts"
-ARQ_TAGS="tags.qmd"
-TMP_TAGS="tags_tmp.txt"
-FREQ_FILE="tags_freq.txt"
-LISTA_FINAL="lista_tags_gerada.md"
+TAGS_FREQ="tags_freq.txt"
+ARQUIVO_TAGS="tags.qmd"
+PASTA_TAGS="tags"
 NUVEM_SCRIPT="nuvem_tags.py"
-POSTS_JSON_SCRIPT="gerar_posts_json.py"
+POSTS_JSON="docs/posts.json"
+SCRIPT_TEMP="gerar_paginas_de_tags_temp.py"
 
-echo "📁 Atualizando tags do blog..."
+# Garante que a pasta de tags existe
+mkdir -p "$PASTA_TAGS"
 
-# Limpa arquivos anteriores
-rm -f "$TMP_TAGS" "$FREQ_FILE" "$LISTA_FINAL"
+# Início do arquivo tags.qmd
+echo -e "---\ntitle: \"Tags\"\nformat: html\npage-layout: full\n---\n" > "$ARQUIVO_TAGS"
+echo -e "::: {.tag-nuvem}\n![](nuvem_tags.png){width=100%}\n:::\n" >> "$ARQUIVO_TAGS"
+echo -e "## 📚 Todas as Tags\n\n::: {.tag-grid}\n" >> "$ARQUIVO_TAGS"
 
-# Extrair tags dos arquivos .qmd
-grep -r "^tags:" "$POSTS_DIR" | while IFS=: read -r file linha; do
-  echo "$linha" | sed 's/^tags:\s*\[//; s/\]//; s/, /\n/g' >> "$TMP_TAGS"
-done
+# Geração dos links de tags
+while read -r linha; do
+  freq=$(echo "$linha" | awk '{print $1}')
+  tag=$(echo "$linha" | cut -d' ' -f2-)
+  slug=$(echo "$tag" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | sed 's/[ç]/c/g' | iconv -f utf8 -t ascii//TRANSLIT)
+  echo "<a href=\"/tags/$slug.html\" class=\"tag-card\">$tag ($freq)</a>" >> "$ARQUIVO_TAGS"
+done < "$TAGS_FREQ"
 
-# Contar e organizar
-sort "$TMP_TAGS" | sed 's/^[ \t]*//;s/[ \t]*$//' | grep -v '^$' | uniq -c | sort -k2 > "$FREQ_FILE"
+echo -e ":::" >> "$ARQUIVO_TAGS"
 
-# Gerar lista em Markdown
-while read -r count tag; do
-  echo "- \`$tag\` (${count} post$(test "$count" -gt 1 && echo "s"))" >> "$LISTA_FINAL"
-done < "$FREQ_FILE"
+# Gera a nuvem de tags
+python3 "$NUVEM_SCRIPT"
 
-# Inserir lista entre os delimitadores no tags.qmd
-awk -v newcontent="$(cat "$LISTA_FINAL")" '
-  BEGIN { inside = 0 }
-  /<!-- lista_tags:inicio -->/ { print; print newcontent; inside = 1; next }
-  /<!-- lista_tags:fim -->/ { inside = 0 }
-  !inside { print }
-' "$ARQ_TAGS" > tags_temp.qmd && mv tags_temp.qmd "$ARQ_TAGS"
+# Script Python temporário para gerar páginas por tag com links absolutos
+cat << 'EOF' > "$SCRIPT_TEMP"
+import json
+from pathlib import Path
+from collections import defaultdict
+import unicodedata
 
-echo "✅ Lista de tags inserida em '$ARQ_TAGS'."
+ARQUIVO_JSON = Path("docs/posts.json")
+PASTA_TAGS = Path("tags")
 
-# Gerar imagem da nuvem
-if [ -f "$NUVEM_SCRIPT" ]; then
-  python3 "$NUVEM_SCRIPT"
-  echo "✅ Nuvem de tags atualizada: nuvem_tags.png"
+def slugify(tag):
+    tag = tag.lower().replace(" ", "-").replace("ç", "c")
+    tag = unicodedata.normalize("NFKD", tag).encode("ascii", "ignore").decode("ascii")
+    return tag
 
-  # Inserir imagem no ponto certo do tags.qmd
-  awk -v img="![](nuvem_tags.png)" '
-    BEGIN { inside = 0 }
-    /<!-- nuvem_tags:inicio -->/ { print; print img; inside = 1; next }
-    /<!-- nuvem_tags:fim -->/ { inside = 0 }
-    !inside { print }
-  ' "$ARQ_TAGS" > tags_temp.qmd && mv tags_temp.qmd "$ARQ_TAGS"
-  echo "✅ Imagem da nuvem inserida em '$ARQ_TAGS'."
-else
-  echo "⚠️ Script '$NUVEM_SCRIPT' não encontrado."
-fi
+def carregar_posts():
+    with open(ARQUIVO_JSON, encoding="utf-8") as f:
+        return json.load(f)
 
-# Gerar posts.json
-if [ -f "$POSTS_JSON_SCRIPT" ]; then
-  python3 "$POSTS_JSON_SCRIPT"
-  echo "✅ Arquivo posts.json gerado."
-else
-  echo "⚠️ Script '$POSTS_JSON_SCRIPT' não encontrado."
-fi
+def agrupar_por_tag(posts):
+    tags_dict = defaultdict(list)
+    for post in posts:
+        for tag in post["tags"]:
+            tags_dict[tag].append({
+                "title": post["title"],
+                "href": post["href"]
+            })
+    return tags_dict
 
-# Renderizar o site
-echo "🎯 Renderizando site com Quarto..."
-quarto render
+def gerar_paginas(tags_dict):
+    PASTA_TAGS.mkdir(exist_ok=True)
+    for tag, posts in tags_dict.items():
+        slug = slugify(tag)
+        caminho = PASTA_TAGS / f"{slug}.qmd"
+        with open(caminho, "w", encoding="utf-8") as f:
+            f.write(f"---\ntitle: \"{tag}\"\nformat: html\n---\n\n")
+            f.write("[⬅ Voltar para Todas as Tags](../tags.qmd)\n\n")
+            f.write(f"## Posts com a tag **{tag}**\n\n")
+            for post in posts:
+                f.write(f"- [{post['title']}](/{post['href']})\n")
+        print(f"✅ Página gerada: {caminho}")
 
-echo "🚀 Blog atualizado com sucesso!"
+if __name__ == "__main__":
+    posts = carregar_posts()
+    tags = agrupar_por_tag(posts)
+    gerar_paginas(tags)
+EOF
 
+# Executa o script Python temporário
+python3 "$SCRIPT_TEMP"
+
+# Remove o script temporário
+rm "$SCRIPT_TEMP"

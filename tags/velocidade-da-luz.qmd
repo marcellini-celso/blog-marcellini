@@ -1,0 +1,10 @@
+---
+title: "velocidade da luz"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **velocidade da luz**
+
+- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)

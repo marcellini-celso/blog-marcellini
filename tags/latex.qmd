@@ -1,0 +1,11 @@
+---
+title: "latex"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **latex**
+
+- [Sobre o Blog](/posts/pessoal/sobre-o-blog.html)
+- [Modelo de Markdown com Quarto](/posts/programacao/modelos-markdown.html)

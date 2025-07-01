@@ -1,0 +1,14 @@
+---
+title: "quarto"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **quarto**
+
+- [Sobre o Blog](/posts/pessoal/sobre-o-blog.html)
+- [Modelos de Código em R para Usar com Quarto](/posts/programacao/modelos-r-quarto.html)
+- [Modelos de Código em Python para Usar com Quarto](/posts/programacao/modelos-python-quarto.html)
+- [Modelos de index.qmd para Projetos Quarto](/posts/programacao/modelos-index-quarto.html)
+- [Modelo de Markdown com Quarto](/posts/programacao/modelos-markdown.html)

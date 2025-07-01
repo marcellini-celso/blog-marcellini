@@ -1,7 +1,7 @@
 ---
 title: "Modelos de LaTeX para Usar com Quarto"
 description: "O Quarto permite o uso de **fórmulas matemáticas com LaTeX** dentro de arquivos `.qmd`, tanto em linha quanto em blocos."
-author: "Celso Marcellini"
+author: "Blog do Marcellini"
 date: 2025-06-27
 lang: pt-BR
 format:
@@ -10,8 +10,8 @@ format:
     toc-depth: 2
     number-sections: false
 editor: visual
-categories: [programação, quarto, latex, python, R, markdown]
-tags: [programação, quarto, latex, python, R, markdown]
+categories: [programação]
+tags: [programação, modelos latex, templates quarto, cabeçalho yaml, fórmulas matemáticas, documentos científicos, renderização latex, estrutura de documentos]
 ---
 
 # Introdução
@@ -180,7 +180,7 @@ Esses modelos servem como base para produzir conteúdos técnicos e educacionais
 
 ---
 
-*Criado por Celso Marcellini com ❤️ e código.*
+*Criado por Blog do Marcellini com ❤️ e código.*
 
 ---
 
