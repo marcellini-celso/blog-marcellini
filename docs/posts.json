@@ -1,107 +1,5 @@
 [
   {
-    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "href": "posts/fisica/relatividade-especial.html",
-    "tags": [
-      "física",
-      "velocidade",
-      "albert einstein",
-      "artigos de 1905",
-      "ano milagroso",
-      "relatividade especial",
-      "luz",
-      "espaço-tempo"
-    ]
-  },
-  {
-    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "href": "posts/fisica/relatividade-especial-academico.html",
-    "tags": [
-      "física",
-      "transformação de lorentz",
-      "referencial inercial",
-      "velocidade da luz",
-      "contração do comprimento",
-      "simultaneidade",
-      "tempo dilatado",
-      "espaço-tempo"
-    ]
-  },
-  {
-    "title": "100 Anos da Mecânica Quântica (1925–2025)",
-    "href": "posts/fisica/100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "Werner Heisenberg",
-      "Erwin Schrödinger",
-      "teoria quântica",
-      "computação quântica",
-      "história da física",
-      "Catástrofe do Ultravioleta",
-      "Max Planck",
-      "Efeito Fotoelétrico",
-      "Albert Einstein",
-      "Niels Bohr",
-      "corpo negro",
-      "Lord Kelvin",
-      "Maxwell",
-      "Paul Dirac",
-      "Pascual Jordan",
-      "Max Born",
-      "Mecânica Matricial",
-      "Princípio da Incerteza",
-      "Função de Onda",
-      "Interpretação de Copenhague",
-      "O Gato de Schrödinger",
-      "Hugh Everett III",
-      "Emaranhamento Quântico",
-      "Interpretação de Muitos Mundos",
-      "John Bell",
-      "Alain Aspect",
-      "Criptografia quântica",
-      "Computação quântica",
-      "Teleportação quântica",
-      "Eletrodinâmica Quântica",
-      "QED",
-      "Feynman",
-      "Schwinger",
-      "Tomonaga",
-      "Teorema EPR",
-      "Teorema de Bell",
-      "Congresso de Solvay",
-      "Relatividade Geral",
-      "Teoria Quântica da Gravidade",
-      "gravidade quântica em loop",
-      "Teoria das Cordas",
-      "Segunda Revolução Quântica",
-      "Rayleigh-Jeans",
-      "quanta",
-      "quantização da radiação",
-      "espaços de Hilbert",
-      "mecânica estatística",
-      "teoria de campos quânticos",
-      "universos paralelos",
-      "desigualdades de Bell",
-      "variáveis ocultas locais",
-      "qubits",
-      "decoerência quântica"
-    ]
-  },
-  {
-    "title": "Por que 0! = 1?",
-    "href": "posts/matematica/fatorial-zero.html",
-    "tags": [
-      "matemática",
-      "fatorial de zero",
-      "análise combinatória",
-      "definição recursiva",
-      "justificativa lógica",
-      "números fatoriais",
-      "princípio multiplicativo"
-    ]
-  },
-  {
     "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
     "href": "posts/matematica/beleza-matematica.html",
     "tags": [
@@ -124,6 +22,21 @@
     ]
   },
   {
+    "title": "Por que 0! = 1?",
+    "href": "posts/matematica/fatorial-zero.html",
+    "tags": [
+      "matemática",
+      "fatorial de zero",
+      "análise combinatória",
+      "definição recursiva",
+      "justificativa lógica",
+      "números fatoriais",
+      "princípio multiplicativo",
+      "função gama",
+      "série de Taylor"
+    ]
+  },
+  {
     "title": "Sobre o Blog",
     "href": "posts/pessoal/sobre-o-blog.html",
     "tags": [
@@ -138,18 +51,92 @@
     ]
   },
   {
-    "title": "YAML no Quarto: O Coração Invisível dos Seus Documentos",
-    "href": "posts/programacao/yaml-no-quarto.html",
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "href": "posts/fisica/relatividade-especial-academico.html",
     "tags": [
-      "programação",
-      "yaml no quarto",
-      "cabeçalho yaml",
-      "html",
-      "metadados",
-      "estrutura de documento",
-      "formatação",
-      "parâmetros yaml",
-      "configuração de post"
+      "física",
+      "transformação de Lorentz",
+      "referencial inercial",
+      "velocidade da luz",
+      "contração do comprimento",
+      "simultaneidade",
+      "tempo dilatado",
+      "espaço-tempo"
+    ]
+  },
+  {
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "href": "posts/fisica/relatividade-especial.html",
+    "tags": [
+      "física",
+      "velocidade",
+      "Albert Einstein",
+      "artigos de 1905",
+      "ano milagroso",
+      "relatividade especial",
+      "luz",
+      "espaço-tempo"
+    ]
+  },
+  {
+    "title": "100 Anos da Mecânica Quântica (1925–2025)",
+    "href": "posts/fisica/100-anos-mecanica-quantica.html",
+    "tags": [
+      "física",
+      "mecânica quântica",
+      "Werner Heisenberg",
+      "Erwin Schrödinger",
+      "teoria quântica",
+      "computação quântica",
+      "história da física",
+      "catástrofe do ultravioleta",
+      "Max Planck",
+      "efeito fotoelétrico",
+      "Albert Einstein",
+      "Niels Bohr",
+      "corpo negro",
+      "Lord Kelvin",
+      "Maxwell",
+      "Paul Dirac",
+      "Pascual Jordan",
+      "Max Born",
+      "mecânica matricial",
+      "princípio da incerteza",
+      "função de onda",
+      "interpretação de Copenhague",
+      "gato de Schrödinger",
+      "Hugh Everett III",
+      "emaranhamento quântico",
+      "interpretação de muitos mundos",
+      "John Bell",
+      "Alain Aspect",
+      "criptografia quântica",
+      "computação quântica",
+      "teleportação quântica",
+      "eletrodinâmica quântica",
+      "QED",
+      "Feynman",
+      "Schwinger",
+      "Tomonaga",
+      "teorema EPR",
+      "teorema de Bell",
+      "congresso de Solvay",
+      "relatividade geral",
+      "teoria quântica da gravidade",
+      "gravidade quântica em loop",
+      "teoria das cordas",
+      "segunda revolução quântica",
+      "Rayleigh-Jeans",
+      "quanta",
+      "quantização da radiação",
+      "espaços de Hilbert",
+      "mecânica estatística",
+      "teoria de campos quânticos",
+      "universos paralelos",
+      "desigualdades de Bell",
+      "variáveis ocultas locais",
+      "qubits",
+      "decoerência quântica"
     ]
   },
   {
@@ -182,6 +169,35 @@
     ]
   },
   {
+    "title": "Modelos de index.qmd para Projetos Quarto",
+    "href": "posts/programacao/modelos-index-quarto.html",
+    "tags": [
+      "programação",
+      "index.qmd",
+      "estrutura de site",
+      "cabeçalho yaml",
+      "quarto",
+      "html",
+      "projetos científicos",
+      "organização de capítulos"
+    ]
+  },
+  {
+    "title": "YAML no Quarto: O Coração Invisível dos Seus Documentos",
+    "href": "posts/programacao/yaml-no-quarto.html",
+    "tags": [
+      "programação",
+      "yaml no quarto",
+      "cabeçalho yaml",
+      "html",
+      "metadados",
+      "estrutura de documento",
+      "formatação",
+      "parâmetros yaml",
+      "configuração de post"
+    ]
+  },
+  {
     "title": "Modelo de Markdown com Quarto",
     "href": "posts/programacao/modelos-markdown.html",
     "tags": [
@@ -209,20 +225,6 @@
       "documentos científicos",
       "renderização latex",
       "estrutura de documentos"
-    ]
-  },
-  {
-    "title": "Modelos de index.qmd para Projetos Quarto",
-    "href": "posts/programacao/modelos-index-quarto.html",
-    "tags": [
-      "programação",
-      "index.qmd",
-      "estrutura de site",
-      "cabeçalho yaml",
-      "quarto",
-      "html",
-      "projetos científicos",
-      "organização de capítulos"
     ]
   }
 ]
