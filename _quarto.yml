@@ -64,6 +64,7 @@ format:
       - assets/css/custom.css
     toc: true
     highlight-style: github
+    include-in-header: analytics.html
 
 search: true
 
