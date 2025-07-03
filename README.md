@@ -119,6 +119,8 @@ format:
 
 ➡️ [https://marcellini-celso.github.io/blog-marcellini/](https://marcellini-celso.github.io/blog-marcellini/)
 
+➡️ [https://blogdomarcellini.com.br)
+
 ---
 
 ## 📬 Contato
