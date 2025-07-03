@@ -102,7 +102,6 @@ git pull origin main --rebase || { echo "❌ Erro ao executar git pull --rebase.
 
 
 git push origin main; then
-  log "❌ Erro ao enviar as alterações para o repositório remoto."
   exit 1
 fi
 
