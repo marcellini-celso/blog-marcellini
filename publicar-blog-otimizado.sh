@@ -49,7 +49,20 @@ git commit -m "$mensagem" || {
 
 # Push
 log "Enviando alterações para a branch main..."
-if ! git push origin main; then
+if ! 
+# Verificar se há alterações não commitadas
+if [[ -n $(git status --porcelain) ]]; then
+  echo "⚠️ Você tem alterações não commitadas."
+  echo "💡 Faça commit, stash ou descarte antes de continuar."
+  exit 1
+fi
+
+# Atualizar a branch local com rebase
+echo "📥 Executando git pull --rebase para sincronizar com o repositório remoto..."
+git pull origin main --rebase || { echo "❌ Erro ao executar git pull --rebase."; exit 1; }
+
+
+git push origin main; then
   log "❌ Erro ao enviar as alterações para o repositório remoto."
   exit 1
 fi
