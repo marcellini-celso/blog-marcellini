@@ -36,6 +36,8 @@ if ! git diff-index --quiet HEAD --; then
 fi
 
 #!/bin/bash
+start_time=$(date +%s)
+
 
 # Função para exibir mensagens com timestamp
 log() {
